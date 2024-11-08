@@ -31,6 +31,13 @@ def display_rag_response(response):
     st.markdown("### Generated Response:")
     st.info(response)
 
+# Add feedback option
+rating = st.slider("Rate the response (1-5)", 1, 5)
+#if st.button("Submit Feedback"):
+#    # Store rating in database or log file
+#    store_feedback(query, response['response'], rating)
+#    st.success("Feedback submitted. Thank you!")
+
 def display_record(record):
     st.markdown(f"**User ID**: {record['user_id']}")
     st.markdown(f"**Country**: {record['country']}")

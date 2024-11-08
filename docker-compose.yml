@@ -17,9 +17,9 @@ services:
     environment:
       - DB_HOST=db
       - DB_PORT=5432
-      - DB_NAME=your_db
-      - DB_USER=your_user
-      - DB_PASSWORD=your_password
+      - DB_NAME=review_database
+      - DB_USER=data_scientist
+      - DB_PASSWORD=default123
     ports:
       - "8000:8000"  # Map to API port in Dockerfile
     volumes:
@@ -27,13 +27,13 @@ services:
 
   db:
     image: postgres:13
-    container_name: llm_data_engineering_db
+    container_name: postgres_container
     env_file:
       - .env
     environment:
-      POSTGRES_DB: your_db
-      POSTGRES_USER: your_user
-      POSTGRES_PASSWORD: your_password
+      POSTGRES_DB: review_database
+      POSTGRES_USER: data_scientist
+      POSTGRES_PASSWORD: default123
     ports:
       - "5432:5432"
     volumes:

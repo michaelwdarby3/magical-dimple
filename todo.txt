@@ -3,3 +3,7 @@ Set up grafana correctly through localhost:3000 admin password
 
 
 Fine tune model
+
+
+
+store_feedback

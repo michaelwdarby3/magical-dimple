@@ -23,7 +23,7 @@ def load_text_data(data_path):
     return texts, ids
 
 
-def generate_embeddings(texts, batch_size=64):
+'''def generate_embeddings(texts, batch_size=64):
     """Generate embeddings for a list of texts in batches."""
     logger.info("Generating embeddings in batches...")
     embeddings = []
@@ -31,6 +31,19 @@ def generate_embeddings(texts, batch_size=64):
         batch = texts[i:i+batch_size]
         batch_embeddings = model.encode(batch, show_progress_bar=True)
         embeddings.extend(batch_embeddings)
+    return np.array(embeddings)'''
+
+def generate_embeddings(texts, batch_size=64):
+    """Generate embeddings for texts in parallel batches."""
+    embeddings = []
+    logger.info("Generating embeddings in batches...")
+    with ThreadPoolExecutor() as executor:
+        futures = [
+            executor.submit(model.encode, texts[i:i+batch_size])
+            for i in range(0, len(texts), batch_size)
+        ]
+        for future in futures:
+            embeddings.extend(future.result())
     return np.array(embeddings)
 
 def parallel_embedding_generation(texts, batch_size=64):

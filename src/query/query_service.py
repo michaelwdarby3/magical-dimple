@@ -4,6 +4,10 @@ from src.query.retrieve_data import get_query_embedding, find_similar_embeddings
 from src.query.rag_pipeline import generate_rag_response
 from src.utils.log_utils import setup_logger
 from prometheus_fastapi_instrumentator import Instrumentator
+import redis
+import json
+
+redis_client = redis.Redis(host='localhost', port=6379, db=0)
 
 
 app = FastAPI()
@@ -18,6 +22,17 @@ class QueryRequest(BaseModel):
     max_length: int = 50
     min_length: int = 20
 
+
+def cache_response(query_key, response):
+    """Cache response in Redis with an expiration time."""
+    redis_client.set(query_key, json.dumps(response), ex=3600)  # Cache for 1 hour
+
+def get_cached_response(query_key):
+    """Retrieve cached response from Redis if available."""
+    cached_response = redis_client.get(query_key)
+    if cached_response:
+        return json.loads(cached_response)
+    return None
 
 '''@app.post("/query/")
 async def query_similar_records(request: QueryRequest):
@@ -55,13 +70,28 @@ async def retrieve_and_generate_response(request: QueryRequest):
 @app.post("/rag/")
 async def retrieve_and_generate_response(request: QueryRequest):
     """Enhanced RAG endpoint with detailed logging."""
+
+    query_key = f"{request.query}:{request.top_k}:{request.max_length}:{request.min_length}"
+    cached_response = get_cached_response(query_key)
+
+    if cached_response:
+        logger.info("Cache hit for query", extra={"query": request.query})
+        return cached_response
+
     request_info = {"query": request.query, "top_k": request.top_k}
-    logger.info("Processing RAG request", extra=request_info)
+    logger.info("Cache miss: Generating RAG response", extra=request_info)
 
     try:
-        response = generate_rag_response(request.query, request.top_k, request.max_length, request.min_length)
+        response = await generate_rag_response(request.query, request.top_k, request.max_length, request.min_length)
         logger.info("RAG response generated successfully", extra={"response_length": len(response.get("response", ""))})
+        cache_response(query_key, response)
         return response
     except Exception as e:
         logger.error("Error in RAG pipeline", extra={"error": str(e), **request_info})
         raise HTTPException(status_code=500, detail="Error generating RAG response.")
+
+
+
+def generate_personalized_rag_response(query, records, user_data):
+    context = f"Query: {query}\nUser Location: {user_data['location']}\n\nSimilar records:\n" + "\n".join([f"- {rec['user_review']}" for rec in records])
+    # Generate response using the model as in previous examples.
