@@ -1,0 +1,6 @@
+fastapi
+prometheus-fastapi-instrumentator
+streamlit
+pytest
+transformers
+torch
