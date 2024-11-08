@@ -1,6 +1,6 @@
 # Project Title: Retriever-Augmented Generation System for Reviews and Recommendations
 
-![Project Banner](path/to/banner-image.png)
+![Project Banner](assets/banner.png)
 
 ## Overview
 
@@ -159,13 +159,13 @@ You can explore default metrics at http://localhost:9090 (Prometheus) and view v
 
 ## Project Details
 ### Data Ingestion
-Data ingestion scripts load user and review data into PostgreSQL. Located in src/preprocessing/data_ingestion.py, this script reads CSV files and populates the database, ensuring a structured dataset for querying.
+Data ingestion scripts load user and review data into PostgreSQL. Located in `src/preprocessing/data_ingestion.py`, this script reads CSV files and populates the database, ensuring a structured dataset for querying.
 
 ### Retriever-Augmented Generation (RAG)
-The RAG pipeline integrates with a fine-tuned language model to generate responses based on user queries. The RAG logic is encapsulated in src/query/rag_pipeline.py.
+The RAG pipeline integrates with a fine-tuned language model to generate responses based on user queries. The RAG logic is encapsulated in `src/query/rag_pipeline.py`.
 
 ### Model Management
-Models are stored in the src/models/ directory, with options for on-the-fly loading or fine-tuning.
+Models are stored in the `src/models/` directory, with options for on-the-fly loading or fine-tuning.
 
 ### SQL Queries
 Modular SQL queries are organized in src/queries/, allowing for easy management and reusability across the application.
@@ -174,7 +174,7 @@ Modular SQL queries are organized in src/queries/, allowing for easy management 
 We welcome contributions to improve this project! To contribute:
 
 1. Fork the repository.
-2. Create a new branch: git checkout -b feature-name.
+2. Create a new branch: `git checkout -b feature-name`.
 3. Make your changes and test thoroughly.
 4. Submit a pull request.
 
