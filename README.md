@@ -58,6 +58,8 @@ project-root/
 └── monitoring/                  # Monitoring setup files 
 ```
 
+---
+
 ## Installation
 ### Prerequisites
 Ensure that you have the following installed on your system:
@@ -102,6 +104,8 @@ docker-compose up --build
 docker exec -it app_container python src/preprocessing/data_ingestion.py
 ```
 
+---
+
 ## Usage
 ### API
 The FastAPI server exposes various endpoints for querying and retrieving data. To explore all available endpoints, you can access the interactive documentation:
@@ -121,6 +125,8 @@ http://localhost:8501
 Prometheus and Grafana are configured for monitoring and can be accessed at:
 - Prometheus: http://localhost:9090
 - Grafana: http://localhost:3000
+
+---
 
 ## API Documentation
 Here’s a quick overview of key endpoints:
@@ -144,10 +150,14 @@ To retrieve a RAG response, you can send a POST request to /query/rag with JSON 
 }
 ```
 
+---
+
 ### Dashboard
 The dashboard provides visualizations for data exploration and feedback tracking.
 
 ## Example Screenshots
+
+---
 
 ## Monitoring and Logging
 Prometheus and Grafana are configured for real-time monitoring, allowing you to track:
@@ -156,6 +166,8 @@ Prometheus and Grafana are configured for real-time monitoring, allowing you to 
 - Query success/failure rates
 - System resource usage
 You can explore default metrics at http://localhost:9090 (Prometheus) and view visualizations on Grafana at http://localhost:3000.
+
+---
 
 ## Project Details
 ### Data Ingestion
@@ -170,6 +182,8 @@ Models are stored in the `src/models/` directory, with options for on-the-fly lo
 ### SQL Queries
 Modular SQL queries are organized in src/queries/, allowing for easy management and reusability across the application.
 
+---
+
 ## Contributing
 We welcome contributions to improve this project! To contribute:
 
@@ -178,8 +192,12 @@ We welcome contributions to improve this project! To contribute:
 3. Make your changes and test thoroughly.
 4. Submit a pull request.
 
+---
+
 ### License
 This project is licensed under the MIT License. See LICENSE for details.
+
+---
 
 ### Contact
 For questions or support, please reach out to michaelwdarby3.

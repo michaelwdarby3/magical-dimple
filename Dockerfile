@@ -9,11 +9,11 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
-COPY src/ /app/src
-COPY config/ /app/config
-COPY data/ /app/data
+#COPY src/ /app/src
+#COPY config/ /app/config
+#COPY data/ /app/data
 
-# COPY . .
+COPY . .
 
 # Expose the API port (change if necessary)
 EXPOSE 8000
