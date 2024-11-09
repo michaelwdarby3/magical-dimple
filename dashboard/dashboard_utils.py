@@ -6,7 +6,7 @@ API_BASE_URL = "http://localhost:8000"  # Adjust this if running on a different 
 def fetch_rag_response(query, top_k):
     """Fetches a RAG-generated response from the API."""
     url = f"{API_BASE_URL}/query/rag"
-    payload = {"query": query, "top_k": top_k}
+    payload = {"input_text": query, "top_k": top_k}  # Update to match FastAPI
     try:
         response = requests.post(url, json=payload)
         response.raise_for_status()
@@ -14,6 +14,7 @@ def fetch_rag_response(query, top_k):
     except requests.RequestException as e:
         print(f"Error fetching RAG response: {e}")
         return {}
+
 
 def fetch_feedback_summary():
     """Fetches feedback summary data from the API."""

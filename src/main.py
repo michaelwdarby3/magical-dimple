@@ -4,11 +4,16 @@ from fastapi import FastAPI
 from src.query.query_service import query_router  # Importing routers from query module
 from src.utils.db_utils import get_db_connection
 from src.utils.log_utils import setup_logger
+from prometheus_fastapi_instrumentator import Instrumentator
+
 
 app = FastAPI()
 
 # Include routers for different endpoints
 app.include_router(query_router, prefix="/query", tags=["Query Service"])
+
+Instrumentator().instrument(app).expose(app, endpoint="/metrics")
+
 
 @app.get("/health")
 async def health_check():

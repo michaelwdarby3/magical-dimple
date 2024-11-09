@@ -1,52 +1,70 @@
-from transformers import pipeline
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+from transformers import pipeline, T5Tokenizer, T5ForConditionalGeneration
 import torch
 from src.query.retrieve_data import get_query_embedding, find_similar_embeddings, fetch_records
 from src.utils.log_utils import setup_logger
+from fastapi import HTTPException
+import traceback
 
 # Initialize logging
 logger = setup_logger("rag_pipeline")
 
-# Load the summarization or question-answering pipeline from Hugging Face
-model_name = "distilbert-base-uncased"  # You can experiment with other models like "gpt-2" or "distilbert"
-qa_pipeline = pipeline("summarization", model=model_name)
-
-'''# Load the fine-tuned model or experiment with other models like "gpt-2" or "t5-small"
-model_name = "your-fine-tuned-model-path"
+# Load model and tokenizer for summarization
+model_name = "t5-small"  # Use a suitable model for your task
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 tokenizer = T5Tokenizer.from_pretrained(model_name)
-'''
-
-def generate_rag_response(query, records, max_length=50, min_length=20):
-    """Generate an enhanced RAG response based on query and similar records."""
-
-    # Combine query and records into a single context
-    context = f"Query: {query}\n\nSimilar records:\n" + "\n".join([f"- {rec['user_review']}" for rec in records])
-    inputs = tokenizer("summarize: " + context, return_tensors="pt")
-
-    # Generate response
-    outputs = model.generate(inputs.input_ids, max_length=max_length, min_length=min_length, do_sample=True)
-    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-    return {"response": response}
+qa_pipeline = pipeline("summarization", model=model, tokenizer=tokenizer)
 
 
+def generate_rag_response(query, top_k=5, max_length=100, min_length=5):
+    """
+    Generates a RAG response based on query and retrieved data using RAG.
 
-def generate_rag_response(query, top_k=5):
-    """Generates a response based on query and retrieved data using RAG."""
-    logger.info(f"Generating RAG response for query: {query}")
+    Parameters:
+    - query (str): The input query from the user.
+    - top_k (int): The number of similar records to retrieve.
+    - max_length (int): Maximum length of the generated response.
+    - min_length (int): Minimum length of the generated response.
 
-    # Step 1: Get query embedding and find similar records
-    query_embedding = get_query_embedding(query)
-    matched_ids = find_similar_embeddings(query_embedding, top_k)
-    records = fetch_records(matched_ids)
+    Returns:
+    - dict: The generated RAG response.
+    """
+    try:
+        logger.info(f"Generating RAG response for query: {query}")
 
-    # Step 2: Combine query and retrieved records for context
-    context = f"Query: {query}\n\nRelated information:\n"
-    for record in records:
-        context += f"- User {record['user_id']} from {record['country']} said: {record['user_review']}\n"
+        # Step 1: Get query embedding and find similar records
+        query_embedding = get_query_embedding(query)
+        matched_ids = find_similar_embeddings(query_embedding, top_k)
 
-    # Step 3: Generate response using the language model
-    response = qa_pipeline(context, max_length=100, min_length=25, do_sample=False)
+        # If no matches found
+        if not matched_ids:
+            logger.warning("No records found for the query")
+            return {"response": "No relevant information found."}
 
-    return {"response": response[0]["summary_text"]}
+        records = fetch_records(matched_ids)
+
+        if not records:
+            logger.warning("No records found for the query")
+            return {"response": "No relevant information found."}
+
+        # Step 2: Combine query and retrieved records for context
+        context = f"Query: {query}\n\nRelated information:\n"
+        for record in records:
+            context += f"- User {record['user_id']} from {record['country']} said: {record['review_text']}\n"
+
+        logger.info("Context for summarization generated successfully.")
+
+        # Step 3: Generate response using the language model
+        inputs = tokenizer("summarize: " + context, return_tensors="pt")
+        outputs = model.generate(inputs.input_ids, max_length=max_length, min_length=min_length, do_sample=True)
+        response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        logger.info("RAG response generated successfully")
+
+        return {"response": response}
+
+    except Exception as e:
+        error_message = f"Error generating RAG response: {e}"
+        logger.error(error_message)
+        logger.error(traceback.format_exc())  # Log the full traceback for debugging
+        return {"response": "", "error": error_message}
+
+

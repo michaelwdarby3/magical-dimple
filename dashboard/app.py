@@ -15,7 +15,7 @@ st.markdown(
 
 # Set up API endpoint
 #FASTAPI_URL = "http://nginx:80"
-FASTAPI_URL = "http://localhost:8000"
+FASTAPI_URL = "http://app:8000"
 
 # Sidebar for query inputs
 st.sidebar.title("Query Options")
@@ -59,7 +59,7 @@ if st.sidebar.button("Retrieve Similar Records"):
 
             # Send request to FastAPI RAG endpoint
             try:
-                response = requests.post(f"{FASTAPI_URL}/rag/", json=payload)
+                response = requests.post(f"{FASTAPI_URL}/query/rag", json=payload)
                 response.raise_for_status()
 
                 # Calculate and display response time
