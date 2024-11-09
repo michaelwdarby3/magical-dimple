@@ -71,6 +71,9 @@ async def retrieve_and_generate_response(request: QueryRequest):
 async def retrieve_and_generate_response(request: QueryRequest):
     """Enhanced RAG endpoint with detailed logging."""
 
+    logger.info("Received RAG hit")
+    logger.warning("RAG caching disabled")
+
     query_key = f"{request.query}:{request.top_k}:{request.max_length}:{request.min_length}"
     cached_response = get_cached_response(query_key)
 

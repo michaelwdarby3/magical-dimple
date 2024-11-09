@@ -10,6 +10,10 @@ app = FastAPI()
 # Include routers for different endpoints
 app.include_router(query_router, prefix="/query", tags=["Query Service"])
 
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
 # Initialize logger
 logger = setup_logger("main")
 
@@ -28,4 +32,6 @@ async def shutdown_event():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    import os
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)

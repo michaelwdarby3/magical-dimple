@@ -14,6 +14,7 @@ st.markdown(
 
 
 # Set up API endpoint
+#FASTAPI_URL = "http://nginx:80"
 FASTAPI_URL = "http://localhost:8000"
 
 # Sidebar for query inputs
