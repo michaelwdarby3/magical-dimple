@@ -4,6 +4,8 @@ FROM python:3.9
 # Set the working directory
 WORKDIR /app
 
+RUN apt-get update && apt-get install -y postgresql-client
+
 # Copy requirements and install dependencies
 COPY requirements.txt .
 
@@ -26,4 +28,9 @@ EXPOSE 8000
 #CMD ["python", "-m", "src.query.query_service"]
 
 # Run the application (assuming FastAPI for example)
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Copy the start.sh script into the Docker image
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
+# Use the script as the default command
+CMD ["/start.sh"]

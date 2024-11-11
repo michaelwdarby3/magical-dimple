@@ -1,501 +1,201 @@
-review_id,user_id,review_text,created_at
-e8c567a5-2888-4d0c-859d-baac63999bb9,4fe4f9d6-3587-42e6-b39b-9d06dbd7468c,"The product did not meet my needs. I had high hopes, but it fell short.",2024-04-26T10:00:52
-9ae9b73c-e5af-45db-83d2-73673a2468ff,6ea20f4f-89e1-4588-8199-6145aa238e53,"Overall, I think the product is a good option if you're looking for something affordable and reliable. Overall, not bad.",2024-06-08T12:25:12
-a558199c-c4e2-4d76-8248-0659bac7f43b,ead3293e-bdfb-4da7-8af3-ae6e61f97a02,"Overall, I think the booking is a good option if you're looking for something affordable and reliable.",2024-02-18T15:26:17
-93d91194-3c41-4caa-8bb3-ac3d0389afc0,022a1dd0-2be8-429e-964a-2109183f57a7,I was pleasantly surprised by the quality and attention to detail of the order. Well worth the money!,2024-02-02T12:49:28
-835daf03-64e7-412f-972e-284a2e430e3f,0db2920a-d3fe-4343-9684-7516ec5ab679,"The quality of the experience was outstanding, and the service was excellent. Highly recommend to others!",2024-05-17T10:13:13
-e30ac1e7-a978-47dc-ba2a-6557cbee83a2,846e3b0d-7b75-4c06-b9a6-703951700ab6,Customer service for the appointment was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-01-18T19:33:08
-65bc3810-da02-40c5-a9d3-3d662a80a14b,af147bf1-f8f4-463f-a7fe-b33344a75be2,"The delivery was fast, but the booking wasn't as described. Mixed feelings about this purchase.",2024-06-12T22:05:35
-aa42dd47-c40b-4978-8f60-07d4a889c31d,cc175a1f-53fa-4823-b7c3-837bf60224e4,"It was okay, but there were some issues with the experience that could be improved. Not sure if I'd buy again.",2024-01-20T23:48:33
-a84374ca-9d22-4f67-adab-2b6e252f2074,33057b73-9e90-4151-ad2d-d9aefa98dfe4,"The quality of the purchase was outstanding, and the service was excellent. Highly recommend to others!",2024-03-29T17:19:42
-165938ab-14a1-44b8-8f25-caccfdcbfdf6,6ea20f4f-89e1-4588-8199-6145aa238e53,This was a disappointing experience with device. I expected more based on the reviews I read. Could be better though.,2024-09-17T12:07:21
-29292b57-afc0-4b66-9d21-eaa3e908067e,ab648b9f-a984-4c07-9e9f-48f78e5f99f4,"Overall, I think the purchase is a good option if you're looking for something affordable and reliable.",2024-02-04T14:46:23
-3bb81011-8c20-4195-a944-5cc5b7fbb7f1,bc60c10d-f54b-462e-88e4-3b3c70eb0e60,I was pleasantly surprised by the quality and attention to detail of the experience. Well worth the money!,2024-06-27T22:35:03
-ff81e274-bd6f-4701-aa80-90f6df9d2561,f9576604-ceba-4e37-847a-36856413c128,This was a disappointing experience with product. I expected more based on the reviews I read. Could be better though.,2024-09-21T19:20:17
-18b79d21-f7a0-4720-9b8c-87ade938cada,ff509dc2-e7f8-4ac5-af0c-7323b4a24be2,Customer service for the appointment was very helpful and responsive. Solved my problem quickly.,2024-11-07T15:55:38
-c13e450f-f8ab-4dec-b685-584a53e5df6d,390a82ad-1e8d-489d-a071-2a5d6ec2c5b8,"The booking did not meet my needs. I had high hopes, but it fell short.",2024-01-19T19:37:07
-caae6e75-7e66-4ac9-aece-da42f7a14f28,ac40f340-23ea-4f84-b8de-2951aaec0cb2,Fantastic experience from start to finish with the booking! I'll definitely be coming back.,2024-01-28T10:21:48
-c0b4c834-0b78-4210-b386-ee581f7e0212,01380530-6fc2-45d7-afd1-97af79586626,Fantastic experience from start to finish with the purchase! I'll definitely be coming back. Could be better though.,2024-06-27T13:00:14
-8f50087a-14bc-4d7d-9cd3-c6cdc667f0a5,dd54b28a-c445-4eab-9045-dd49db75be32,I was pleasantly surprised by the quality and attention to detail of the package. Well worth the money!,2024-05-17T15:30:14
-90de5bf9-add4-4154-9d13-82a02cd9cc34,a02f7743-6b20-475e-b931-0d4d6a8a5bf3,"The quality of the order was outstanding, and the service was excellent. Highly recommend to others!",2024-04-11T10:58:38
-35dff9da-1244-4408-b43c-067b9acc8867,28e15e73-6332-479a-a915-efac2c61c6f8,"It was okay, but there were some issues with the device that could be improved. Not sure if I'd buy again. Could be better though.",2024-06-26T13:16:14
-f948a80d-3d4c-4848-9956-509f85adc3e3,5b89d3dc-b079-4fce-a880-c7b31a2949f3,I was pleasantly surprised by the quality and attention to detail of the item. Well worth the money! Could be better though.,2024-01-22T16:02:07
-a9673f32-bfc0-4837-875d-0617fa5032f9,21e8d4d2-e6d3-4340-96b8-c005756532b6,"The device did not meet my needs. I had high hopes, but it fell short. Overall, not bad.",2024-07-17T09:29:25
-e488e9d5-7c21-4871-ae6b-7caaa74ebb4b,26246cff-c9f5-4c87-952e-4dab76ece6d8,"Customer service for the service was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-02-04T12:41:05
-04d7c9e9-22c0-434d-b4d8-fbdc1f55251f,5c570d48-c995-4978-8954-dbee30a18cfe,Fantastic experience from start to finish with the order! I'll definitely be coming back.,2024-10-25T18:21:58
-a284a371-7a0a-4488-9e6a-00cee82123eb,89e0e94b-3d18-445e-bad9-cc2fb4d2cdcf,"It was okay, but there were some issues with the product that could be improved. Not sure if I'd buy again.",2024-03-20T10:41:29
-7fba6c71-eac9-462c-a71f-1bd36feaaeb1,57512a43-7bce-4bf5-98c6-c37c94e2f966,I was pleasantly surprised by the quality and attention to detail of the device. Well worth the money!,2024-06-14T22:19:43
-b79b97c0-0f0d-4425-9a1e-6daf113e9117,34c4f9a8-e584-48a7-9057-53aff7712892,I was pleasantly surprised by the quality and attention to detail of the product. Well worth the money!,2024-05-07T05:39:35
-774ef916-47be-4e1d-8725-b2f5352f404f,7a2ca8de-104f-433e-8f14-ea4360512bda,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable.",2024-05-06T17:46:50
-be5db893-274c-41fa-a191-725a673324f1,bb99fe29-8586-4ceb-9e53-e7e069cd24b8,"I absolutely loved this experience! It exceeded my expectations in every way. Overall, not bad.",2024-10-11T16:16:25
-1379f241-238a-4010-b475-c4c62993b841,c05837d6-1407-4d92-b3b1-4797cc24f6f5,This was a disappointing experience with package. I expected more based on the reviews I read.,2024-01-27T01:41:16
-dc33bba2-a42a-48fa-9b09-8b59f04381f8,d51b394e-f96b-47cf-838c-0409ca85c349,Fantastic experience from start to finish with the item! I'll definitely be coming back.,2024-01-27T01:51:24
-0b43e472-abd3-49da-8044-af2bc378dba0,cc175a1f-53fa-4823-b7c3-837bf60224e4,Fantastic experience from start to finish with the experience! I'll definitely be coming back.,2024-10-24T04:02:44
-bcec553e-86fe-4d05-a89d-a7e3b4ff18fa,f4944fc1-21df-40ef-bca0-2f3bff76f2ba,This was a disappointing experience with product. I expected more based on the reviews I read. Could be better though.,2024-10-12T02:22:49
-82222348-463c-48ba-88b7-b3c2bc8eebd9,5b4540a8-26b9-4cb2-9721-dc6b18c6e530,Fantastic experience from start to finish with the booking! I'll definitely be coming back.,2024-06-10T11:28:07
-8d09acb2-2a96-4b23-ab24-70175fc511a3,7c44f871-ef2f-4625-812d-b1eb773ad476,"Overall, I think the experience is a good option if you're looking for something affordable and reliable.",2024-07-21T21:13:48
-2a2f03b4-49e4-4cb5-bfb1-432d150100b3,cc010e24-91e8-4619-afd3-51d98c8e9951,"The delivery was fast, but the device wasn't as described. Mixed feelings about this purchase.",2024-03-14T22:57:18
-ccd2e0da-f591-4639-974b-97e0cb021c5c,dc6e1399-59e7-4a67-b92e-6948c3d6f808,I absolutely loved this item! It exceeded my expectations in every way.,2024-06-20T01:10:08
-4e73389f-a2b0-42d5-8e07-461ce8111489,846e3b0d-7b75-4c06-b9a6-703951700ab6,Fantastic experience from start to finish with the device! I'll definitely be coming back.,2024-10-17T01:37:02
-604dd214-1d10-4862-a14d-8044618a06c4,43ad815a-4a49-4a2c-86f6-84f0948a8357,"Customer service for the experience was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-03-12T10:59:20
-44020940-6405-476e-87b8-c452d90860ab,261224e9-3be7-48dc-95d7-75eb8292dc49,"The delivery was fast, but the service wasn't as described. Mixed feelings about this purchase.",2024-06-16T15:55:11
-2d3a610e-972a-4441-8797-cac6f6a37f30,0adb5621-33dc-488a-86a4-0ebbc693e181,I was pleasantly surprised by the quality and attention to detail of the package. Well worth the money!,2024-05-05T10:06:14
-2afa5efc-a473-4b1c-8dad-9b20e26fe1ad,57512a43-7bce-4bf5-98c6-c37c94e2f966,"The order did not meet my needs. I had high hopes, but it fell short. Overall, not bad.",2024-04-27T10:59:04
-60212094-030f-4312-980a-fb7dc0e77445,b493b122-0659-427f-9971-7abe8154a304,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-07-22T09:53:05
-b7001c18-d5ea-4129-aacc-b15554f5b790,e0fa138e-d383-4e52-af0b-bb66eb365b0f,Customer service for the package was very helpful and responsive. Solved my problem quickly.,2024-02-11T18:45:25
-f89b00ad-5af6-4c2c-9a7f-ef6184c9b8c5,2a11e29c-aed2-4073-9e4e-c1afe468246e,I absolutely loved this booking! It exceeded my expectations in every way.,2024-05-06T20:35:26
-ea2f6bcb-1957-4307-a760-8d43bd42f4a1,7426496e-9ee1-4209-a7ea-9202c6a50df1,I was pleasantly surprised by the quality and attention to detail of the purchase. Well worth the money!,2024-07-12T09:01:28
-68d16585-6d2d-40c5-943b-2f3a800faa71,c700bdbd-3c24-492f-b1a4-43379c99bcfa,"Overall, I think the product is a good option if you're looking for something affordable and reliable.",2024-06-10T21:11:57
-2f6edf09-72b7-4a95-8956-abc4f8864de2,dfcdf04e-2f2f-40ec-bbfb-58c0e6f7ae25,"Overall, I think the package is a good option if you're looking for something affordable and reliable. Could be better though.",2024-06-06T21:51:01
-cdc64c3f-753f-4f38-b7af-c9403cb76129,9a7593b0-84d4-4a63-8b9e-76c8334dfc33,Fantastic experience from start to finish with the booking! I'll definitely be coming back.,2024-09-08T00:02:53
-5fe7901e-ed2f-4d05-b3df-a73bf75b89c0,cd258515-b1c4-417f-bca4-d2becb48c37a,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-10-06T14:25:15
-11532232-694a-4966-8779-f9db0db70bbf,7d79b28b-77fb-427e-a458-a232470b4071,"The quality of the service was outstanding, and the service was excellent. Highly recommend to others! Could be better though.",2024-08-27T06:12:49
-0f7abd79-b355-46b1-a80c-7e1b9ac00dbb,7471696d-0fbc-4cb8-9082-fa6467986add,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-08-30T02:39:36
-76cc6d35-1065-4aee-9a89-560ea37e6f97,915453bb-5d07-401b-a162-a1a49dda67a4,"The order did not meet my needs. I had high hopes, but it fell short.",2024-08-21T16:15:46
-03118641-fa8b-4dac-af9d-e0f5e46b7dfe,872549ab-d2ba-40a0-b841-ebec389ae333,"The delivery was fast, but the service wasn't as described. Mixed feelings about this purchase. Could be better though.",2024-08-12T05:51:55
-09b168b4-cbc1-44e2-bb03-603f0bfed7b8,cced9bc1-2259-4cb5-aea8-545c94b67285,"Overall, I think the device is a good option if you're looking for something affordable and reliable.",2024-09-02T07:06:25
-5c05919b-9315-4916-9b68-cd0691719141,7f56561b-6850-4d94-92c9-e4a952945009,"The quality of the item was outstanding, and the service was excellent. Highly recommend to others! Could be better though.",2024-02-11T06:24:27
-6a12ce2f-6278-4863-a460-36789cfcf995,be3d805a-f926-4b8b-9b2e-43fd7d39e1e1,I was pleasantly surprised by the quality and attention to detail of the booking. Well worth the money! Could be better though.,2024-01-25T16:19:49
-f64b028a-2dad-41f5-8073-2534fe67a6a2,a8cfdcb7-7442-4342-8f86-4ea914fa16df,Fantastic experience from start to finish with the experience! I'll definitely be coming back.,2024-08-30T03:13:25
-6d90d848-338f-4719-9e2d-fb95295d3be2,22e5bb81-acf4-4af8-8376-5d83630e332a,"Customer service for the booking was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-09-17T19:07:11
-60fdb815-ca64-4032-a64e-9b9517049b8a,c128703c-d2e7-436a-b344-1a19f9988907,"The delivery was fast, but the product wasn't as described. Mixed feelings about this purchase. Could be better though.",2024-08-31T21:46:47
-c81fe969-d4af-4217-8fd8-c2e89b1fa2d8,a19214e8-1880-4d68-9353-472d18ced556,I was pleasantly surprised by the quality and attention to detail of the experience. Well worth the money!,2024-08-15T08:04:09
-41a95628-cfad-4445-88c0-09e3012448b7,00892b9f-a78a-41c8-b255-0d005de73173,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-09-20T13:57:44
-a9008a6b-a9a9-4830-9f41-93055c237190,cb67ab3a-88f6-41d6-a90e-88a8895bdc3a,I absolutely loved this booking! It exceeded my expectations in every way.,2024-08-03T16:07:53
-fa984d48-fe18-44d1-9623-91914ade83de,b01eebf6-b88a-41d9-b28c-f2483945c8e6,I was pleasantly surprised by the quality and attention to detail of the experience. Well worth the money!,2024-09-20T15:58:41
-a436056e-c060-4360-b047-8edc7e352c8f,c55a6b90-eca5-4ec8-9603-d06e5e049469,"It was okay, but there were some issues with the item that could be improved. Not sure if I'd buy again.",2024-01-07T05:46:09
-3458af3e-8060-4097-b8d7-a804af3280cf,faaeb940-8ff4-4a02-9b9a-991c0a43fc74,I was pleasantly surprised by the quality and attention to detail of the device. Well worth the money!,2024-10-25T22:02:48
-b8167edd-cae6-4b31-baba-322c819fa328,872549ab-d2ba-40a0-b841-ebec389ae333,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-02-06T20:39:36
-3d176f72-06c8-49f2-9304-e4783c0b2da4,846e3b0d-7b75-4c06-b9a6-703951700ab6,Fantastic experience from start to finish with the device! I'll definitely be coming back.,2024-08-08T14:35:03
-e15f0a6b-ca91-42e4-b1d9-06dcf5976064,4f622c34-72d5-4cb1-9fe9-ac011d3940ad,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-02-08T07:49:13
-ccf06d9d-99d3-4df4-8f90-8bc5e31a8d3b,faaeb940-8ff4-4a02-9b9a-991c0a43fc74,I was pleasantly surprised by the quality and attention to detail of the device. Well worth the money!,2024-05-11T03:20:41
-45d193ce-48d6-4a6c-a928-e29e54230faa,98dbc9c8-96a6-48df-9f91-b3d8771a59de,"The delivery was fast, but the purchase wasn't as described. Mixed feelings about this purchase.",2024-06-23T22:06:15
-58e058d1-5d89-4581-8439-d68076bfc165,22e5bb81-acf4-4af8-8376-5d83630e332a,I absolutely loved this item! It exceeded my expectations in every way.,2024-10-19T00:45:28
-df805b74-7fb0-4f71-9261-41f46f87e10a,553305d9-f7e6-40a8-8c1c-18f41812bac7,Fantastic experience from start to finish with the experience! I'll definitely be coming back. Could be better though.,2024-05-16T12:39:41
-0bd27da7-b037-4d41-b914-fb679cab17f8,4fe4f9d6-3587-42e6-b39b-9d06dbd7468c,"The quality of the purchase was outstanding, and the service was excellent. Highly recommend to others!",2024-08-15T10:47:16
-3f9a0836-7af0-4062-a6e5-bfde83ef87e5,fec6f7de-ec1c-4cdd-8e11-859ccc7f4bcd,I absolutely loved this experience! It exceeded my expectations in every way.,2024-09-13T09:27:53
-dc1c680f-3cf6-4b6a-996d-076b8560d821,79924066-96f2-42be-ba12-de2ce80dbd7d,I absolutely loved this appointment! It exceeded my expectations in every way.,2024-10-18T15:13:13
-d39c8918-6137-4a32-8fa8-d21cd87f1a87,e9e78059-b066-49ef-b672-87a4b9eeacde,I was pleasantly surprised by the quality and attention to detail of the service. Well worth the money!,2024-02-11T11:06:57
-42030e08-a11d-4f6a-beb4-a38b7161e5bf,5efa2327-6461-4291-b76a-cc0e4f6417fa,"The quality of the item was outstanding, and the service was excellent. Highly recommend to others!",2024-06-15T09:27:03
-5ca76e54-9cff-45db-b796-17f41c693f14,022a1dd0-2be8-429e-964a-2109183f57a7,I absolutely loved this service! It exceeded my expectations in every way.,2024-03-17T00:30:22
-87ca8fa9-b92e-4378-bb6a-c9a5a3d2310b,fd67c33f-4d9b-4ff6-a09c-5e38b98bae46,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-04-11T17:06:49
-d782fa27-1e25-4f6e-ab46-34fc2d25b152,ead3293e-bdfb-4da7-8af3-ae6e61f97a02,"I absolutely loved this service! It exceeded my expectations in every way. Overall, not bad.",2024-07-13T19:06:30
-8eb83d31-5e6a-4dfd-b2c3-dfdfb70567f2,58018869-7141-462e-a51e-7da4b4f544f4,Customer service for the purchase was very helpful and responsive. Solved my problem quickly.,2024-05-12T12:51:56
-b6aa521e-8ecd-4ca7-b190-ba7cbfca77f8,25debbfe-eae9-42d2-8780-ef9362479321,I was pleasantly surprised by the quality and attention to detail of the booking. Well worth the money!,2024-06-10T03:32:08
-b67f1264-13a3-4b8e-9947-6fc4a02f5cec,7426496e-9ee1-4209-a7ea-9202c6a50df1,This was a disappointing experience with product. I expected more based on the reviews I read.,2024-04-24T16:18:38
-bbab3e71-04d6-4c30-a2c4-072d4c267b3b,7f56561b-6850-4d94-92c9-e4a952945009,I was pleasantly surprised by the quality and attention to detail of the package. Well worth the money! Could be better though.,2024-06-14T01:49:39
-d119f0c1-b320-4cab-a78e-fd0c00094745,22e5bb81-acf4-4af8-8376-5d83630e332a,"Overall, I think the package is a good option if you're looking for something affordable and reliable.",2024-02-13T10:39:52
-8a61dbeb-df97-4dce-bd77-323493b531d1,75fb7b5a-2acb-4690-85a5-e5fac763cc00,Customer service for the device was very helpful and responsive. Solved my problem quickly.,2024-02-05T16:00:30
-3f99b90f-df7e-4bd4-becf-e42e17403aa2,f365b72a-7d54-4b44-be91-ea74a0373722,Fantastic experience from start to finish with the booking! I'll definitely be coming back.,2024-06-06T21:11:22
-f7a8db4f-44d9-4331-abe3-ef9e639b885f,f4ee4945-eaa1-4e95-a457-3bbfa3dcef1a,"Overall, I think the product is a good option if you're looking for something affordable and reliable.",2024-08-19T04:18:49
-65aad78e-864f-4ab1-83e0-f05bb91d15f5,7a0239c4-878a-4cde-9a72-5ee86f45c13e,"The quality of the item was outstanding, and the service was excellent. Highly recommend to others!",2024-06-23T21:31:24
-4de5f1b4-694e-441b-bff6-8bc0bd1e4d9c,d8cfb910-eb37-4e27-8b4d-c8162a003927,"The delivery was fast, but the package wasn't as described. Mixed feelings about this purchase. Overall, not bad.",2024-05-28T04:28:23
-e0f9a220-a451-4a47-a765-65649f3e7da4,79924066-96f2-42be-ba12-de2ce80dbd7d,"It was okay, but there were some issues with the device that could be improved. Not sure if I'd buy again.",2024-10-08T08:51:58
-c3042ce3-0610-4426-8e42-1ffd7f56a169,778908a0-5067-4e15-8507-92c1a4af1f31,This was a disappointing experience with item. I expected more based on the reviews I read. Could be better though.,2024-06-22T16:17:34
-141dd849-cb3c-4848-adbe-ee664da52c7f,4f622c34-72d5-4cb1-9fe9-ac011d3940ad,"It was okay, but there were some issues with the appointment that could be improved. Not sure if I'd buy again.",2024-05-31T17:05:58
-af877213-f4bb-4e02-8436-91c8b11c5491,bb21aa15-641d-472d-b88b-212ac288a08e,Fantastic experience from start to finish with the service! I'll definitely be coming back.,2024-08-07T08:12:36
-cd2ff403-16d1-4f62-a3b6-5f397302a6bf,8cca0060-64f1-4259-ad6a-a65a3b0aac38,"The delivery was fast, but the appointment wasn't as described. Mixed feelings about this purchase.",2024-03-23T10:36:18
-76e60c9e-725c-40a0-a521-f1c3c4955cad,2d22a583-2ffb-45bc-9294-82478aa3041d,Customer service for the booking was very helpful and responsive. Solved my problem quickly.,2024-01-02T11:38:41
-11b3baa1-d420-4ebf-a93e-38e5c262242e,0db2920a-d3fe-4343-9684-7516ec5ab679,I absolutely loved this device! It exceeded my expectations in every way.,2024-04-02T02:35:59
-a2bad805-793d-4919-827e-b68ed2006c2d,f4ee4945-eaa1-4e95-a457-3bbfa3dcef1a,I absolutely loved this product! It exceeded my expectations in every way.,2024-04-08T06:08:14
-5f031fdd-0287-427d-8f21-0f8864c077a6,fec6f7de-ec1c-4cdd-8e11-859ccc7f4bcd,"The quality of the product was outstanding, and the service was excellent. Highly recommend to others! Could be better though.",2024-01-08T03:18:04
-c9ed64b4-4ef5-42c7-bc3a-dd8882dc2db1,bb832d9c-83ec-4bfa-af87-a4f6fe88fefe,"The quality of the order was outstanding, and the service was excellent. Highly recommend to others! Could be better though.",2024-05-10T21:21:38
-7adef707-95be-4bbd-8a69-48b068abc448,de031f16-55e4-4558-bcc0-56abaaf28f56,"The quality of the product was outstanding, and the service was excellent. Highly recommend to others!",2024-03-30T00:46:47
-90ce63a3-13d0-41d3-a6b1-36b86198adfc,5b3257d9-1910-4182-a604-52465f7bc4d3,Customer service for the experience was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-10-25T02:45:21
-38aa19ee-0863-41d4-82b5-8157aef2fbe6,cb436960-2c3d-4492-96fc-928c0340c3f5,"The delivery was fast, but the product wasn't as described. Mixed feelings about this purchase.",2024-10-26T09:22:13
-f6352838-3a10-41c1-847a-d2b17729b9f2,014ed90c-d776-4f6d-8a88-dbebb5e0e83f,Customer service for the package was very helpful and responsive. Solved my problem quickly.,2024-02-24T09:18:39
-3f07137c-ca13-414b-bcca-403fb5b31c29,71958720-2236-4739-a11f-cc20515fae47,I absolutely loved this appointment! It exceeded my expectations in every way.,2024-02-05T15:39:16
-318c4de0-5699-4e1f-92cb-dc7ddee7ebbf,92e7f9e9-46bf-4887-b2f9-5268ca0bcfcd,"It was okay, but there were some issues with the device that could be improved. Not sure if I'd buy again.",2024-08-20T23:37:19
-d94d1233-6688-4374-9169-93060202aa9a,cb67ab3a-88f6-41d6-a90e-88a8895bdc3a,I absolutely loved this item! It exceeded my expectations in every way.,2024-09-22T21:59:57
-3ded0ae8-4cdf-405d-a186-46ebed98d320,a60bba59-945b-4f6b-a2f9-3b231c8aa696,"The delivery was fast, but the experience wasn't as described. Mixed feelings about this purchase.",2024-05-06T21:01:31
-0ac8e930-4286-41bf-a267-1f2c1cb0f7f0,a42577af-c72b-4afd-bd59-2454bebc6311,"The delivery was fast, but the purchase wasn't as described. Mixed feelings about this purchase. Overall, not bad.",2024-03-19T07:07:24
-387d8255-69f0-4a9e-8085-69e04a9eee7d,5b89d3dc-b079-4fce-a880-c7b31a2949f3,"The delivery was fast, but the booking wasn't as described. Mixed feelings about this purchase. Overall, not bad.",2024-10-09T08:06:51
-44a7c4eb-2d6e-4fc8-b32c-46ad8ccf0708,454cf486-3401-4663-b1ee-6748855b7426,This was a disappointing experience with package. I expected more based on the reviews I read.,2024-08-25T07:06:41
-18e6f5ba-2827-4047-8770-8e46f3155749,1ed9b3c2-40df-47fb-bd2a-1227c7154084,I was pleasantly surprised by the quality and attention to detail of the device. Well worth the money!,2024-02-28T19:14:17
-59080655-4e0d-442b-84cf-c54034d332d5,486c1235-6a32-4675-9715-50bd1202d020,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-04-10T15:45:44
-18a1bdf2-199a-415b-afdf-f6112c75d27b,536197c0-7c81-4b08-95c2-2963c048bbbc,"The quality of the experience was outstanding, and the service was excellent. Highly recommend to others! Could be better though.",2024-05-14T07:39:19
-9b06adf7-506f-43f6-93e6-93b1e53b7e20,0adb5621-33dc-488a-86a4-0ebbc693e181,I absolutely loved this appointment! It exceeded my expectations in every way.,2024-05-16T00:14:29
-8f7c25ef-0bc0-40b8-a875-dcf389a742c2,f9576604-ceba-4e37-847a-36856413c128,"The purchase did not meet my needs. I had high hopes, but it fell short.",2024-09-16T12:28:15
-17081741-8d4d-4d05-83e4-0944c35b5bca,92e7f9e9-46bf-4887-b2f9-5268ca0bcfcd,I absolutely loved this product! It exceeded my expectations in every way.,2024-09-18T07:08:14
-35397e63-19bd-4b09-9d7b-94d194690aa8,88b2f4cf-68da-4c5a-9891-ce0e913bdda1,"The quality of the service was outstanding, and the service was excellent. Highly recommend to others!",2024-08-03T19:06:39
-dd4bc377-6a07-48d3-9c6e-50db6e013d28,7c44f871-ef2f-4625-812d-b1eb773ad476,I absolutely loved this service! It exceeded my expectations in every way.,2024-09-21T21:15:58
-7887f3b2-8311-439d-a3a1-7346cf1fcb85,cb67ab3a-88f6-41d6-a90e-88a8895bdc3a,Fantastic experience from start to finish with the appointment! I'll definitely be coming back.,2024-06-13T13:30:22
-8d8985aa-6d5a-42c0-9d23-b62acfbbd48a,cced9bc1-2259-4cb5-aea8-545c94b67285,This was a disappointing experience with booking. I expected more based on the reviews I read.,2024-02-12T06:48:56
-ac7c948e-2cc9-415a-88fe-56d975448c1c,de3474de-5918-471f-9c81-4d6313b07fa4,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-03-31T02:09:27
-a81e8764-3270-4d8b-ab02-82fa2f1f3cac,cceefc68-d64f-4b68-aacc-b03b82e36170,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-01-29T01:10:36
-e02b159a-e6fb-4b6a-9c20-7b06947af3a7,83c25373-2969-42d8-af47-6b407fd15fbf,This was a disappointing experience with item. I expected more based on the reviews I read.,2024-03-07T07:23:15
-31e441a1-1c24-4fe6-a385-9b994d2935c1,43646b7d-979e-4324-b669-f421057f706d,"The quality of the device was outstanding, and the service was excellent. Highly recommend to others!",2024-08-19T06:59:06
-002d3eab-78ce-4c7e-ac10-7ef0d758f2be,7f56561b-6850-4d94-92c9-e4a952945009,This was a disappointing experience with experience. I expected more based on the reviews I read.,2024-10-16T07:19:44
-d4fbf3e4-b83b-4c01-9d8d-464a336cdc11,2a019cef-fba0-47d6-a7be-622fb656e338,"The delivery was fast, but the service wasn't as described. Mixed feelings about this purchase.",2024-04-16T10:54:08
-de80fbd4-ffe9-42b6-b68a-89a51f8ce120,b91d1e51-719b-454e-a54c-a262e7d4ba02,I was pleasantly surprised by the quality and attention to detail of the product. Well worth the money!,2024-05-16T17:52:37
-9450379a-8ca0-4a6d-9f44-b7f00e295be1,60898ae3-bb19-43a7-bdcd-352993a0c444,Customer service for the appointment was very helpful and responsive. Solved my problem quickly.,2024-06-09T06:42:40
-545e0ae2-4a1f-4dfa-9434-a702598b4a1e,d8cfb910-eb37-4e27-8b4d-c8162a003927,"The delivery was fast, but the service wasn't as described. Mixed feelings about this purchase. Overall, not bad.",2024-03-16T23:39:52
-c0f9ffb3-c131-467e-9cb7-4062fb2f95a2,dd566c96-a687-4e4f-b54b-ea16df129293,"The appointment did not meet my needs. I had high hopes, but it fell short.",2024-06-23T13:22:07
-864962b3-e99e-4364-a7da-a98e470a03a9,dfcdf04e-2f2f-40ec-bbfb-58c0e6f7ae25,I was pleasantly surprised by the quality and attention to detail of the service. Well worth the money!,2024-03-01T17:10:51
-cc2c98c0-ce0c-482f-a879-210a928b9302,fec6f7de-ec1c-4cdd-8e11-859ccc7f4bcd,"The purchase did not meet my needs. I had high hopes, but it fell short.",2024-02-13T19:10:55
-a33ea7b5-8130-413f-8e39-034581a51ee9,cd258515-b1c4-417f-bca4-d2becb48c37a,I was pleasantly surprised by the quality and attention to detail of the device. Well worth the money!,2024-04-01T21:46:49
-9620755e-df9b-4245-91e6-a12ac7518b3d,9a7593b0-84d4-4a63-8b9e-76c8334dfc33,"It was okay, but there were some issues with the purchase that could be improved. Not sure if I'd buy again.",2024-02-13T06:27:07
-dac0d6bb-90c2-4975-8d68-15ab052327e9,972477b1-ed11-4397-a8f8-c26fcedd1048,"It was okay, but there were some issues with the experience that could be improved. Not sure if I'd buy again.",2024-10-22T00:44:19
-23ffe2cd-66a9-448f-b076-2d3e5d100d92,330b1b66-50a1-4da4-b7d2-d8370839c3c8,I was pleasantly surprised by the quality and attention to detail of the service. Well worth the money! Could be better though.,2024-05-06T18:06:40
-41bebbb4-ab87-42ab-95ca-c48a97d19239,3fc748db-d258-4484-955a-77475b0bb2f2,"Overall, I think the product is a good option if you're looking for something affordable and reliable.",2024-08-10T08:14:34
-fe2128db-b6b3-4920-b061-c43c48bd0847,d2c9fb9d-1faf-472d-b702-4854a7b2bd0b,"The item did not meet my needs. I had high hopes, but it fell short.",2024-02-03T08:26:25
-63b043a8-cae4-48fb-be6e-6ca7f3f1c9a4,c55a6b90-eca5-4ec8-9603-d06e5e049469,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-06-26T04:12:58
-0ca39fcb-09d2-4255-a02c-23406099f54f,ea8f2e28-5bad-4a18-a540-1ed747e61c53,Customer service for the experience was very helpful and responsive. Solved my problem quickly.,2024-03-03T05:13:57
-baa52c25-a0b6-4caa-bc35-3dc113b42b7d,8fd3d24a-df82-4190-812a-62566a0f84aa,I was pleasantly surprised by the quality and attention to detail of the booking. Well worth the money! Could be better though.,2024-09-25T21:29:32
-72e0a84a-a092-4655-83d1-627bb7e04e9b,3869e342-f8c1-4ee5-b38a-4eb3efd81b67,I absolutely loved this experience! It exceeded my expectations in every way.,2024-09-05T20:36:19
-d18aec3a-46fe-47a1-8b46-eb189b46f9cb,36520614-8954-413f-ac33-3ddb5e1650cc,"It was okay, but there were some issues with the service that could be improved. Not sure if I'd buy again.",2024-02-12T19:11:19
-40e62ba6-5a74-4d3c-b2b3-8fb2e795a61a,59e054de-c67c-4201-a5a8-63378f5ca782,"The appointment did not meet my needs. I had high hopes, but it fell short.",2024-01-08T02:08:45
-121b1298-0e23-477e-aeb7-1a8a8cc9edc4,fbf34450-7f23-42f4-984c-8858f6aa0230,"The delivery was fast, but the appointment wasn't as described. Mixed feelings about this purchase.",2024-06-10T22:14:53
-609cbbf9-ab19-4efa-a9c5-5d4025b29f9f,2026d655-d664-42df-9668-31f3d552ed3e,Customer service for the service was very helpful and responsive. Solved my problem quickly.,2024-02-01T01:59:55
-431018fe-412c-4deb-9813-f81da5c4b5a2,43646b7d-979e-4324-b669-f421057f706d,"It was okay, but there were some issues with the appointment that could be improved. Not sure if I'd buy again.",2024-02-01T16:48:35
-dcf968ee-3797-449f-99f5-95e93024d1dd,0e97bfbc-0801-45d6-b6b0-93af15c77390,I absolutely loved this order! It exceeded my expectations in every way.,2024-04-26T02:05:27
-2187c3d6-3eb6-44ca-b434-f515a426f0ae,cc010e24-91e8-4619-afd3-51d98c8e9951,"The appointment did not meet my needs. I had high hopes, but it fell short.",2024-03-08T18:11:49
-e684e7e3-4a58-44a2-b6c2-6027ae53ebed,d2c9fb9d-1faf-472d-b702-4854a7b2bd0b,I was pleasantly surprised by the quality and attention to detail of the service. Well worth the money!,2024-01-12T03:55:45
-2e64938c-d679-45bf-94e5-5a0756e34a5d,540418b4-9692-46b8-949c-00194e3120d5,"The delivery was fast, but the experience wasn't as described. Mixed feelings about this purchase.",2024-03-11T12:01:47
-eec6affa-cb8c-4af8-b204-616c9980372c,26246cff-c9f5-4c87-952e-4dab76ece6d8,"The delivery was fast, but the package wasn't as described. Mixed feelings about this purchase.",2024-05-07T05:18:02
-755d8294-e031-4f6c-8af6-e3c72095103c,e0fa138e-d383-4e52-af0b-bb66eb365b0f,"The quality of the item was outstanding, and the service was excellent. Highly recommend to others!",2024-10-23T23:55:54
-41d592a6-1705-4125-82da-9e1d9f82ed4a,83c25373-2969-42d8-af47-6b407fd15fbf,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-05-12T03:09:47
-c1d36d2e-6b73-454a-b215-0114fd38dc1d,685a4b32-cb90-42cc-9f46-a30f1f9296e2,I was pleasantly surprised by the quality and attention to detail of the service. Well worth the money!,2024-08-06T00:08:01
-c910cd79-0ba3-4f06-a703-b1da01e72b25,45262a44-9c3f-4f00-b841-248fd132d550,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable. Overall, not bad.",2024-10-17T15:40:21
-b174c06c-df34-410f-b047-882540c4696d,8cca0060-64f1-4259-ad6a-a65a3b0aac38,"The delivery was fast, but the product wasn't as described. Mixed feelings about this purchase.",2024-07-02T02:28:28
-6ec44db3-bf61-405f-b2fe-eae347e16fae,717302b1-863c-4a72-aa83-3f0cc28edf0b,"Overall, I think the experience is a good option if you're looking for something affordable and reliable.",2024-01-05T12:52:10
-b6ddc388-3991-4fdc-9872-d851697b8f07,ce74a356-bec9-4f5e-b113-950ec66f70c8,Customer service for the purchase was very helpful and responsive. Solved my problem quickly.,2024-02-22T19:53:55
-7e8fdd2d-6d55-4c93-b5cd-f62479fd7b25,a3889474-333a-4e92-87d4-3400aa8416e6,"The delivery was fast, but the item wasn't as described. Mixed feelings about this purchase. Could be better though.",2024-07-16T22:10:01
-82286b96-2065-4a71-9aeb-036dd846e02d,2026d655-d664-42df-9668-31f3d552ed3e,"The appointment did not meet my needs. I had high hopes, but it fell short.",2024-09-16T16:49:03
-9332ae30-5b88-43a5-8abd-0bd7f47f9cb2,ead3293e-bdfb-4da7-8af3-ae6e61f97a02,This was a disappointing experience with appointment. I expected more based on the reviews I read.,2024-07-20T23:33:40
-f76abe80-bcfe-4755-8bdc-99a5c35a4dc4,8cf600b4-377c-4965-a65b-f48cb9e2592b,Customer service for the item was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-03-15T15:39:49
-204e8adb-9116-43c3-9f2f-2542bae875c3,784d48e7-7d35-41c6-be16-4d56e7ccae06,I absolutely loved this product! It exceeded my expectations in every way.,2024-06-23T06:53:17
-e449fde1-b0a7-4511-830b-7c8be0e0d095,88b2f4cf-68da-4c5a-9891-ce0e913bdda1,I was pleasantly surprised by the quality and attention to detail of the item. Well worth the money!,2024-06-19T21:38:47
-5c019f50-e9aa-4feb-8233-ad67edcbe344,e0fa138e-d383-4e52-af0b-bb66eb365b0f,"The delivery was fast, but the purchase wasn't as described. Mixed feelings about this purchase. Overall, not bad.",2024-05-18T02:48:13
-88116aa8-f870-4cb8-9924-c94c9aa47736,98dbc9c8-96a6-48df-9f91-b3d8771a59de,This was a disappointing experience with order. I expected more based on the reviews I read.,2024-03-28T10:04:14
-7f362a02-dc95-4df3-aa3b-6d9426d18b50,5be159c2-cddb-4ca4-b970-3dc30cfb3e9c,"I was pleasantly surprised by the quality and attention to detail of the appointment. Well worth the money! Overall, not bad.",2024-06-19T22:18:04
-3972108f-91cb-456b-a8b4-7d889c00a949,ab648b9f-a984-4c07-9e9f-48f78e5f99f4,I was pleasantly surprised by the quality and attention to detail of the purchase. Well worth the money!,2024-07-25T20:24:00
-73035cf5-bf96-4f2a-8d81-9ab50e770b6b,b331fe0b-5771-4181-a7b8-8419bb6080ed,I was pleasantly surprised by the quality and attention to detail of the experience. Well worth the money!,2024-09-29T10:42:54
-6bb6ced3-4b91-4c62-ab82-f2afd39fd5d0,0436b400-4109-4f8a-ade8-be6f3c086548,"The delivery was fast, but the item wasn't as described. Mixed feelings about this purchase. Could be better though.",2024-10-23T04:11:47
-d7721a37-df9e-4a98-9aa0-64a04ca42b15,a31b3e40-2f6a-4996-8869-878ba374e418,"The device did not meet my needs. I had high hopes, but it fell short.",2024-01-20T19:19:46
-f4bc64d3-aee8-49cc-b9d1-0471fd0d8d20,0436b400-4109-4f8a-ade8-be6f3c086548,Fantastic experience from start to finish with the product! I'll definitely be coming back.,2024-01-25T00:25:55
-ca3de910-99a8-4a41-81c3-209fae7b6fb9,33057b73-9e90-4151-ad2d-d9aefa98dfe4,"The purchase did not meet my needs. I had high hopes, but it fell short.",2024-01-18T10:00:28
-7c5661ad-3c16-4afe-a252-cda1e68b2e16,ce47fc0c-8b10-41cf-bf5f-cc01260de055,I was pleasantly surprised by the quality and attention to detail of the device. Well worth the money!,2024-03-06T05:57:33
-822c312b-e0a1-4aae-800e-f50fd95ec660,51fc65c4-a739-43ce-b495-0fcacae8b124,"It was okay, but there were some issues with the device that could be improved. Not sure if I'd buy again.",2024-02-13T07:28:59
-c079e502-9b63-4c9e-9c91-a9a642a082d7,3aa1a480-dfa1-4f04-bbf2-3872a23f19bf,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-04-24T09:27:53
-68c6127c-2727-460a-9332-1eac93aa0f97,8533f0cb-5938-4196-b8e5-517ed2a58707,"The quality of the purchase was outstanding, and the service was excellent. Highly recommend to others!",2024-05-20T11:22:09
-2af1b9a7-eb5c-4e0d-bd83-caf0b87b55b6,c815d1d9-62a9-4828-b15d-18acd87dc07d,I was pleasantly surprised by the quality and attention to detail of the package. Well worth the money!,2024-08-17T08:32:40
-42f8c325-4cfb-46f6-b782-3221649202c7,454cf486-3401-4663-b1ee-6748855b7426,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-09-07T00:48:30
-fe02d7cf-3487-4c4c-8d47-426bcef1f98c,11af20b8-b080-499a-8c24-5dfcbd6055c7,Customer service for the appointment was very helpful and responsive. Solved my problem quickly.,2024-01-28T07:31:54
-0ffdb036-5dc4-4746-81ae-f48dc193926e,79924066-96f2-42be-ba12-de2ce80dbd7d,Customer service for the order was very helpful and responsive. Solved my problem quickly.,2024-06-04T06:17:01
-f449816e-cbd2-4d71-8746-1be04aa95ff9,8dfd001f-e9f3-4c13-b56e-934db82c2a38,This was a disappointing experience with package. I expected more based on the reviews I read.,2024-09-30T03:29:08
-ca8e7f01-9453-4e55-bd1b-2617f9a21ba2,be3d805a-f926-4b8b-9b2e-43fd7d39e1e1,"The device did not meet my needs. I had high hopes, but it fell short. Could be better though.",2024-09-28T06:14:47
-1d4321b3-018f-4ecc-9876-016249234d9f,43ad815a-4a49-4a2c-86f6-84f0948a8357,Customer service for the device was very helpful and responsive. Solved my problem quickly.,2024-08-20T05:59:29
-e596175b-2d47-4a04-930f-2519bab781d6,2026d655-d664-42df-9668-31f3d552ed3e,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-04-12T00:25:55
-d2868350-36b3-490c-8e09-e474954b0d16,f4ee4945-eaa1-4e95-a457-3bbfa3dcef1a,Customer service for the product was very helpful and responsive. Solved my problem quickly.,2024-05-11T23:54:37
-f1b051f0-555c-41a1-8c90-64b5f3ee4c58,e47ca1d3-39a5-4255-8d20-dc2d0ac1a786,"The product did not meet my needs. I had high hopes, but it fell short.",2024-01-30T11:58:39
-10db9704-9b58-4f02-85f6-fcec4d01ca9f,691377e9-1686-421f-918c-edd0084f0479,"Customer service for the service was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-04-07T07:51:32
-c0a5d0cf-294a-467d-90ab-a2f5063aa0b2,21cb7bea-c5e1-4ccf-b036-bc7f9e272855,Fantastic experience from start to finish with the order! I'll definitely be coming back.,2024-06-06T13:06:26
-9a079f04-1612-41f0-8424-11c3e3f7238d,01380530-6fc2-45d7-afd1-97af79586626,Customer service for the service was very helpful and responsive. Solved my problem quickly.,2024-01-27T02:34:17
-943727e6-67a3-4309-8b7a-0da58241e160,3b0d925b-8281-43f6-a1c4-4c55841c67fa,I was pleasantly surprised by the quality and attention to detail of the booking. Well worth the money!,2024-03-03T13:40:45
-33e758bf-745a-48da-a4ab-73cf7c61760e,261224e9-3be7-48dc-95d7-75eb8292dc49,"The product did not meet my needs. I had high hopes, but it fell short.",2024-07-23T21:22:18
-42b89139-c5eb-4e76-8df5-1b9d6d74491e,e0fa138e-d383-4e52-af0b-bb66eb365b0f,"Overall, I think the item is a good option if you're looking for something affordable and reliable. Overall, not bad.",2024-01-19T21:09:46
-19bc61eb-1da2-405f-946b-b165eeac5f6c,cb436960-2c3d-4492-96fc-928c0340c3f5,I absolutely loved this order! It exceeded my expectations in every way.,2024-05-21T18:41:28
-bfefb0e9-99a3-4e5a-b6ea-b824560a2128,7d79b28b-77fb-427e-a458-a232470b4071,"It was okay, but there were some issues with the appointment that could be improved. Not sure if I'd buy again.",2024-06-13T14:32:42
-775c3b6a-fc8a-4ff6-a484-82b4da0bab6c,88b569ed-3811-4f90-bb8e-2f240b718920,"The quality of the booking was outstanding, and the service was excellent. Highly recommend to others!",2024-06-07T06:04:12
-09cb1719-619f-402b-88f5-c3f0f3571d7b,0836c2a1-f8d9-4438-8672-a4ebf6087059,I absolutely loved this order! It exceeded my expectations in every way.,2024-08-12T12:21:36
-0d96c183-7734-4ee2-852f-c1411e9807da,af147bf1-f8f4-463f-a7fe-b33344a75be2,Customer service for the experience was very helpful and responsive. Solved my problem quickly.,2024-11-06T12:21:29
-b5a59ebf-487b-481b-922f-e733efebfb6e,e217673a-4897-4b29-9d59-265c34fa0598,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable.",2024-04-17T07:37:18
-3dfd90a3-eb54-4164-aea2-f41bfa16b63d,f365b72a-7d54-4b44-be91-ea74a0373722,Customer service for the order was very helpful and responsive. Solved my problem quickly.,2024-03-02T05:23:10
-43b13a32-06a7-41ed-b33e-381105b8fdd4,c700bdbd-3c24-492f-b1a4-43379c99bcfa,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-06-30T11:31:13
-c88234cf-2ce3-4dd5-a600-dff28ea9b8fd,58018869-7141-462e-a51e-7da4b4f544f4,"Customer service for the purchase was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-01-12T10:14:03
-f0d2ec36-6bf8-477f-ada8-60cf1a053848,73c51796-8a88-47ad-8736-8f1bfb273276,"The purchase did not meet my needs. I had high hopes, but it fell short. Overall, not bad.",2024-07-02T00:28:02
-1457dfe1-3087-4502-97de-33c80c2e00cc,5f82e697-8359-410e-9611-d6d8ddecdf22,"The quality of the device was outstanding, and the service was excellent. Highly recommend to others!",2024-05-06T08:49:09
-75c15ee1-0acd-41db-a16d-a75ebf555a13,553305d9-f7e6-40a8-8c1c-18f41812bac7,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable.",2024-04-30T04:49:39
-bcf280a4-dddf-49d6-95cd-5ac2bd8a44db,fe34a1fe-2c92-46f9-860e-07379cab5524,This was a disappointing experience with item. I expected more based on the reviews I read.,2024-03-11T03:56:20
-36160ee8-efa6-4c1a-ac91-eca8bc7eacfc,3d7d5a02-9c1e-478f-a70c-5d5966afe60f,"The quality of the order was outstanding, and the service was excellent. Highly recommend to others!",2024-07-09T08:49:17
-4fb91ee0-787f-4e9d-854e-6a7b24f2b36f,fd45b897-8459-4edb-aaa9-0a9d979b882b,"The service did not meet my needs. I had high hopes, but it fell short. Could be better though.",2024-04-02T03:44:55
-2327f9b5-caf3-42a1-bf81-ac40d1a0b336,7a0239c4-878a-4cde-9a72-5ee86f45c13e,I was pleasantly surprised by the quality and attention to detail of the order. Well worth the money!,2024-07-06T10:28:31
-517f74e7-3d41-4180-b831-6b6589aa2c25,0adb5621-33dc-488a-86a4-0ebbc693e181,"The booking did not meet my needs. I had high hopes, but it fell short. Could be better though.",2024-04-19T17:24:50
-b06c67ce-5599-42ba-93cc-422c033e1388,36520614-8954-413f-ac33-3ddb5e1650cc,I was pleasantly surprised by the quality and attention to detail of the package. Well worth the money!,2024-10-21T07:56:13
-1213237e-11a6-4e18-a6e7-6ced4eb04a6c,5b3257d9-1910-4182-a604-52465f7bc4d3,"Overall, I think the item is a good option if you're looking for something affordable and reliable.",2024-10-06T17:25:05
-3bfb7531-e128-4156-8879-35bb3bca44e1,f462a457-636c-4e8f-adb5-3e1141d6865a,"The delivery was fast, but the package wasn't as described. Mixed feelings about this purchase.",2024-01-19T21:15:13
-2404c0d8-82e6-4b85-9397-f2faec153c67,21cb7bea-c5e1-4ccf-b036-bc7f9e272855,This was a disappointing experience with experience. I expected more based on the reviews I read. Could be better though.,2024-10-18T11:31:06
-9e9eca56-46fd-438d-89f7-6d038a45c9c5,81147c48-f0e2-46c5-b7d2-7b5f8805b8f9,Fantastic experience from start to finish with the product! I'll definitely be coming back.,2024-04-08T15:50:58
-cc55ba2d-8e46-45f4-83fe-c3c7c8a85908,cb436960-2c3d-4492-96fc-928c0340c3f5,"The delivery was fast, but the package wasn't as described. Mixed feelings about this purchase.",2024-02-14T12:05:28
-333fdd74-082d-467a-bc01-0a5fc7808485,0adb5621-33dc-488a-86a4-0ebbc693e181,"The service did not meet my needs. I had high hopes, but it fell short.",2024-10-18T23:16:00
-d27c5518-6c7f-4e4e-9b78-e6b0b762da15,11d2555f-f7be-4a4e-9f5d-8f21f31b10d6,"Overall, I think the item is a good option if you're looking for something affordable and reliable.",2024-09-02T19:10:28
-de03c9f4-27ad-4b18-8a61-67dd31010248,9c7d3653-8c6e-428b-8a9a-0881eb66e272,"The delivery was fast, but the device wasn't as described. Mixed feelings about this purchase.",2024-03-07T12:01:39
-9e025d37-a0fb-4a9e-b900-c1f6a2ba1335,51fc65c4-a739-43ce-b495-0fcacae8b124,"Overall, I think the booking is a good option if you're looking for something affordable and reliable.",2024-07-01T00:51:50
-a0f1e7eb-cf0c-4ae2-9c41-d82ee712cca5,0f5c766e-e8ea-424b-8e59-25693f723c9e,"The quality of the package was outstanding, and the service was excellent. Highly recommend to others!",2024-08-23T22:56:22
-d84ad35e-3b94-4a18-b3f2-4ae37eac58a8,befaa1dd-48c4-40d7-a796-75cd6dd8dda0,"It was okay, but there were some issues with the item that could be improved. Not sure if I'd buy again.",2024-09-28T08:01:25
-7d46accb-670e-40de-ae3c-e9e90912f624,eb984f2f-d270-4036-a11b-cdc350416011,"Overall, I think the order is a good option if you're looking for something affordable and reliable.",2024-05-15T20:27:52
-4a8c7325-0c41-49cd-bb89-40166bb4b933,92d00c2d-c5b7-45b5-9979-4d180dcc3345,"The service did not meet my needs. I had high hopes, but it fell short. Overall, not bad.",2024-05-24T18:38:32
-4af0b235-2bcc-4eb8-908f-e7009ebb354e,01380530-6fc2-45d7-afd1-97af79586626,"The item did not meet my needs. I had high hopes, but it fell short.",2024-02-13T02:22:35
-1e4cc519-e54f-48b1-bb6b-cbaefa5028fd,ca9aec14-0d5d-4e7a-b85a-fedc3fdcaa7d,I absolutely loved this service! It exceeded my expectations in every way. Could be better though.,2024-09-25T11:16:48
-a0dbf386-4df4-43c5-9b2b-79ed74dd0319,7a0239c4-878a-4cde-9a72-5ee86f45c13e,Fantastic experience from start to finish with the booking! I'll definitely be coming back.,2024-04-28T01:25:36
-5d3c873d-a110-460e-bd26-3c5db234cfb9,71958720-2236-4739-a11f-cc20515fae47,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-07-19T08:31:08
-79ee7be8-5075-43ab-8db3-e33f36d4d0df,7426496e-9ee1-4209-a7ea-9202c6a50df1,Customer service for the product was very helpful and responsive. Solved my problem quickly.,2024-05-20T22:34:54
-4d78504e-0f18-4a06-9c77-f311e278e87f,51425bca-afd8-4504-bba1-43c259b7dc18,"The package did not meet my needs. I had high hopes, but it fell short.",2024-09-05T06:37:53
-02960809-6203-4726-ab1d-1b02b1f0ad04,9fbeea23-e481-4b25-b03d-19b742dcdd9d,"The quality of the device was outstanding, and the service was excellent. Highly recommend to others!",2024-03-15T10:14:17
-6a196716-5517-489a-9414-76e63ec16007,e9e78059-b066-49ef-b672-87a4b9eeacde,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable.",2024-05-10T02:15:46
-1db603ae-80d6-4224-a769-3d60adf06f83,7fd9cce3-f9ac-423e-a5a3-ad5312613da9,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable.",2024-01-15T21:39:18
-49dc1800-9cd2-4f2f-9f20-63326e918cc0,d8cfb910-eb37-4e27-8b4d-c8162a003927,Fantastic experience from start to finish with the product! I'll definitely be coming back.,2024-05-22T02:45:18
-ff3c8174-45dc-4ed2-b876-aaec78d30666,ff509dc2-e7f8-4ac5-af0c-7323b4a24be2,"The quality of the booking was outstanding, and the service was excellent. Highly recommend to others!",2024-02-23T17:35:04
-bd312b3a-0470-4eba-a6fd-526ea646ad91,28e15e73-6332-479a-a915-efac2c61c6f8,"Overall, I think the package is a good option if you're looking for something affordable and reliable.",2024-02-29T04:28:44
-5cbbae1c-b850-454f-801f-110fede783c3,b493b122-0659-427f-9971-7abe8154a304,This was a disappointing experience with order. I expected more based on the reviews I read.,2024-09-06T12:07:28
-e4498a94-ddd3-4872-8307-1e0cee255453,5be159c2-cddb-4ca4-b970-3dc30cfb3e9c,"The item did not meet my needs. I had high hopes, but it fell short.",2024-03-17T04:07:31
-ef9101c2-203d-4bce-b679-a1e6095f93dd,330b1b66-50a1-4da4-b7d2-d8370839c3c8,"The delivery was fast, but the product wasn't as described. Mixed feelings about this purchase.",2024-08-22T07:12:18
-a9a19bcb-3c94-4fa4-90ce-bb98b047eb89,65cf3a1b-2971-4b28-bf67-00163addd745,"Overall, I think the item is a good option if you're looking for something affordable and reliable.",2024-08-09T14:17:20
-17223bfa-a8f5-4d03-820b-59893c08f0be,03642ad0-ccd9-44e1-8661-12a536189424,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable.",2024-04-26T01:52:35
-862561e3-7f49-4db2-b462-6c7ba02ed666,cae7ad4b-d41f-4ff0-970a-fdb4909f9e62,Customer service for the purchase was very helpful and responsive. Solved my problem quickly.,2024-05-21T14:43:31
-348665c2-96c8-456c-aa0f-66de0dae5e40,af147bf1-f8f4-463f-a7fe-b33344a75be2,"It was okay, but there were some issues with the product that could be improved. Not sure if I'd buy again.",2024-09-01T04:47:53
-448fe210-b0fb-450a-a802-b2bbfc0bf83b,39177454-7aa7-4506-bb56-01759123c8a9,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-06-06T19:40:31
-c24905b6-ba5f-4404-933e-fe834f2f5ab4,5b89d3dc-b079-4fce-a880-c7b31a2949f3,"The quality of the service was outstanding, and the service was excellent. Highly recommend to others! Could be better though.",2024-07-27T21:03:26
-975433db-badb-4711-b418-63b9b5b5bf75,589b2519-8373-49b8-892f-d685598bdf70,This was a disappointing experience with device. I expected more based on the reviews I read.,2024-05-19T02:51:18
-155e41d2-1886-4718-aa50-2042ba1f98f2,390a82ad-1e8d-489d-a071-2a5d6ec2c5b8,"The booking did not meet my needs. I had high hopes, but it fell short.",2024-06-19T13:56:08
-cf68b3f1-a778-41ec-ae12-342fac02cf3f,33057b73-9e90-4151-ad2d-d9aefa98dfe4,I absolutely loved this service! It exceeded my expectations in every way.,2024-03-01T04:49:29
-5fdaad16-8913-4c80-af48-84d7bc65584b,5c570d48-c995-4978-8954-dbee30a18cfe,"The quality of the service was outstanding, and the service was excellent. Highly recommend to others! Overall, not bad.",2024-02-12T05:31:45
-bd93c441-27aa-46ec-b534-c837971aaf13,102acd4a-eecd-48b6-9b97-a954ae73809d,"Overall, I think the service is a good option if you're looking for something affordable and reliable.",2024-08-21T08:59:22
-d515ff5d-d286-4657-a794-0f03c19d7905,0db2920a-d3fe-4343-9684-7516ec5ab679,Fantastic experience from start to finish with the item! I'll definitely be coming back.,2024-03-26T19:38:41
-aca44298-eaaf-4b9c-9f15-b6254c172775,5b3257d9-1910-4182-a604-52465f7bc4d3,"Fantastic experience from start to finish with the order! I'll definitely be coming back. Overall, not bad.",2024-03-24T13:00:58
-b17c939d-fdad-4355-a3bc-7a840cf9fb2d,c0500534-c78b-4f9f-b1a1-40dc5faecb10,"The order did not meet my needs. I had high hopes, but it fell short.",2024-08-25T10:26:05
-cccdac75-c769-454f-a3b7-63d91c564e38,a1b98f03-5f76-4fc0-9fdc-d96343a84c22,"This was a disappointing experience with package. I expected more based on the reviews I read. Overall, not bad.",2024-05-25T00:24:04
-578e4c4b-18c6-401e-a5c9-a03c611ac27b,8737f163-9825-473b-be4e-b9018f895fd5,This was a disappointing experience with appointment. I expected more based on the reviews I read. Could be better though.,2024-09-28T20:03:26
-5db250b4-a37c-4ee2-9884-582d799dedf9,57512a43-7bce-4bf5-98c6-c37c94e2f966,"Overall, I think the experience is a good option if you're looking for something affordable and reliable.",2024-03-17T02:37:05
-31cca189-8c80-4371-a1a9-f1afc3a46d29,e217673a-4897-4b29-9d59-265c34fa0598,Fantastic experience from start to finish with the service! I'll definitely be coming back. Could be better though.,2024-09-05T13:50:28
-0e236628-3198-49af-ab5c-6b5f9b34f2b5,5f82e697-8359-410e-9611-d6d8ddecdf22,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-08-13T15:06:54
-fb4c2639-e5bf-445e-bb9a-e0efde8c75c1,75fb7b5a-2acb-4690-85a5-e5fac763cc00,I absolutely loved this appointment! It exceeded my expectations in every way.,2024-05-12T09:03:35
-7e30e398-96ef-4ef9-bba9-f2dd4fdce611,f4ee4945-eaa1-4e95-a457-3bbfa3dcef1a,Customer service for the purchase was very helpful and responsive. Solved my problem quickly.,2024-01-28T09:31:52
-5f3fcb0f-d8ff-472e-881b-a5444deaac73,cc175a1f-53fa-4823-b7c3-837bf60224e4,"The item did not meet my needs. I had high hopes, but it fell short.",2024-09-04T16:00:56
-071348ba-62fa-41e2-9e98-fb44f96ad8cd,3aa1a480-dfa1-4f04-bbf2-3872a23f19bf,I absolutely loved this service! It exceeded my expectations in every way.,2024-03-21T03:40:08
-41062468-ccf4-4f03-979f-839cb88d0140,92d00c2d-c5b7-45b5-9979-4d180dcc3345,Customer service for the purchase was very helpful and responsive. Solved my problem quickly.,2024-01-18T11:58:29
-0da7338f-ab0f-481b-8fe0-17b990c2d008,014ed90c-d776-4f6d-8a88-dbebb5e0e83f,"The delivery was fast, but the product wasn't as described. Mixed feelings about this purchase.",2024-04-21T20:46:32
-a95636e3-5026-4321-b197-ee94de75096c,faaeb940-8ff4-4a02-9b9a-991c0a43fc74,"It was okay, but there were some issues with the package that could be improved. Not sure if I'd buy again.",2024-04-15T00:37:01
-9a21ff04-e0c2-4613-a982-71fb50deefab,a19214e8-1880-4d68-9353-472d18ced556,Fantastic experience from start to finish with the product! I'll definitely be coming back. Could be better though.,2024-03-17T05:34:24
-e5141cb0-97fa-4a66-b7d6-835b25749aa4,a02f7743-6b20-475e-b931-0d4d6a8a5bf3,"It was okay, but there were some issues with the purchase that could be improved. Not sure if I'd buy again.",2024-03-25T11:37:51
-28521d0c-f819-4e2e-803e-fe93c40ea208,0f5c766e-e8ea-424b-8e59-25693f723c9e,I absolutely loved this service! It exceeded my expectations in every way.,2024-08-26T16:35:38
-4e5bca24-3046-437a-ac92-cbffff6848d6,95929c4b-a414-4903-b802-6826e77529e4,"Overall, I think the service is a good option if you're looking for something affordable and reliable.",2024-10-08T20:29:06
-0d48a207-a564-492c-9b85-c339d714724d,6673f77a-f464-449c-805a-7a40c1e72463,"It was okay, but there were some issues with the experience that could be improved. Not sure if I'd buy again.",2024-10-01T10:56:36
-cfd03ca7-7900-43ba-ae36-f1ede76072a0,33057b73-9e90-4151-ad2d-d9aefa98dfe4,"It was okay, but there were some issues with the appointment that could be improved. Not sure if I'd buy again.",2024-05-09T03:06:32
-acd74e46-2049-499f-a41c-96c17bdf8e48,b91d1e51-719b-454e-a54c-a262e7d4ba02,"The delivery was fast, but the experience wasn't as described. Mixed feelings about this purchase.",2024-09-07T21:48:26
-e9a15e7a-f4a3-4b29-a818-1e2ab861bfb0,01380530-6fc2-45d7-afd1-97af79586626,"Overall, I think the experience is a good option if you're looking for something affordable and reliable.",2024-09-11T21:23:59
-0319a817-20e5-4c38-828c-61755c66e294,71474b50-f5e8-42b3-aa6d-a0b1224dbc11,I was pleasantly surprised by the quality and attention to detail of the order. Well worth the money! Could be better though.,2024-02-06T16:47:52
-d542ce27-0505-40f1-bbb4-28f4cd76ed2b,685a4b32-cb90-42cc-9f46-a30f1f9296e2,"It was okay, but there were some issues with the purchase that could be improved. Not sure if I'd buy again.",2024-04-13T06:29:27
-7005e013-6a34-4550-8b57-ec8118edf39d,de031f16-55e4-4558-bcc0-56abaaf28f56,"The quality of the experience was outstanding, and the service was excellent. Highly recommend to others!",2024-08-17T04:34:07
-19a9efe4-eb2d-451e-a590-20ec481cdda5,2fdeaaa7-2c94-4c7b-9d8b-77870c8af7fe,Fantastic experience from start to finish with the experience! I'll definitely be coming back.,2024-05-30T15:01:14
-4c3fd6c9-5068-45c9-9eee-2c8d95e71ced,58018869-7141-462e-a51e-7da4b4f544f4,"Overall, I think the booking is a good option if you're looking for something affordable and reliable.",2024-01-11T21:52:21
-76adac1a-a4e5-4ae2-97f2-644fb64f1ac4,11af20b8-b080-499a-8c24-5dfcbd6055c7,Customer service for the purchase was very helpful and responsive. Solved my problem quickly.,2024-10-19T11:22:01
-cdbdf223-974a-40a3-b2d8-184b01cef416,a1b98f03-5f76-4fc0-9fdc-d96343a84c22,"The quality of the package was outstanding, and the service was excellent. Highly recommend to others!",2024-02-25T02:58:01
-f9bedc39-188f-45c1-9846-2da2f4872ac5,71419c2c-bcfa-4c3b-88ab-5abc489837c5,I absolutely loved this device! It exceeded my expectations in every way.,2024-01-05T02:08:43
-e5682dbf-312e-4709-bfc8-6b392f4636ad,9142ecfc-a049-41a4-9943-5e64ea18f090,"Overall, I think the experience is a good option if you're looking for something affordable and reliable. Overall, not bad.",2024-03-20T00:53:19
-6f29143a-6a7b-41ef-918c-be1d4740502c,cc798d63-5972-4f83-8960-ac38446f8653,"The booking did not meet my needs. I had high hopes, but it fell short.",2024-05-06T07:42:40
-827fe186-c7a8-4af5-b344-be8ed0467f9a,43646b7d-979e-4324-b669-f421057f706d,"The purchase did not meet my needs. I had high hopes, but it fell short.",2024-06-25T08:08:18
-df548fcd-7817-48ea-b649-c1a7522fd2b4,fd87a4ee-40d1-487b-9d4c-e1271fa30dc2,I was pleasantly surprised by the quality and attention to detail of the appointment. Well worth the money!,2024-06-18T10:05:05
-cf081627-de22-4f12-84d4-1739a964c402,63c7c0bd-bcb1-4cfd-b6db-4b40e7c3ce23,I absolutely loved this booking! It exceeded my expectations in every way.,2024-09-28T02:24:38
-bab75668-f955-4d47-9f62-1c2dbb9bc0db,8d803782-bbda-4dd3-ab12-bca56c681145,This was a disappointing experience with product. I expected more based on the reviews I read.,2024-03-16T14:16:07
-bcfc08ca-00ad-4274-9c3d-1fd729584b14,e47ca1d3-39a5-4255-8d20-dc2d0ac1a786,"The quality of the booking was outstanding, and the service was excellent. Highly recommend to others!",2024-04-29T05:51:34
-ad771cfc-22ec-4563-933e-0def1f3e4b14,7991a686-e31f-4740-ac89-f5d02714f208,Fantastic experience from start to finish with the appointment! I'll definitely be coming back.,2024-03-02T17:11:46
-569ef7e1-dc18-44d4-add5-59572c4722e0,784d48e7-7d35-41c6-be16-4d56e7ccae06,I absolutely loved this item! It exceeded my expectations in every way.,2024-08-18T16:01:31
-98149f3c-6d73-404f-a853-c7d2cc565f47,553305d9-f7e6-40a8-8c1c-18f41812bac7,Customer service for the order was very helpful and responsive. Solved my problem quickly.,2024-05-29T22:33:54
-96d7f64e-ab91-4665-b30e-54412558a459,59e054de-c67c-4201-a5a8-63378f5ca782,I absolutely loved this appointment! It exceeded my expectations in every way.,2024-01-18T14:57:57
-e6b0db0c-6e7d-42d9-99c5-da31e704fe67,988a7b8e-dc81-4acb-9079-a5f40af1cb56,I absolutely loved this appointment! It exceeded my expectations in every way.,2024-02-08T10:22:06
-3d2a1a2a-a4d7-458c-bd24-4a8a26892492,d8cfb910-eb37-4e27-8b4d-c8162a003927,I absolutely loved this experience! It exceeded my expectations in every way.,2024-08-21T03:04:19
-13bd4a19-0baf-42bd-8017-7dbc9bfd2c9e,ab648b9f-a984-4c07-9e9f-48f78e5f99f4,"Fantastic experience from start to finish with the service! I'll definitely be coming back. Overall, not bad.",2024-03-12T00:13:49
-65211d0f-c8fe-48aa-80c4-26238e8791d9,c0500534-c78b-4f9f-b1a1-40dc5faecb10,"Overall, I think the appointment is a good option if you're looking for something affordable and reliable.",2024-01-16T10:38:49
-aeabe9d2-256d-41ee-845e-58a711db1201,dc6e1399-59e7-4a67-b92e-6948c3d6f808,"The appointment did not meet my needs. I had high hopes, but it fell short. Overall, not bad.",2024-02-19T17:41:40
-0b3b8e05-553d-4ee8-942e-4f4eb5d50def,dfcdf04e-2f2f-40ec-bbfb-58c0e6f7ae25,"The delivery was fast, but the appointment wasn't as described. Mixed feelings about this purchase.",2024-04-05T21:57:48
-f39cd38e-fec2-48a4-b3a4-4d944a63337f,7991a686-e31f-4740-ac89-f5d02714f208,Fantastic experience from start to finish with the appointment! I'll definitely be coming back.,2024-07-28T19:42:52
-beb209aa-9043-4c31-9b09-f82908880a62,a31b3e40-2f6a-4996-8869-878ba374e418,"The package did not meet my needs. I had high hopes, but it fell short.",2024-09-22T21:00:02
-d8d902af-a581-48d1-a982-fdc041bec699,41a3ad80-ad25-4945-a5ed-a6a702a712c9,I was pleasantly surprised by the quality and attention to detail of the product. Well worth the money! Could be better though.,2024-06-17T21:35:03
-ce798829-4056-4eab-885f-fa1556010f9d,8dfd001f-e9f3-4c13-b56e-934db82c2a38,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-09-01T08:59:04
-2b784300-bf3c-4e3e-b1b4-17228edea1dc,ce47fc0c-8b10-41cf-bf5f-cc01260de055,I was pleasantly surprised by the quality and attention to detail of the order. Well worth the money!,2024-06-01T04:33:10
-5afc771a-bcf1-467d-845f-6837f2dbc952,8cf600b4-377c-4965-a65b-f48cb9e2592b,"Overall, I think the experience is a good option if you're looking for something affordable and reliable.",2024-04-06T21:04:07
-b5563e6c-224a-4049-878b-ffb176cd17ff,5f82e697-8359-410e-9611-d6d8ddecdf22,"It was okay, but there were some issues with the appointment that could be improved. Not sure if I'd buy again.",2024-01-25T20:51:07
-36166ce0-1d77-4481-9aee-9aec83727b7d,68d46ae0-2487-45a7-81c5-abd8b0b435f7,Fantastic experience from start to finish with the device! I'll definitely be coming back.,2024-07-12T14:44:31
-cbafe9a4-0ba3-4487-9183-e825f762ad88,eb21b592-5eee-4a78-8713-75601f23846d,"The delivery was fast, but the item wasn't as described. Mixed feelings about this purchase.",2024-08-26T09:51:44
-7c7b3555-1cb7-4c26-9f9f-91cf85bef0e8,cb67ab3a-88f6-41d6-a90e-88a8895bdc3a,I absolutely loved this package! It exceeded my expectations in every way.,2024-09-10T08:13:59
-d3ccb23a-e5f6-4c61-918d-a2d56c3f7080,4f622c34-72d5-4cb1-9fe9-ac011d3940ad,Fantastic experience from start to finish with the purchase! I'll definitely be coming back.,2024-07-30T12:16:05
-e2035f55-4301-46ed-a31a-b6114680246d,1562ceff-23e2-4dd4-aeb6-32abed532753,"The delivery was fast, but the order wasn't as described. Mixed feelings about this purchase.",2024-04-27T12:32:50
-d0218dee-356e-4b6c-94ac-dbe953a2a192,dde04ecd-6895-4a29-8b62-bb53b78e60a1,Customer service for the service was very helpful and responsive. Solved my problem quickly.,2024-07-23T04:44:14
-50b2a01d-5b4a-4a6b-a418-90eb14cd94d1,03642ad0-ccd9-44e1-8661-12a536189424,"It was okay, but there were some issues with the experience that could be improved. Not sure if I'd buy again.",2024-01-22T01:59:43
-623690d6-780c-49fd-9326-0a030cd4a342,a02f7743-6b20-475e-b931-0d4d6a8a5bf3,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-10-14T20:37:26
-42c02eb3-ef97-46e8-9019-72f58786ce51,5c570d48-c995-4978-8954-dbee30a18cfe,Customer service for the item was very helpful and responsive. Solved my problem quickly.,2024-01-11T16:45:13
-763e18ee-8aaa-4022-ab5d-f00d705b13f3,cceefc68-d64f-4b68-aacc-b03b82e36170,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-09-23T15:21:19
-1a6333bf-d37b-4ac5-8546-fb748b9ec693,1a502f54-3990-4d0f-8767-17b9dba9663d,"The quality of the purchase was outstanding, and the service was excellent. Highly recommend to others!",2024-03-15T11:41:52
-547fda62-ef3d-4128-a469-448116883a04,ef2dfcb8-57d9-455c-b562-28975bb4462a,"Overall, I think the service is a good option if you're looking for something affordable and reliable. Could be better though.",2024-09-15T20:52:59
-cb6186e6-0e0a-4753-b9d7-bd5e548d6b2d,71958720-2236-4739-a11f-cc20515fae47,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-10-24T12:56:01
-c0ee26bb-00e6-4894-be97-816a7267f51e,7eca99f1-5815-4b11-bb67-ff60261c17dd,"The delivery was fast, but the service wasn't as described. Mixed feelings about this purchase.",2024-01-28T16:23:55
-b29b7a8b-0f69-4e50-9156-de01f1ddb508,7047dc44-5a3b-41b6-99ae-084e4d097674,Customer service for the item was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-03-28T11:24:04
-6441f3d6-5c92-467c-b175-37b0ebc8d196,261224e9-3be7-48dc-95d7-75eb8292dc49,"The delivery was fast, but the item wasn't as described. Mixed feelings about this purchase.",2024-02-06T08:13:39
-b9573e61-9ff0-4dfd-8b5b-e344349b3151,7a2ca8de-104f-433e-8f14-ea4360512bda,This was a disappointing experience with booking. I expected more based on the reviews I read.,2024-09-05T04:20:36
-46cc3696-67af-40c5-8df6-0819217e0270,fd87a4ee-40d1-487b-9d4c-e1271fa30dc2,Customer service for the appointment was very helpful and responsive. Solved my problem quickly.,2024-03-08T09:53:31
-a536f2b4-32c7-4e9e-8366-01175663caaf,d9f06ba2-2a53-41c7-a563-71a012267c0c,"Overall, I think the purchase is a good option if you're looking for something affordable and reliable.",2024-09-25T21:36:56
-0845ee52-be0e-4265-8abe-49c53c46882b,b01eebf6-b88a-41d9-b28c-f2483945c8e6,"The quality of the device was outstanding, and the service was excellent. Highly recommend to others!",2024-10-28T08:32:58
-e08b2423-4e3d-4365-9239-b7de0c01c86b,03642ad0-ccd9-44e1-8661-12a536189424,"The experience did not meet my needs. I had high hopes, but it fell short.",2024-02-06T15:46:36
-b5014ec1-c6d9-40f8-bb38-8b4e80157d35,2fe9a9c7-b683-444c-bb96-dc7116508330,This was a disappointing experience with device. I expected more based on the reviews I read.,2024-10-16T13:45:11
-1f7775da-488c-4712-a4d3-9691f2196c8e,f7452991-eaaf-4cc8-9609-adca0566052a,"The item did not meet my needs. I had high hopes, but it fell short. Could be better though.",2024-04-26T21:59:02
-bb6b4585-1cdd-42ad-95b8-d90f99d1aebb,68d46ae0-2487-45a7-81c5-abd8b0b435f7,Fantastic experience from start to finish with the appointment! I'll definitely be coming back.,2024-06-23T02:39:45
-e8879a0f-de5f-457b-a11d-407db7a5908b,301d90ee-8ff8-43a7-9163-6eee57f121d6,I absolutely loved this purchase! It exceeded my expectations in every way.,2024-05-16T22:01:47
-9f09db19-b238-4c72-a6b6-b5cd147667f0,05173965-7a30-4eef-8d97-6624da2019a4,"It was okay, but there were some issues with the service that could be improved. Not sure if I'd buy again.",2024-10-11T16:05:04
-1d33299f-ebc4-46e5-8c6a-a8944ec63f96,c700bdbd-3c24-492f-b1a4-43379c99bcfa,Customer service for the package was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-06-17T12:14:15
-7f152df2-dce3-4bba-9321-ed47758b5f8e,0f5c766e-e8ea-424b-8e59-25693f723c9e,I absolutely loved this purchase! It exceeded my expectations in every way.,2024-06-22T17:49:03
-a002c81e-73ca-438f-9d02-a64c3b851f80,2d22a583-2ffb-45bc-9294-82478aa3041d,This was a disappointing experience with package. I expected more based on the reviews I read. Could be better though.,2024-06-13T02:29:08
-e48e717e-98b9-42b9-aa57-f8a2ebb11fac,98dbc9c8-96a6-48df-9f91-b3d8771a59de,"The delivery was fast, but the product wasn't as described. Mixed feelings about this purchase.",2024-03-25T13:10:48
-91f4d5f4-3d3a-4496-a70f-e406700f014c,ab648b9f-a984-4c07-9e9f-48f78e5f99f4,Fantastic experience from start to finish with the device! I'll definitely be coming back.,2024-02-17T08:32:01
-1bb0ca4f-5dd4-4a67-951e-e77f7311a05a,457aac07-e639-45bb-8c05-99806af05d29,I absolutely loved this appointment! It exceeded my expectations in every way. Could be better though.,2024-04-13T21:11:55
-f148e17e-cb36-46f6-b0ee-6b91fa2302ca,0adb5621-33dc-488a-86a4-0ebbc693e181,I absolutely loved this booking! It exceeded my expectations in every way.,2024-04-09T07:27:08
-b2d7f30d-1587-4de5-a101-b4516306c9bb,c9630bf8-008e-4dee-b364-ec17a6d7b90b,This was a disappointing experience with experience. I expected more based on the reviews I read.,2024-07-06T02:57:05
-00173870-b749-4faf-95ca-c1963f74b29b,f7452991-eaaf-4cc8-9609-adca0566052a,"Customer service for the appointment was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-05-18T14:03:23
-cebc83f4-e4a4-48f8-a946-a6f0c313a5c1,8737f163-9825-473b-be4e-b9018f895fd5,"The service did not meet my needs. I had high hopes, but it fell short. Overall, not bad.",2024-06-07T00:23:10
-ca4cb3bb-49bd-459d-a94f-ed3e319b6b21,d467c86b-e0d8-4742-bdb5-fc928ba0c161,This was a disappointing experience with order. I expected more based on the reviews I read.,2024-09-11T18:44:27
-373f0fdd-a85d-495c-99dd-a4b39839a4fd,befaa1dd-48c4-40d7-a796-75cd6dd8dda0,Customer service for the order was very helpful and responsive. Solved my problem quickly.,2024-05-27T22:51:39
-a9ec881d-41b7-4531-b8d6-7ff5c615b4d6,553305d9-f7e6-40a8-8c1c-18f41812bac7,This was a disappointing experience with item. I expected more based on the reviews I read.,2024-01-10T18:26:06
-25f44bc0-1f22-4de7-a299-dcf8465fd5d9,039e9fd3-c102-4691-99cd-f82d1b5012cc,"The delivery was fast, but the purchase wasn't as described. Mixed feelings about this purchase.",2024-01-28T18:30:14
-e78c125c-4af8-4972-9968-69b1f0878f55,cc798d63-5972-4f83-8960-ac38446f8653,Fantastic experience from start to finish with the purchase! I'll definitely be coming back.,2024-07-06T19:17:29
-cc7b45b2-6bc9-40c3-8f4f-c70faae1322d,79924066-96f2-42be-ba12-de2ce80dbd7d,Customer service for the experience was very helpful and responsive. Solved my problem quickly.,2024-10-11T19:15:12
-5839845a-c08a-4594-b7fb-ccc20e490a84,972477b1-ed11-4397-a8f8-c26fcedd1048,Customer service for the device was very helpful and responsive. Solved my problem quickly.,2024-08-25T02:12:37
-557d7f14-5054-4da2-a0ee-6408538d496c,af147bf1-f8f4-463f-a7fe-b33344a75be2,Fantastic experience from start to finish with the appointment! I'll definitely be coming back.,2024-08-26T02:08:36
-30a43758-b39c-443f-9185-25e670402c19,fd87a4ee-40d1-487b-9d4c-e1271fa30dc2,Customer service for the appointment was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-07-27T09:33:25
-b35ed5ea-04b6-43de-af48-3338c7401f93,232ca2a7-e273-4f93-ab10-afb43e71ae02,I absolutely loved this product! It exceeded my expectations in every way.,2024-04-25T03:25:03
-a32f85af-bf94-47a8-93ea-4f819de6bfe1,71419c2c-bcfa-4c3b-88ab-5abc489837c5,"The quality of the product was outstanding, and the service was excellent. Highly recommend to others!",2024-02-06T04:44:58
-b6ea7168-756b-4063-a9d0-971f7e44fe90,e0fa138e-d383-4e52-af0b-bb66eb365b0f,Fantastic experience from start to finish with the device! I'll definitely be coming back.,2024-11-04T16:06:38
-d64264f6-c528-4a33-b625-1ac167b3b060,570fc8b5-2f5d-4968-9936-f02bb7ea95b3,"The purchase did not meet my needs. I had high hopes, but it fell short.",2024-06-17T05:00:12
-e863d100-1999-41f0-854b-3c7b666e8072,d9f06ba2-2a53-41c7-a563-71a012267c0c,This was a disappointing experience with appointment. I expected more based on the reviews I read.,2024-09-03T10:18:54
-b0886232-92d2-4abf-9ef7-071d27701adf,f462a457-636c-4e8f-adb5-3e1141d6865a,"The item did not meet my needs. I had high hopes, but it fell short.",2024-01-25T07:15:50
-79f61e8d-29a2-40d8-a75b-4071e3fa5a69,0b050242-3d91-4e50-ad48-7d88aaa3ea65,"Overall, I think the service is a good option if you're looking for something affordable and reliable.",2024-05-29T01:09:40
-f004b407-aa96-453c-9c03-f01ae63a6b17,9a7593b0-84d4-4a63-8b9e-76c8334dfc33,Customer service for the appointment was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-05-15T03:37:22
-2ebe6d4a-93ce-457c-bdbc-d2ff3b862214,e0f60ad3-f0c5-4480-a689-e6d302582329,"The delivery was fast, but the purchase wasn't as described. Mixed feelings about this purchase.",2024-09-11T17:22:51
-11629d34-4e86-4608-bd23-da661d831cbf,01380530-6fc2-45d7-afd1-97af79586626,I was pleasantly surprised by the quality and attention to detail of the appointment. Well worth the money!,2024-03-29T01:41:43
-7317c7a3-66c3-4b50-a82c-e722a3fefe3b,210fc774-a768-476b-a487-02846a252b2c,"The item did not meet my needs. I had high hopes, but it fell short.",2024-03-08T01:53:02
-ca6f6283-fb57-438c-a5d2-41c9d9450104,0b050242-3d91-4e50-ad48-7d88aaa3ea65,This was a disappointing experience with order. I expected more based on the reviews I read.,2024-08-17T17:23:55
-6357b190-add6-4eb1-aadb-b1e78e9f407a,a51e50b9-3de4-425f-93ad-eb340b99d8bd,"It was okay, but there were some issues with the experience that could be improved. Not sure if I'd buy again.",2024-01-02T18:40:09
-b90751ab-ae26-4d5e-bbee-206dd1e3f286,b91d1e51-719b-454e-a54c-a262e7d4ba02,"It was okay, but there were some issues with the purchase that could be improved. Not sure if I'd buy again.",2024-08-19T02:05:19
-ed98b03e-7be4-47bc-b879-225459330e4b,5a0f954e-a715-4a9d-9e2c-3e6ec49f4310,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-10-16T14:07:58
-9669c0bd-e732-4793-bf32-4c7df3bc5659,0e97bfbc-0801-45d6-b6b0-93af15c77390,This was a disappointing experience with device. I expected more based on the reviews I read.,2024-06-15T06:01:51
-96d20820-e02f-4a1d-8a64-f5354c633fa4,43646b7d-979e-4324-b669-f421057f706d,Customer service for the booking was very helpful and responsive. Solved my problem quickly.,2024-08-27T11:41:24
-678f7c60-df6c-46ef-843f-e92fd6a89cad,8533f0cb-5938-4196-b8e5-517ed2a58707,"It was okay, but there were some issues with the service that could be improved. Not sure if I'd buy again.",2024-05-26T14:59:07
-bd84f99b-c916-46ea-9210-5666322d385a,fd67c33f-4d9b-4ff6-a09c-5e38b98bae46,I was pleasantly surprised by the quality and attention to detail of the appointment. Well worth the money! Could be better though.,2024-11-03T15:18:50
-2791b47c-7bcb-46a3-a020-0d2a102c89ce,bb99fe29-8586-4ceb-9e53-e7e069cd24b8,"The quality of the experience was outstanding, and the service was excellent. Highly recommend to others!",2024-04-16T23:27:59
-9190ae56-e6a8-4c27-a52f-7795a1e8a88e,784d48e7-7d35-41c6-be16-4d56e7ccae06,Customer service for the booking was very helpful and responsive. Solved my problem quickly.,2024-05-21T12:45:44
-8bbd50ad-96e7-4735-96ca-a80978c18c89,b6344604-7678-4b36-b76d-4a39222e098d,This was a disappointing experience with booking. I expected more based on the reviews I read.,2024-10-19T05:00:14
-ffc8c644-a877-44ef-9f5c-f2bddb491dd3,f0e36860-d466-4287-a389-41986a94b798,I absolutely loved this purchase! It exceeded my expectations in every way.,2024-06-13T02:40:45
-eb94daad-cddb-4e5d-8941-5931f64b7678,658c732a-f296-434f-9a94-923acc58651e,"The package did not meet my needs. I had high hopes, but it fell short.",2024-02-25T08:04:29
-4fe9c0e9-5f7d-4817-9859-b226fdc0c16c,ef2dfcb8-57d9-455c-b562-28975bb4462a,"The appointment did not meet my needs. I had high hopes, but it fell short.",2024-07-30T14:37:13
-26ad44de-86f0-4b23-b6bd-53b8bc629530,102acd4a-eecd-48b6-9b97-a954ae73809d,"Fantastic experience from start to finish with the device! I'll definitely be coming back. Overall, not bad.",2024-06-16T04:52:21
-77c6ed2c-6aee-4b75-bc7a-5a6d6ef52e8e,cd114a3c-7928-4734-822e-8aa08f56a660,"Overall, I think the package is a good option if you're looking for something affordable and reliable.",2024-09-18T11:49:13
-b709a6c1-5199-401d-a4b1-2ae9e36df4d5,b903894c-c0c7-487c-8917-d276d9528bee,"The quality of the service was outstanding, and the service was excellent. Highly recommend to others!",2024-07-07T17:38:10
-a5e72e59-d712-46eb-a078-352ee06bfb66,d467c86b-e0d8-4742-bdb5-fc928ba0c161,"The delivery was fast, but the appointment wasn't as described. Mixed feelings about this purchase.",2024-03-01T08:00:35
-fb94e717-1efe-4ce4-9656-9540f3fa9386,cd73c61a-34a1-4e4e-997b-cfe9c0a5a61f,I absolutely loved this service! It exceeded my expectations in every way.,2024-09-19T11:02:36
-9bfbfe85-080f-490c-b69d-e29b2e700c3a,79924066-96f2-42be-ba12-de2ce80dbd7d,I was pleasantly surprised by the quality and attention to detail of the device. Well worth the money!,2024-02-27T01:12:51
-a8c3e8d2-0ac4-4fb8-92de-aaec4dace794,7eca99f1-5815-4b11-bb67-ff60261c17dd,Customer service for the product was very helpful and responsive. Solved my problem quickly.,2024-01-19T09:03:20
-6b4d680d-1792-4d0c-bc44-bb3d8cd8868a,b1091284-34dc-4e75-a0dc-6be011b97aa9,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-10-13T06:38:36
-ce105daa-7449-43c0-9f1b-bd2bb9e14041,88b2f4cf-68da-4c5a-9891-ce0e913bdda1,I absolutely loved this service! It exceeded my expectations in every way.,2024-06-10T10:44:11
-226f9159-a486-47d1-889d-62897ba7b01e,8cf600b4-377c-4965-a65b-f48cb9e2592b,"The appointment did not meet my needs. I had high hopes, but it fell short. Overall, not bad.",2024-06-11T03:17:24
-e91d60a0-4262-4eaf-b62c-40aff3c12279,8533f0cb-5938-4196-b8e5-517ed2a58707,"Overall, I think the order is a good option if you're looking for something affordable and reliable. Overall, not bad.",2024-04-11T11:50:41
-157b3231-f413-4c2b-9b0d-ab1e82fbebcc,c0500534-c78b-4f9f-b1a1-40dc5faecb10,"The delivery was fast, but the package wasn't as described. Mixed feelings about this purchase. Could be better though.",2024-06-10T00:13:08
-edb3b4a9-ab36-4be9-b906-a1aaf745f5a2,553305d9-f7e6-40a8-8c1c-18f41812bac7,This was a disappointing experience with appointment. I expected more based on the reviews I read.,2024-02-28T22:09:10
-4a386d09-b067-45cf-be4d-5d69673ee11c,dde04ecd-6895-4a29-8b62-bb53b78e60a1,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-02-10T18:07:15
-f62c5685-0c64-4700-a41e-0e776ca53e86,972477b1-ed11-4397-a8f8-c26fcedd1048,"The package did not meet my needs. I had high hopes, but it fell short.",2024-03-17T11:09:05
-3df2f3f1-5138-4c55-8e25-0b2c7ccc0614,e3a9bff3-217b-4e30-8578-802ed8dfd9c9,"The purchase did not meet my needs. I had high hopes, but it fell short.",2024-10-30T00:06:05
-3990468a-532b-437f-8e8d-31d5eebf20d6,3aa1a480-dfa1-4f04-bbf2-3872a23f19bf,I was pleasantly surprised by the quality and attention to detail of the experience. Well worth the money!,2024-02-14T05:24:47
-8791c4df-4bc0-4615-b424-a547fc107408,11af20b8-b080-499a-8c24-5dfcbd6055c7,"It was okay, but there were some issues with the booking that could be improved. Not sure if I'd buy again.",2024-07-08T19:09:03
-dda336eb-b7d5-42e7-b3b8-c5b5c0a3fba3,3969ca69-74ee-4cc8-aa5a-0c241b38c29d,"Overall, I think the product is a good option if you're looking for something affordable and reliable.",2024-04-04T07:35:49
-3b790301-28f0-48dd-99ac-bb92c4fabc9c,5e347f64-d913-438e-b15b-184f3c3c1a34,"The delivery was fast, but the experience wasn't as described. Mixed feelings about this purchase.",2024-09-30T17:38:27
-209d2eb2-42c5-4477-9297-e1da27475d1f,b698d730-76e1-42c5-b3f8-6251e5373567,"The quality of the appointment was outstanding, and the service was excellent. Highly recommend to others! Could be better though.",2024-02-06T21:05:27
-e1e9056e-41f9-45c2-bb70-fb5e19999534,33057b73-9e90-4151-ad2d-d9aefa98dfe4,"I was pleasantly surprised by the quality and attention to detail of the booking. Well worth the money! Overall, not bad.",2024-09-27T03:08:26
-fe8917ed-89e0-4149-9e9c-acb602660892,4fe4f9d6-3587-42e6-b39b-9d06dbd7468c,I absolutely loved this order! It exceeded my expectations in every way.,2024-04-05T06:41:02
-b3411755-36d9-4466-9106-e8e29cc1abc6,a30d8a22-2c37-4a3e-95c1-7de3d7315a8f,"It was okay, but there were some issues with the purchase that could be improved. Not sure if I'd buy again.",2024-04-22T17:58:34
-0cd7b474-0283-495c-b6f6-c008c2e4920f,7471696d-0fbc-4cb8-9082-fa6467986add,"Overall, I think the booking is a good option if you're looking for something affordable and reliable. Overall, not bad.",2024-05-28T15:02:17
-d803f06b-02c0-45b6-b32f-8b853e2aca82,5b3257d9-1910-4182-a604-52465f7bc4d3,"I absolutely loved this purchase! It exceeded my expectations in every way. Overall, not bad.",2024-06-01T08:41:52
-6c1d77bd-32c9-477f-a9d5-e7763db953de,8cca0060-64f1-4259-ad6a-a65a3b0aac38,"It was okay, but there were some issues with the appointment that could be improved. Not sure if I'd buy again.",2024-05-13T18:42:38
-e77188b4-a77c-43d1-abd3-478722d85b39,ac40f340-23ea-4f84-b8de-2951aaec0cb2,I absolutely loved this purchase! It exceeded my expectations in every way.,2024-07-30T20:41:03
-1fd2b259-754d-4b72-b829-01c29674fdbc,88b569ed-3811-4f90-bb8e-2f240b718920,"The device did not meet my needs. I had high hopes, but it fell short.",2024-03-20T10:17:04
-9f6e0bc8-d301-4f1c-a1a9-e0d47d827903,cceefc68-d64f-4b68-aacc-b03b82e36170,"The quality of the package was outstanding, and the service was excellent. Highly recommend to others!",2024-08-29T13:18:57
-095bfa78-adda-4ac0-9347-cca53f3427fc,8d803782-bbda-4dd3-ab12-bca56c681145,I was pleasantly surprised by the quality and attention to detail of the service. Well worth the money!,2024-01-10T16:31:55
-ba6206d7-0f0c-4298-92a6-a9c21ba9484b,af147bf1-f8f4-463f-a7fe-b33344a75be2,"The quality of the product was outstanding, and the service was excellent. Highly recommend to others!",2024-05-13T05:54:21
-e58d41c7-72bc-4d5a-94f4-9ead4b8aa5b0,307eeda5-517c-4c96-a0f7-8bdd82410f85,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-07-16T15:38:50
-d4806f4a-c91c-4693-baed-f7c91b194d2a,915453bb-5d07-401b-a162-a1a49dda67a4,Fantastic experience from start to finish with the experience! I'll definitely be coming back.,2024-04-07T18:30:12
-83436c18-8dd3-44d2-a10c-d9a5757ad10f,34c4f9a8-e584-48a7-9057-53aff7712892,"It was okay, but there were some issues with the purchase that could be improved. Not sure if I'd buy again.",2024-05-09T17:32:37
-956f0045-9e80-4f98-be02-d4348a7baf92,7471696d-0fbc-4cb8-9082-fa6467986add,This was a disappointing experience with item. I expected more based on the reviews I read.,2024-09-07T01:56:42
-463077ed-756b-4ae2-b26d-333959b9e88b,51425bca-afd8-4504-bba1-43c259b7dc18,Customer service for the booking was very helpful and responsive. Solved my problem quickly.,2024-03-19T03:11:31
-d63635e3-5beb-4ed2-96f7-8b7ed36d2abd,ce74a356-bec9-4f5e-b113-950ec66f70c8,I absolutely loved this service! It exceeded my expectations in every way.,2024-03-01T01:47:56
-8530a1b2-2b35-460c-a276-703935c7fe60,d467c86b-e0d8-4742-bdb5-fc928ba0c161,"It was okay, but there were some issues with the package that could be improved. Not sure if I'd buy again.",2024-10-09T11:56:26
-c05b0cb7-52df-4b9f-8d7b-feceefd66713,102acd4a-eecd-48b6-9b97-a954ae73809d,"The delivery was fast, but the booking wasn't as described. Mixed feelings about this purchase.",2024-08-21T17:01:06
-7136e87d-a9dd-4d14-9400-8ec7c081f3a7,a51e50b9-3de4-425f-93ad-eb340b99d8bd,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-08-02T23:42:20
-f01aaca4-6903-491d-9162-d5df2bda8fff,4a36f92c-fc5d-4476-b585-64d2203f6383,"I absolutely loved this order! It exceeded my expectations in every way. Overall, not bad.",2024-10-26T04:26:47
-2d805e39-94de-440a-972d-37d1e6ae1990,c55a6b90-eca5-4ec8-9603-d06e5e049469,I was pleasantly surprised by the quality and attention to detail of the appointment. Well worth the money!,2024-06-20T09:53:32
-66268d8f-e530-44e9-8be4-44a8d8e50a81,79924066-96f2-42be-ba12-de2ce80dbd7d,I absolutely loved this product! It exceeded my expectations in every way.,2024-01-04T15:51:46
-05f108fc-f865-4a57-bc13-af9933e8deb4,a51e50b9-3de4-425f-93ad-eb340b99d8bd,"The quality of the product was outstanding, and the service was excellent. Highly recommend to others!",2024-01-10T23:18:55
-33274b93-80e3-429a-b765-1f81ec96c9d3,9fbeea23-e481-4b25-b03d-19b742dcdd9d,"The quality of the booking was outstanding, and the service was excellent. Highly recommend to others!",2024-07-29T15:27:19
-192205eb-f238-453d-a552-fae4dcfe77e2,41a3ad80-ad25-4945-a5ed-a6a702a712c9,"The delivery was fast, but the order wasn't as described. Mixed feelings about this purchase.",2024-07-04T22:54:59
-2863151e-c647-43eb-b8c1-23d46fb709f6,fd67c33f-4d9b-4ff6-a09c-5e38b98bae46,"Customer service for the appointment was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-07-01T02:47:29
-f045b799-5bb1-4ea8-89bd-e64a5cec79e2,03ad322b-4ef6-45e8-b20a-b71c1f2f996a,"It was okay, but there were some issues with the purchase that could be improved. Not sure if I'd buy again.",2024-02-11T21:57:10
-9f4a9afd-77a0-4e23-9421-9646199deb35,8cca0060-64f1-4259-ad6a-a65a3b0aac38,"It was okay, but there were some issues with the package that could be improved. Not sure if I'd buy again.",2024-10-28T12:55:56
-f345c191-7c68-44b9-84f3-479deec5527e,79924066-96f2-42be-ba12-de2ce80dbd7d,"It was okay, but there were some issues with the product that could be improved. Not sure if I'd buy again.",2024-09-28T16:15:23
-3a69e847-1c5b-4604-98f4-1d35212cdbe6,cceefc68-d64f-4b68-aacc-b03b82e36170,"The delivery was fast, but the package wasn't as described. Mixed feelings about this purchase.",2024-04-03T00:56:02
-4d011e46-cc5f-4b1d-9021-80148be20d4f,d3764388-f4e0-4cfe-badc-dc8ba27b9afe,"The quality of the experience was outstanding, and the service was excellent. Highly recommend to others!",2024-07-15T11:40:13
-0be3e568-952d-4415-a664-7f3b5bb878ef,fd87a4ee-40d1-487b-9d4c-e1271fa30dc2,This was a disappointing experience with service. I expected more based on the reviews I read.,2024-06-15T06:22:19
-4b67a2d7-605a-4d9e-8a1b-79f1379ce4ae,cced9bc1-2259-4cb5-aea8-545c94b67285,I absolutely loved this service! It exceeded my expectations in every way.,2024-01-28T06:30:36
-8c7bc015-cfe7-479a-b948-4a21d356cbfd,befaa1dd-48c4-40d7-a796-75cd6dd8dda0,I absolutely loved this item! It exceeded my expectations in every way.,2024-09-09T00:21:03
-98611dcc-fd23-4455-98db-57fcce95a6aa,f491d9c6-8362-4fc1-a820-22550a9f31a9,"The delivery was fast, but the product wasn't as described. Mixed feelings about this purchase. Could be better though.",2024-09-30T07:04:58
-1c57608a-1a70-4413-ae46-e0fade34f33a,f9576604-ceba-4e37-847a-36856413c128,"Customer service for the order was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-07-18T17:21:39
-74a52520-00d6-4fc5-b653-09aa3e26c580,0db2920a-d3fe-4343-9684-7516ec5ab679,"The delivery was fast, but the appointment wasn't as described. Mixed feelings about this purchase.",2024-09-04T10:42:26
-de38fc9d-8317-447e-9c55-462cd3da8e15,8d803782-bbda-4dd3-ab12-bca56c681145,"The quality of the experience was outstanding, and the service was excellent. Highly recommend to others!",2024-10-21T16:50:39
-2dec4e19-80e1-4965-a2bd-46002f8a4f8c,5b3257d9-1910-4182-a604-52465f7bc4d3,Customer service for the experience was very helpful and responsive. Solved my problem quickly.,2024-06-22T06:12:29
-7c402f9a-e135-4eaf-bdf3-f7452db41900,00892b9f-a78a-41c8-b255-0d005de73173,Fantastic experience from start to finish with the purchase! I'll definitely be coming back.,2024-05-10T09:47:03
-27d4aba7-9314-4714-a101-97ce156568ac,71474b50-f5e8-42b3-aa6d-a0b1224dbc11,"Customer service for the item was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-05-04T13:21:29
-9da86113-45b3-4d63-b198-6911dd0cd560,73c51796-8a88-47ad-8736-8f1bfb273276,"Overall, I think the booking is a good option if you're looking for something affordable and reliable.",2024-07-15T10:17:08
-f7df65af-8855-43f2-9c88-9e7fde6bf1dd,2fe9a9c7-b683-444c-bb96-dc7116508330,Fantastic experience from start to finish with the item! I'll definitely be coming back.,2024-04-09T08:02:11
-0ca88d34-0f79-45af-b642-b13824b66d01,8dfd001f-e9f3-4c13-b56e-934db82c2a38,I was pleasantly surprised by the quality and attention to detail of the service. Well worth the money!,2024-01-02T12:28:09
-eb802269-f56c-441b-9166-6e38e7183f09,58018869-7141-462e-a51e-7da4b4f544f4,"The quality of the package was outstanding, and the service was excellent. Highly recommend to others! Overall, not bad.",2024-09-11T16:26:50
-e4696204-a29d-4ecf-89f0-869a01ce8a08,ce4f0140-4f9e-4b72-bd20-4ee207063758,"It was okay, but there were some issues with the product that could be improved. Not sure if I'd buy again.",2024-01-09T13:57:31
-1675f227-e0cd-4892-8c6e-f1eb65be05bf,cb4b4151-87cd-475d-a7e6-ca530829c4d4,I absolutely loved this device! It exceeded my expectations in every way.,2024-06-01T14:15:32
-f21e08ad-dd63-4bab-804a-37f3813c9e9a,43646b7d-979e-4324-b669-f421057f706d,"The device did not meet my needs. I had high hopes, but it fell short.",2024-01-24T09:39:01
-9675cf2f-f853-491f-af99-0856704d07a3,e47ca1d3-39a5-4255-8d20-dc2d0ac1a786,I was pleasantly surprised by the quality and attention to detail of the order. Well worth the money!,2024-03-17T12:42:42
-94e4bbc3-899b-4495-8274-188ef0f074ed,a8cfdcb7-7442-4342-8f86-4ea914fa16df,I was pleasantly surprised by the quality and attention to detail of the appointment. Well worth the money!,2024-06-05T06:30:17
-70d95c34-ce73-4679-9a1d-12c25a41e2fc,4e36b830-949f-4129-bba0-4eec58e33935,I absolutely loved this service! It exceeded my expectations in every way.,2024-08-11T17:18:49
-af37dd5b-2f04-44ef-91eb-314f0256fc41,aa26fa62-8506-4915-b984-2fd33937e9f2,"Overall, I think the package is a good option if you're looking for something affordable and reliable.",2024-06-03T13:41:11
-f857ea4d-8da4-4138-bd4d-dd86c27f22f0,f4ee4945-eaa1-4e95-a457-3bbfa3dcef1a,"It was okay, but there were some issues with the device that could be improved. Not sure if I'd buy again.",2024-09-28T17:18:27
-ca0d0ae7-7f15-4219-ac7e-3e8439fd9e1e,11d2555f-f7be-4a4e-9f5d-8f21f31b10d6,"I was pleasantly surprised by the quality and attention to detail of the item. Well worth the money! Overall, not bad.",2024-03-14T19:11:05
-9caf24cd-6f52-4006-9ac5-4962ee0f3215,4312e452-c451-4429-86b4-430ff4cc38f2,Fantastic experience from start to finish with the appointment! I'll definitely be coming back.,2024-09-22T10:30:55
-8c7a5199-e54a-4a6d-929b-bacecf91806f,2a11e29c-aed2-4073-9e4e-c1afe468246e,Fantastic experience from start to finish with the experience! I'll definitely be coming back.,2024-02-03T00:18:07
-a5aade63-635a-4e40-84bb-db574c56b298,bc60c10d-f54b-462e-88e4-3b3c70eb0e60,"Overall, I think the booking is a good option if you're looking for something affordable and reliable.",2024-03-29T02:07:53
-075e62ad-9257-424f-85b5-48930e4ea51f,8fd3d24a-df82-4190-812a-62566a0f84aa,"Overall, I think the service is a good option if you're looking for something affordable and reliable. Could be better though.",2024-01-01T11:55:53
-3183a499-d71f-4d08-8c0e-2cadeff6780d,e3a9bff3-217b-4e30-8578-802ed8dfd9c9,"Overall, I think the product is a good option if you're looking for something affordable and reliable.",2024-06-14T04:10:41
-f14853b7-6bf1-48ed-9ba7-91813cc51864,5c570d48-c995-4978-8954-dbee30a18cfe,Fantastic experience from start to finish with the purchase! I'll definitely be coming back.,2024-01-31T23:03:51
-73d75c66-a5b9-4672-82a5-4914c71b6914,5a0f954e-a715-4a9d-9e2c-3e6ec49f4310,Fantastic experience from start to finish with the service! I'll definitely be coming back.,2024-06-20T07:34:49
-34107e91-4691-4457-af49-bdcb82815f19,de3474de-5918-471f-9c81-4d6313b07fa4,I was pleasantly surprised by the quality and attention to detail of the package. Well worth the money!,2024-05-19T13:01:31
-d5ac909e-1ada-4c6a-b2b6-6654503cc120,fe34a1fe-2c92-46f9-860e-07379cab5524,"It was okay, but there were some issues with the package that could be improved. Not sure if I'd buy again. Could be better though.",2024-06-25T22:17:35
-f0643c94-0460-4b74-bb4f-5233f8385e24,28e15e73-6332-479a-a915-efac2c61c6f8,"Overall, I think the booking is a good option if you're looking for something affordable and reliable.",2024-05-10T00:53:33
-a7a61409-8ba2-4be5-90cf-c31502ac3a06,03642ad0-ccd9-44e1-8661-12a536189424,"The quality of the device was outstanding, and the service was excellent. Highly recommend to others!",2024-04-11T19:15:39
-684f1695-532a-4f39-96b0-0ac29bad8513,cb436960-2c3d-4492-96fc-928c0340c3f5,"The package did not meet my needs. I had high hopes, but it fell short. Could be better though.",2024-08-08T09:18:58
-f83aab64-dc2a-447f-8565-5aae6b5093dc,0b050242-3d91-4e50-ad48-7d88aaa3ea65,"The package did not meet my needs. I had high hopes, but it fell short.",2024-08-29T06:56:35
-1f0d0143-2ec0-463b-bb02-b669ede11b17,1a502f54-3990-4d0f-8767-17b9dba9663d,Fantastic experience from start to finish with the order! I'll definitely be coming back. Could be better though.,2024-09-03T09:00:00
-320f1d51-c307-4dea-8092-df5f0208d44f,01c7e6d5-7770-4abb-89ea-f5383e4ac8da,"It was okay, but there were some issues with the appointment that could be improved. Not sure if I'd buy again.",2024-07-29T08:44:12
-65f79c1e-de35-4538-9e74-ca89c4982b8b,93e7e760-a9c8-43b9-a191-69701ad46fba,Customer service for the experience was very helpful and responsive. Solved my problem quickly.,2024-07-12T14:38:59
-dd63782b-042d-45cf-b208-c611f79f8a33,806ec149-0a32-4aa7-82ef-12936e71281f,Fantastic experience from start to finish with the product! I'll definitely be coming back.,2024-07-11T04:14:13
-256072d7-a50e-4594-a548-02f56d82692d,de3474de-5918-471f-9c81-4d6313b07fa4,"The service did not meet my needs. I had high hopes, but it fell short. Could be better though.",2024-04-23T06:21:51
-8bf160f4-36ff-428b-9f64-2cc1c18ca810,57512a43-7bce-4bf5-98c6-c37c94e2f966,Fantastic experience from start to finish with the experience! I'll definitely be coming back. Could be better though.,2024-07-17T19:11:14
-52b97aef-535f-4524-a9e5-d4b226b134ea,1562ceff-23e2-4dd4-aeb6-32abed532753,"The quality of the service was outstanding, and the service was excellent. Highly recommend to others!",2024-08-14T15:18:46
-f653da3e-b88d-4daa-bbe7-fa72ab5e646a,d8cfb910-eb37-4e27-8b4d-c8162a003927,Fantastic experience from start to finish with the device! I'll definitely be coming back.,2024-05-18T21:52:42
-ac4abe36-faf6-41e3-a6aa-ac0f4ac789ad,691377e9-1686-421f-918c-edd0084f0479,"Overall, I think the booking is a good option if you're looking for something affordable and reliable.",2024-03-15T14:20:12
-e479e934-bed5-4bb1-8835-6a78f934e499,6ea20f4f-89e1-4588-8199-6145aa238e53,This was a disappointing experience with device. I expected more based on the reviews I read.,2024-09-13T05:23:49
-bfb63aa7-a4eb-4fd5-9383-f0c372be8ac6,8dfd001f-e9f3-4c13-b56e-934db82c2a38,"Overall, I think the order is a good option if you're looking for something affordable and reliable. Overall, not bad.",2024-05-26T19:02:56
-c48fbc3b-112d-473b-8864-c57c898c2af1,717302b1-863c-4a72-aa83-3f0cc28edf0b,Customer service for the device was very helpful and responsive. Solved my problem quickly. Could be better though.,2024-10-30T02:00:04
-345ca264-e4a9-44ed-988e-c4666a0c172d,ca9aec14-0d5d-4e7a-b85a-fedc3fdcaa7d,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-10-22T19:34:56
-6badb66b-4bf1-44f2-9638-204cf7fafd8e,88b569ed-3811-4f90-bb8e-2f240b718920,"The quality of the order was outstanding, and the service was excellent. Highly recommend to others!",2024-07-08T04:01:17
-ae745e06-2d30-4021-b705-2ccc19ae0dc6,d7d638bf-30fd-4a82-8856-2f062523a947,"The item did not meet my needs. I had high hopes, but it fell short.",2024-06-06T16:49:19
-8f7d026e-5603-4198-b130-5c616d896319,cb4b4151-87cd-475d-a7e6-ca530829c4d4,"The delivery was fast, but the purchase wasn't as described. Mixed feelings about this purchase.",2024-06-24T23:58:59
-fb5aa940-e17c-4190-9db7-e62a3badcfcc,c128703c-d2e7-436a-b344-1a19f9988907,"Overall, I think the package is a good option if you're looking for something affordable and reliable.",2024-09-27T22:20:59
-3f670c3d-1853-44ed-b876-0e2eb945dd7e,307eeda5-517c-4c96-a0f7-8bdd82410f85,This was a disappointing experience with product. I expected more based on the reviews I read.,2024-06-13T03:00:31
-1da1d2fa-e0c9-493e-9955-7cf19a07b474,35190e5f-883a-4dc4-a1f5-f3ee012e1a8b,Customer service for the order was very helpful and responsive. Solved my problem quickly.,2024-09-14T15:26:51
-3b61a04b-14b1-4ddf-8e2b-b4c8b3c2286e,4f622c34-72d5-4cb1-9fe9-ac011d3940ad,Fantastic experience from start to finish with the package! I'll definitely be coming back.,2024-09-05T16:17:09
-a824072b-830c-4e84-b593-1cd076cbd4b8,08677a8f-d3f7-4166-b0f4-469d831b9984,"Overall, I think the order is a good option if you're looking for something affordable and reliable.",2024-01-02T19:07:37
-6b2db508-72a4-4a43-962b-0193551917c6,5e347f64-d913-438e-b15b-184f3c3c1a34,"Customer service for the service was very helpful and responsive. Solved my problem quickly. Overall, not bad.",2024-04-17T23:06:54
-91cf5294-bdd2-45dc-a9d0-17bd9ca07f7e,7a2ca8de-104f-433e-8f14-ea4360512bda,"The quality of the product was outstanding, and the service was excellent. Highly recommend to others!",2024-08-06T04:09:26
-667769d9-99f4-493a-9c57-ef64aa5bffa0,f4ee4945-eaa1-4e95-a457-3bbfa3dcef1a,"It was okay, but there were some issues with the order that could be improved. Not sure if I'd buy again.",2024-07-09T17:01:46
-af9486c8-5bd8-4d02-b8ce-2749deff02ee,45262a44-9c3f-4f00-b841-248fd132d550,Customer service for the service was very helpful and responsive. Solved my problem quickly.,2024-03-09T06:17:40
-88a3ad1f-58a8-494a-a420-513ebc15b486,915453bb-5d07-401b-a162-a1a49dda67a4,I was pleasantly surprised by the quality and attention to detail of the booking. Well worth the money!,2024-01-30T14:58:04
-7289d01d-52fa-450c-b11a-acd1b1d153f0,7a2ca8de-104f-433e-8f14-ea4360512bda,Customer service for the package was very helpful and responsive. Solved my problem quickly.,2024-09-30T12:20:14
-c9897a5c-2ded-4069-a229-e8ddb813b4d8,ef2dfcb8-57d9-455c-b562-28975bb4462a,"The quality of the service was outstanding, and the service was excellent. Highly recommend to others!",2024-01-01T09:56:01
-dde0bbe0-94d2-4429-b419-7817e0dea7ff,cc175a1f-53fa-4823-b7c3-837bf60224e4,"It was okay, but there were some issues with the device that could be improved. Not sure if I'd buy again.",2024-04-12T09:07:14
-7ec49efd-6ddb-47b3-b8dd-71ab66545157,7c44f871-ef2f-4625-812d-b1eb773ad476,I absolutely loved this booking! It exceeded my expectations in every way.,2024-03-22T22:49:56
-8623efb5-2bfc-4b66-8527-cf282efab350,0436b400-4109-4f8a-ade8-be6f3c086548,"The delivery was fast, but the package wasn't as described. Mixed feelings about this purchase.",2024-06-13T09:23:07
-6e6afffb-723b-4836-8b24-e57d79a13699,e59f26ac-54c6-425d-99fc-52f5b640fd7f,This was a disappointing experience with purchase. I expected more based on the reviews I read.,2024-06-10T13:44:12
-2400f00a-5c79-4afe-aa6d-21b29abeae90,c64ce2fe-c0d8-4a38-bf55-985c2b2ee78f,"The quality of the package was outstanding, and the service was excellent. Highly recommend to others!",2024-09-25T07:29:02
+review_id,user_id,review_text,product_name,product_type,created_at
+00000001-4690,00000001,"I've had the Kindle Paperwhite for a month, and it’s quite versatile. Perfect for anyone who needs a good E-reader.",Kindle Paperwhite,E-reader,2022-04-30 20:44:37.781147
+00000002-1051,00000002,The Dyson V11 Vacuum has exceeded my expectations. It's very lightweight and makes my daily tasks much easier.,Dyson V11 Vacuum,Vacuum Cleaner,2023-09-02 20:44:37.781291
+00000003-9022,00000003,"I've had the Nike Air Max for a month, and it’s quite responsive. Perfect for anyone who needs a good Footwear.",Nike Air Max,Footwear,2024-09-15 20:44:37.781327
+00000004-8305,00000004,"I've had the Sony WH-1000XM4 for a month, and it’s quite efficient. Perfect for anyone who needs a good Headphones.",Sony WH-1000XM4,Headphones,2023-07-17 20:44:37.781357
+00000005-5083,00000005,Absolutely thrilled with the Dyson V11 Vacuum! It’s intuitive and has made such a difference in my reading sessions.,Dyson V11 Vacuum,Vacuum Cleaner,2023-05-20 20:44:37.781385
+00000006-8386,00000006,"The Dell XPS 13 could be better, but it’s generally intuitive and gets the job done.",Dell XPS 13,Laptop,2022-05-23 20:44:37.781411
+00000007-4460,00000007,"I recently bought the Samsung Galaxy S21, and it’s been a user-friendly experience so far. I highly recommend it for anyone needing a reliable Smartphone.",Samsung Galaxy S21,Smartphone,2022-04-22 20:44:37.781437
+00000008-9467,00000008,"I've had the Samsung Galaxy S21 for a month, and it’s quite powerful. Perfect for anyone who needs a good Smartphone.",Samsung Galaxy S21,Smartphone,2023-03-20 20:44:37.781466
+00000009-3032,00000009,The Fitbit Charge 5 is exactly what I was looking for. It's user-friendly and meets all my expectations for a Fitness Tracker.,Fitbit Charge 5,Fitness Tracker,2024-10-20 20:44:37.781497
+00000010-2034,00000010,I love my new Kindle Paperwhite. It’s incredibly lightweight and has all the features I wanted in a E-reader.,Kindle Paperwhite,E-reader,2023-01-16 20:44:37.781535
+00000011-2655,00000011,"I've had the Fitbit Charge 5 for a month, and it’s quite versatile. Perfect for anyone who needs a good Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2023-12-12 20:44:37.781562
+00000012-8309,00000012,Using the Samsung Galaxy S21 has been fantastic! It’s durable and well worth the price for a Smartphone.,Samsung Galaxy S21,Smartphone,2024-02-24 20:44:37.781587
+00000013-6458,00000013,The Nike Air Max is exactly what I was looking for. It's powerful and meets all my expectations for a Footwear.,Nike Air Max,Footwear,2022-09-09 20:44:37.781612
+00000014-5952,00000014,The Dyson V11 Vacuum has exceeded my expectations. It's very powerful and makes my daily tasks much easier.,Dyson V11 Vacuum,Vacuum Cleaner,2022-12-14 20:44:37.781636
+00000015-5885,00000015,"I was hesitant at first, but the Nike Air Max has proven to be powerful. It’s perfect for workout.",Nike Air Max,Footwear,2023-04-09 20:44:37.781661
+00000016-6894,00000016,"I recently bought the Amazon Echo Dot, and it’s been a sturdy experience so far. I highly recommend it for anyone needing a reliable Smart Speaker.",Amazon Echo Dot,Smart Speaker,2023-01-13 20:44:37.781687
+00000017-3569,00000017,Absolutely thrilled with the Sony WH-1000XM4! It’s powerful and has made such a difference in my reading sessions.,Sony WH-1000XM4,Headphones,2023-09-18 20:44:37.781711
+00000018-1743,00000018,Using the Amazon Echo Dot has been fantastic! It’s versatile and well worth the price for a Smart Speaker.,Amazon Echo Dot,Smart Speaker,2022-04-10 20:44:37.781737
+00000019-7029,00000019,The Instant Pot Duo is exactly what I was looking for. It's compact and meets all my expectations for a Cookware.,Instant Pot Duo,Cookware,2022-03-24 20:44:37.781762
+00000020-1407,00000020,"I was hesitant at first, but the Apple iPhone 13 has proven to be powerful. It’s perfect for workout.",Apple iPhone 13,Smartphone,2023-03-28 20:44:37.781786
+00000021-3117,00000021,The Amazon Echo Dot has exceeded my expectations. It's very user-friendly and makes my daily tasks much easier.,Amazon Echo Dot,Smart Speaker,2023-07-21 20:44:37.781814
+00000022-4447,00000022,"The Samsung Galaxy S21 could be better, but it’s generally responsive and gets the job done.",Samsung Galaxy S21,Smartphone,2024-08-26 20:44:37.781838
+00000023-2897,00000023,"The Dell XPS 13 could be better, but it’s generally powerful and gets the job done.",Dell XPS 13,Laptop,2022-08-29 20:44:37.781863
+00000024-2003,00000024,"I was hesitant at first, but the Instant Pot Duo has proven to be versatile. It’s perfect for workout.",Instant Pot Duo,Cookware,2024-01-27 20:44:37.781889
+00000025-3138,00000025,The Dyson V11 Vacuum has exceeded my expectations. It's very sturdy and makes my daily tasks much easier.,Dyson V11 Vacuum,Vacuum Cleaner,2023-10-03 20:44:37.781913
+00000026-9326,00000026,Absolutely thrilled with the Samsung Galaxy S21! It’s versatile and has made such a difference in my cleaning.,Samsung Galaxy S21,Smartphone,2023-03-30 20:44:37.781937
+00000027-4619,00000027,"I was hesitant at first, but the Sony WH-1000XM4 has proven to be versatile. It’s perfect for home use.",Sony WH-1000XM4,Headphones,2023-04-23 20:44:37.781962
+00000028-1408,00000028,The Kindle Paperwhite is exactly what I was looking for. It's versatile and meets all my expectations for a E-reader.,Kindle Paperwhite,E-reader,2022-06-27 20:44:37.781985
+00000029-2883,00000029,"Not quite what I hoped, but the Fitbit Charge 5 is fairly responsive and works well as a Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2022-11-15 20:44:37.782009
+00000030-8283,00000030,The Fitbit Charge 5 is exactly what I was looking for. It's durable and meets all my expectations for a Fitness Tracker.,Fitbit Charge 5,Fitness Tracker,2023-04-21 20:44:37.782048
+00000031-7951,00000031,Using the Nike Air Max has been fantastic! It’s sturdy and well worth the price for a Footwear.,Nike Air Max,Footwear,2022-04-09 20:44:37.782077
+00000032-3729,00000032,"I was hesitant at first, but the Dell XPS 13 has proven to be user-friendly. It’s perfect for daily routine.",Dell XPS 13,Laptop,2024-06-02 20:44:37.782131
+00000033-4340,00000033,"I recently bought the Instant Pot Duo, and it’s been a intuitive experience so far. I highly recommend it for anyone needing a reliable Cookware.",Instant Pot Duo,Cookware,2023-10-23 20:44:37.782185
+00000034-4036,00000034,Absolutely thrilled with the Instant Pot Duo! It’s powerful and has made such a difference in my office work.,Instant Pot Duo,Cookware,2024-04-04 20:44:37.782214
+00000035-3885,00000035,"The Nike Air Max could be better, but it’s generally efficient and gets the job done.",Nike Air Max,Footwear,2024-04-12 20:44:37.782239
+00000036-6819,00000036,I love my new Amazon Echo Dot. It’s incredibly compact and has all the features I wanted in a Smart Speaker.,Amazon Echo Dot,Smart Speaker,2024-02-25 20:44:37.782264
+00000037-7339,00000037,"I was hesitant at first, but the Amazon Echo Dot has proven to be versatile. It’s perfect for office work.",Amazon Echo Dot,Smart Speaker,2024-02-10 20:44:37.782288
+00000038-3923,00000038,The Kindle Paperwhite has exceeded my expectations. It's very versatile and makes my daily tasks much easier.,Kindle Paperwhite,E-reader,2022-02-16 20:44:37.782313
+00000039-8216,00000039,"I've had the Apple iPhone 13 for a month, and it’s quite efficient. Perfect for anyone who needs a good Smartphone.",Apple iPhone 13,Smartphone,2023-03-11 20:44:37.782337
+00000040-8732,00000040,"Not quite what I hoped, but the Amazon Echo Dot is fairly intuitive and works well as a Smart Speaker.",Amazon Echo Dot,Smart Speaker,2023-09-20 20:44:37.782361
+00000041-3731,00000041,Using the Instant Pot Duo has been fantastic! It’s durable and well worth the price for a Cookware.,Instant Pot Duo,Cookware,2023-04-22 20:44:37.782386
+00000042-4920,00000042,"Not quite what I hoped, but the Nike Air Max is fairly durable and works well as a Footwear.",Nike Air Max,Footwear,2022-08-08 20:44:37.782410
+00000043-2320,00000043,Using the Sony WH-1000XM4 has been fantastic! It’s intuitive and well worth the price for a Headphones.,Sony WH-1000XM4,Headphones,2022-09-03 20:44:37.782438
+00000044-7109,00000044,"I recently bought the Kindle Paperwhite, and it’s been a responsive experience so far. I highly recommend it for anyone needing a reliable E-reader.",Kindle Paperwhite,E-reader,2022-12-18 20:44:37.782463
+00000045-1317,00000045,"The Amazon Echo Dot could be better, but it’s generally intuitive and gets the job done.",Amazon Echo Dot,Smart Speaker,2023-06-14 20:44:37.782487
+00000046-8081,00000046,"I've had the Dell XPS 13 for a month, and it’s quite user-friendly. Perfect for anyone who needs a good Laptop.",Dell XPS 13,Laptop,2023-10-06 20:44:37.783566
+00000047-7502,00000047,"I've had the Dyson V11 Vacuum for a month, and it’s quite user-friendly. Perfect for anyone who needs a good Vacuum Cleaner.",Dyson V11 Vacuum,Vacuum Cleaner,2024-02-01 20:44:37.783696
+00000048-1543,00000048,"Not quite what I hoped, but the Apple iPhone 13 is fairly intuitive and works well as a Smartphone.",Apple iPhone 13,Smartphone,2023-04-15 20:44:37.783761
+00000049-3440,00000049,"I've had the Apple iPhone 13 for a month, and it’s quite compact. Perfect for anyone who needs a good Smartphone.",Apple iPhone 13,Smartphone,2023-08-02 20:44:37.783814
+00000050-5353,00000050,"I've had the Kindle Paperwhite for a month, and it’s quite lightweight. Perfect for anyone who needs a good E-reader.",Kindle Paperwhite,E-reader,2024-03-09 20:44:37.783889
+00000051-9990,00000051,The Nike Air Max has exceeded my expectations. It's very sturdy and makes my daily tasks much easier.,Nike Air Max,Footwear,2023-09-28 20:44:37.783933
+00000052-6011,00000052,"The Amazon Echo Dot could be better, but it’s generally efficient and gets the job done.",Amazon Echo Dot,Smart Speaker,2022-05-15 20:44:37.783961
+00000053-9064,00000053,Using the Kindle Paperwhite has been fantastic! It’s efficient and well worth the price for a E-reader.,Kindle Paperwhite,E-reader,2022-07-01 20:44:37.783988
+00000054-9673,00000054,"I've had the Dyson V11 Vacuum for a month, and it’s quite versatile. Perfect for anyone who needs a good Vacuum Cleaner.",Dyson V11 Vacuum,Vacuum Cleaner,2024-05-31 20:44:37.784015
+00000055-8927,00000055,Using the Apple iPhone 13 has been fantastic! It’s efficient and well worth the price for a Smartphone.,Apple iPhone 13,Smartphone,2024-02-24 20:44:37.784041
+00000056-4811,00000056,"Not quite what I hoped, but the Nike Air Max is fairly intuitive and works well as a Footwear.",Nike Air Max,Footwear,2023-11-14 20:44:37.784080
+00000057-9182,00000057,"The Kindle Paperwhite could be better, but it’s generally efficient and gets the job done.",Kindle Paperwhite,E-reader,2022-05-04 20:44:37.784106
+00000058-9890,00000058,The Amazon Echo Dot has exceeded my expectations. It's very sturdy and makes my daily tasks much easier.,Amazon Echo Dot,Smart Speaker,2023-08-26 20:44:37.784130
+00000059-4707,00000059,The Dell XPS 13 is exactly what I was looking for. It's compact and meets all my expectations for a Laptop.,Dell XPS 13,Laptop,2023-03-28 20:44:37.784155
+00000060-2364,00000060,Absolutely thrilled with the Sony WH-1000XM4! It’s intuitive and has made such a difference in my reading sessions.,Sony WH-1000XM4,Headphones,2022-09-22 20:44:37.784180
+00000061-1569,00000061,The Apple iPhone 13 is exactly what I was looking for. It's compact and meets all my expectations for a Smartphone.,Apple iPhone 13,Smartphone,2023-03-31 20:44:37.784205
+00000062-3044,00000062,I love my new Instant Pot Duo. It’s incredibly versatile and has all the features I wanted in a Cookware.,Instant Pot Duo,Cookware,2022-07-06 20:44:37.784239
+00000063-8399,00000063,"I was hesitant at first, but the Samsung Galaxy S21 has proven to be versatile. It’s perfect for commutes.",Samsung Galaxy S21,Smartphone,2022-10-30 20:44:37.784265
+00000064-9597,00000064,"I recently bought the Fitbit Charge 5, and it’s been a user-friendly experience so far. I highly recommend it for anyone needing a reliable Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2022-07-27 20:44:37.784295
+00000065-7217,00000065,Using the Sony WH-1000XM4 has been fantastic! It’s sturdy and well worth the price for a Headphones.,Sony WH-1000XM4,Headphones,2024-10-18 20:44:37.784321
+00000066-7669,00000066,Using the Apple iPhone 13 has been fantastic! It’s versatile and well worth the price for a Smartphone.,Apple iPhone 13,Smartphone,2023-09-03 20:44:37.784347
+00000067-3514,00000067,"I recently bought the Sony WH-1000XM4, and it’s been a durable experience so far. I highly recommend it for anyone needing a reliable Headphones.",Sony WH-1000XM4,Headphones,2022-07-14 20:44:37.784372
+00000068-6044,00000068,I love my new Kindle Paperwhite. It’s incredibly versatile and has all the features I wanted in a E-reader.,Kindle Paperwhite,E-reader,2024-08-13 20:44:37.784397
+00000069-2825,00000069,Absolutely thrilled with the Instant Pot Duo! It’s sturdy and has made such a difference in my office work.,Instant Pot Duo,Cookware,2023-02-07 20:44:37.784422
+00000070-1271,00000070,"I recently bought the Samsung Galaxy S21, and it’s been a responsive experience so far. I highly recommend it for anyone needing a reliable Smartphone.",Samsung Galaxy S21,Smartphone,2024-02-08 20:44:37.784447
+00000071-2824,00000071,Absolutely thrilled with the Sony WH-1000XM4! It’s user-friendly and has made such a difference in my reading sessions.,Sony WH-1000XM4,Headphones,2023-03-15 20:44:37.784471
+00000072-2295,00000072,"I've had the Sony WH-1000XM4 for a month, and it’s quite versatile. Perfect for anyone who needs a good Headphones.",Sony WH-1000XM4,Headphones,2023-08-19 20:44:37.784497
+00000073-6490,00000073,The Fitbit Charge 5 has exceeded my expectations. It's very lightweight and makes my daily tasks much easier.,Fitbit Charge 5,Fitness Tracker,2022-03-03 20:44:37.784522
+00000074-8418,00000074,Absolutely thrilled with the Sony WH-1000XM4! It’s lightweight and has made such a difference in my office work.,Sony WH-1000XM4,Headphones,2022-04-02 20:44:37.784547
+00000075-5265,00000075,"The Dyson V11 Vacuum could be better, but it’s generally powerful and gets the job done.",Dyson V11 Vacuum,Vacuum Cleaner,2023-02-08 20:44:37.784571
+00000076-6760,00000076,I love my new Kindle Paperwhite. It’s incredibly user-friendly and has all the features I wanted in a E-reader.,Kindle Paperwhite,E-reader,2022-03-19 20:44:37.784599
+00000077-2972,00000077,"I've had the Amazon Echo Dot for a month, and it’s quite efficient. Perfect for anyone who needs a good Smart Speaker.",Amazon Echo Dot,Smart Speaker,2023-11-12 20:44:37.784623
+00000078-3169,00000078,"The Sony WH-1000XM4 could be better, but it’s generally durable and gets the job done.",Sony WH-1000XM4,Headphones,2024-10-13 20:44:37.784648
+00000079-4466,00000079,"Not quite what I hoped, but the Sony WH-1000XM4 is fairly user-friendly and works well as a Headphones.",Sony WH-1000XM4,Headphones,2024-11-05 20:44:37.784673
+00000080-6058,00000080,"Not quite what I hoped, but the Apple iPhone 13 is fairly versatile and works well as a Smartphone.",Apple iPhone 13,Smartphone,2023-04-22 20:44:37.784698
+00000081-4794,00000081,"I recently bought the Instant Pot Duo, and it’s been a versatile experience so far. I highly recommend it for anyone needing a reliable Cookware.",Instant Pot Duo,Cookware,2022-06-22 20:44:37.784723
+00000082-7404,00000082,The Instant Pot Duo has exceeded my expectations. It's very compact and makes my daily tasks much easier.,Instant Pot Duo,Cookware,2023-12-05 20:44:37.784748
+00000083-6793,00000083,The Apple iPhone 13 has exceeded my expectations. It's very intuitive and makes my daily tasks much easier.,Apple iPhone 13,Smartphone,2022-06-01 20:44:37.784771
+00000084-5795,00000084,"I've had the Dell XPS 13 for a month, and it’s quite sturdy. Perfect for anyone who needs a good Laptop.",Dell XPS 13,Laptop,2023-05-12 20:44:37.784796
+00000085-1686,00000085,Absolutely thrilled with the Kindle Paperwhite! It’s versatile and has made such a difference in my reading sessions.,Kindle Paperwhite,E-reader,2024-08-29 20:44:37.784820
+00000086-6513,00000086,I love my new Sony WH-1000XM4. It’s incredibly intuitive and has all the features I wanted in a Headphones.,Sony WH-1000XM4,Headphones,2023-08-17 20:44:37.784845
+00000087-7246,00000087,The Sony WH-1000XM4 is exactly what I was looking for. It's compact and meets all my expectations for a Headphones.,Sony WH-1000XM4,Headphones,2024-04-05 20:44:37.784871
+00000088-4146,00000088,"Not quite what I hoped, but the Kindle Paperwhite is fairly compact and works well as a E-reader.",Kindle Paperwhite,E-reader,2023-01-05 20:44:37.784894
+00000089-4105,00000089,"Not quite what I hoped, but the Sony WH-1000XM4 is fairly efficient and works well as a Headphones.",Sony WH-1000XM4,Headphones,2024-04-20 20:44:37.784918
+00000090-4198,00000090,Absolutely thrilled with the Dyson V11 Vacuum! It’s powerful and has made such a difference in my commutes.,Dyson V11 Vacuum,Vacuum Cleaner,2023-03-21 20:44:37.784951
+00000091-2154,00000091,The Samsung Galaxy S21 has exceeded my expectations. It's very versatile and makes my daily tasks much easier.,Samsung Galaxy S21,Smartphone,2023-06-30 20:44:37.784992
+00000092-8624,00000092,The Sony WH-1000XM4 is exactly what I was looking for. It's lightweight and meets all my expectations for a Headphones.,Sony WH-1000XM4,Headphones,2024-05-17 20:44:37.785019
+00000093-3174,00000093,"Not quite what I hoped, but the Fitbit Charge 5 is fairly versatile and works well as a Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2023-05-22 20:44:37.785044
+00000094-5561,00000094,Absolutely thrilled with the Instant Pot Duo! It’s efficient and has made such a difference in my daily routine.,Instant Pot Duo,Cookware,2023-03-18 20:44:37.785070
+00000095-1399,00000095,The Dell XPS 13 has exceeded my expectations. It's very user-friendly and makes my daily tasks much easier.,Dell XPS 13,Laptop,2024-11-05 20:44:37.785093
+00000096-3995,00000096,The Samsung Galaxy S21 has exceeded my expectations. It's very lightweight and makes my daily tasks much easier.,Samsung Galaxy S21,Smartphone,2023-09-21 20:44:37.785118
+00000097-3068,00000097,"Not quite what I hoped, but the Nike Air Max is fairly durable and works well as a Footwear.",Nike Air Max,Footwear,2024-07-12 20:44:37.785142
+00000098-8547,00000098,The Samsung Galaxy S21 has exceeded my expectations. It's very lightweight and makes my daily tasks much easier.,Samsung Galaxy S21,Smartphone,2024-02-27 20:44:37.785165
+00000099-4260,00000099,"Not quite what I hoped, but the Fitbit Charge 5 is fairly compact and works well as a Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2022-10-19 20:44:37.785191
+00000100-4081,00000100,"Not quite what I hoped, but the Fitbit Charge 5 is fairly lightweight and works well as a Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2024-04-05 20:44:37.785215
+00000101-8413,00000101,"The Apple iPhone 13 could be better, but it’s generally compact and gets the job done.",Apple iPhone 13,Smartphone,2022-05-08 20:44:37.785239
+00000102-4052,00000102,"Not quite what I hoped, but the Dell XPS 13 is fairly lightweight and works well as a Laptop.",Dell XPS 13,Laptop,2022-09-07 20:44:37.785264
+00000103-2089,00000103,"Not quite what I hoped, but the Dell XPS 13 is fairly lightweight and works well as a Laptop.",Dell XPS 13,Laptop,2024-02-04 20:44:37.785288
+00000104-3660,00000104,The Instant Pot Duo has exceeded my expectations. It's very intuitive and makes my daily tasks much easier.,Instant Pot Duo,Cookware,2022-07-05 20:44:37.785311
+00000105-8332,00000105,"I've had the Fitbit Charge 5 for a month, and it’s quite versatile. Perfect for anyone who needs a good Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2022-12-27 20:44:37.785335
+00000106-9464,00000106,"I recently bought the Samsung Galaxy S21, and it’s been a powerful experience so far. I highly recommend it for anyone needing a reliable Smartphone.",Samsung Galaxy S21,Smartphone,2023-05-05 20:44:37.785360
+00000107-9820,00000107,"Not quite what I hoped, but the Apple iPhone 13 is fairly powerful and works well as a Smartphone.",Apple iPhone 13,Smartphone,2022-08-18 20:44:37.785384
+00000108-5919,00000108,"The Dyson V11 Vacuum could be better, but it’s generally versatile and gets the job done.",Dyson V11 Vacuum,Vacuum Cleaner,2022-05-24 20:44:37.785408
+00000109-4992,00000109,"I've had the Dyson V11 Vacuum for a month, and it’s quite powerful. Perfect for anyone who needs a good Vacuum Cleaner.",Dyson V11 Vacuum,Vacuum Cleaner,2022-04-02 20:44:37.785432
+00000110-9596,00000110,The Fitbit Charge 5 is exactly what I was looking for. It's powerful and meets all my expectations for a Fitness Tracker.,Fitbit Charge 5,Fitness Tracker,2023-02-03 20:44:37.785457
+00000111-5655,00000111,"I was hesitant at first, but the Apple iPhone 13 has proven to be intuitive. It’s perfect for home use.",Apple iPhone 13,Smartphone,2023-04-13 20:44:37.785481
+00000112-2024,00000112,"I recently bought the Amazon Echo Dot, and it’s been a lightweight experience so far. I highly recommend it for anyone needing a reliable Smart Speaker.",Amazon Echo Dot,Smart Speaker,2024-04-02 20:44:37.785508
+00000113-9097,00000113,"Not quite what I hoped, but the Dell XPS 13 is fairly user-friendly and works well as a Laptop.",Dell XPS 13,Laptop,2022-12-26 20:44:37.785532
+00000114-9446,00000114,Using the Apple iPhone 13 has been fantastic! It’s intuitive and well worth the price for a Smartphone.,Apple iPhone 13,Smartphone,2022-03-17 20:44:37.785556
+00000115-6103,00000115,The Instant Pot Duo has exceeded my expectations. It's very compact and makes my daily tasks much easier.,Instant Pot Duo,Cookware,2022-08-13 20:44:37.785581
+00000116-7366,00000116,I love my new Dell XPS 13. It’s incredibly durable and has all the features I wanted in a Laptop.,Dell XPS 13,Laptop,2024-04-07 20:44:37.785620
+00000117-6232,00000117,Using the Sony WH-1000XM4 has been fantastic! It’s user-friendly and well worth the price for a Headphones.,Sony WH-1000XM4,Headphones,2022-07-21 20:44:37.785659
+00000118-2776,00000118,"Not quite what I hoped, but the Samsung Galaxy S21 is fairly user-friendly and works well as a Smartphone.",Samsung Galaxy S21,Smartphone,2023-11-16 20:44:37.785687
+00000119-5684,00000119,I love my new Dell XPS 13. It’s incredibly responsive and has all the features I wanted in a Laptop.,Dell XPS 13,Laptop,2022-09-23 20:44:37.785712
+00000120-5144,00000120,Using the Nike Air Max has been fantastic! It’s compact and well worth the price for a Footwear.,Nike Air Max,Footwear,2022-09-11 20:44:37.785736
+00000121-3194,00000121,The Kindle Paperwhite has exceeded my expectations. It's very efficient and makes my daily tasks much easier.,Kindle Paperwhite,E-reader,2023-01-01 20:44:37.785760
+00000122-9766,00000122,"I recently bought the Nike Air Max, and it’s been a user-friendly experience so far. I highly recommend it for anyone needing a reliable Footwear.",Nike Air Max,Footwear,2023-11-08 20:44:37.785784
+00000123-4431,00000123,"I was hesitant at first, but the Samsung Galaxy S21 has proven to be compact. It’s perfect for cooking.",Samsung Galaxy S21,Smartphone,2023-08-31 20:44:37.785808
+00000124-7779,00000124,The Instant Pot Duo is exactly what I was looking for. It's durable and meets all my expectations for a Cookware.,Instant Pot Duo,Cookware,2023-03-23 20:44:37.785832
+00000125-1714,00000125,"I recently bought the Fitbit Charge 5, and it’s been a compact experience so far. I highly recommend it for anyone needing a reliable Fitness Tracker.",Fitbit Charge 5,Fitness Tracker,2023-03-28 20:44:37.785872
+00000126-8098,00000126,"I've had the Sony WH-1000XM4 for a month, and it’s quite durable. Perfect for anyone who needs a good Headphones.",Sony WH-1000XM4,Headphones,2024-02-06 20:44:37.785899
+00000127-8126,00000127,"I've had the Dell XPS 13 for a month, and it’s quite intuitive. Perfect for anyone who needs a good Laptop.",Dell XPS 13,Laptop,2024-10-27 20:44:37.785924
+00000128-9496,00000128,Using the Fitbit Charge 5 has been fantastic! It’s sturdy and well worth the price for a Fitness Tracker.,Fitbit Charge 5,Fitness Tracker,2023-11-08 20:44:37.785948
+00000129-4108,00000129,The Instant Pot Duo is exactly what I was looking for. It's durable and meets all my expectations for a Cookware.,Instant Pot Duo,Cookware,2022-07-27 20:44:37.785973
+00000130-6820,00000130,"I've had the Amazon Echo Dot for a month, and it’s quite powerful. Perfect for anyone who needs a good Smart Speaker.",Amazon Echo Dot,Smart Speaker,2022-03-15 20:44:37.786005
+00000131-5528,00000131,"I recently bought the Dell XPS 13, and it’s been a versatile experience so far. I highly recommend it for anyone needing a reliable Laptop.",Dell XPS 13,Laptop,2022-03-30 20:44:37.786032
+00000132-6882,00000132,Using the Dell XPS 13 has been fantastic! It’s powerful and well worth the price for a Laptop.,Dell XPS 13,Laptop,2024-06-09 20:44:37.786074
+00000133-3272,00000133,Using the Dyson V11 Vacuum has been fantastic! It’s powerful and well worth the price for a Vacuum Cleaner.,Dyson V11 Vacuum,Vacuum Cleaner,2024-11-03 20:44:37.786106
+00000134-4859,00000134,"I was hesitant at first, but the Apple iPhone 13 has proven to be efficient. It’s perfect for office work.",Apple iPhone 13,Smartphone,2024-06-27 20:44:37.786240
+00000135-4167,00000135,Using the Samsung Galaxy S21 has been fantastic! It’s powerful and well worth the price for a Smartphone.,Samsung Galaxy S21,Smartphone,2024-06-08 20:44:37.786266
+00000136-4252,00000136,"I've had the Instant Pot Duo for a month, and it’s quite efficient. Perfect for anyone who needs a good Cookware.",Instant Pot Duo,Cookware,2023-12-08 20:44:37.786294
+00000137-7221,00000137,Absolutely thrilled with the Kindle Paperwhite! It’s lightweight and has made such a difference in my workout.,Kindle Paperwhite,E-reader,2024-07-02 20:44:37.786321
+00000138-7497,00000138,"I've had the Instant Pot Duo for a month, and it’s quite sturdy. Perfect for anyone who needs a good Cookware.",Instant Pot Duo,Cookware,2022-07-22 20:44:37.786346
+00000139-2387,00000139,"The Dell XPS 13 could be better, but it’s generally intuitive and gets the job done.",Dell XPS 13,Laptop,2024-02-09 20:44:37.786370
+00000140-5955,00000140,The Apple iPhone 13 is exactly what I was looking for. It's durable and meets all my expectations for a Smartphone.,Apple iPhone 13,Smartphone,2022-02-14 20:44:37.786394
+00000141-3820,00000141,"Not quite what I hoped, but the Apple iPhone 13 is fairly intuitive and works well as a Smartphone.",Apple iPhone 13,Smartphone,2022-10-05 20:44:37.786422
+00000142-9679,00000142,Absolutely thrilled with the Nike Air Max! It’s versatile and has made such a difference in my daily routine.,Nike Air Max,Footwear,2023-11-19 20:44:37.786446
+00000143-9474,00000143,Absolutely thrilled with the Fitbit Charge 5! It’s sturdy and has made such a difference in my home use.,Fitbit Charge 5,Fitness Tracker,2023-08-29 20:44:37.786470
+00000144-3370,00000144,I love my new Fitbit Charge 5. It’s incredibly responsive and has all the features I wanted in a Fitness Tracker.,Fitbit Charge 5,Fitness Tracker,2022-10-24 20:44:37.786494
+00000145-4926,00000145,"I recently bought the Dyson V11 Vacuum, and it’s been a powerful experience so far. I highly recommend it for anyone needing a reliable Vacuum Cleaner.",Dyson V11 Vacuum,Vacuum Cleaner,2024-05-06 20:44:37.786520
+00000146-9028,00000146,I love my new Amazon Echo Dot. It’s incredibly efficient and has all the features I wanted in a Smart Speaker.,Amazon Echo Dot,Smart Speaker,2023-09-05 20:44:37.786545
+00000147-2704,00000147,"I recently bought the Kindle Paperwhite, and it’s been a powerful experience so far. I highly recommend it for anyone needing a reliable E-reader.",Kindle Paperwhite,E-reader,2023-06-01 20:44:37.786568
+00000148-6949,00000148,I love my new Apple iPhone 13. It’s incredibly lightweight and has all the features I wanted in a Smartphone.,Apple iPhone 13,Smartphone,2022-11-22 20:44:37.786593
+00000149-5222,00000149,I love my new Dyson V11 Vacuum. It’s incredibly durable and has all the features I wanted in a Vacuum Cleaner.,Dyson V11 Vacuum,Vacuum Cleaner,2023-07-25 20:44:37.786618
+00000150-9692,00000150,The Amazon Echo Dot has exceeded my expectations. It's very versatile and makes my daily tasks much easier.,Amazon Echo Dot,Smart Speaker,2023-08-21 20:44:37.786643
+00000151-2311,00000151,"I've had the Instant Pot Duo for a month, and it’s quite versatile. Perfect for anyone who needs a good Cookware.",Instant Pot Duo,Cookware,2022-05-15 20:44:37.786667
+00000152-6339,00000152,"I've had the Kindle Paperwhite for a month, and it’s quite intuitive. Perfect for anyone who needs a good E-reader.",Kindle Paperwhite,E-reader,2024-01-21 20:44:37.786692
+00000153-2197,00000153,"I've had the Samsung Galaxy S21 for a month, and it’s quite user-friendly. Perfect for anyone who needs a good Smartphone.",Samsung Galaxy S21,Smartphone,2022-09-12 20:44:37.786716
+00000154-6537,00000154,"The Nike Air Max could be better, but it’s generally user-friendly and gets the job done.",Nike Air Max,Footwear,2024-02-24 20:44:37.786740
+00000155-5073,00000155,"The Kindle Paperwhite could be better, but it’s generally durable and gets the job done.",Kindle Paperwhite,E-reader,2022-02-20 20:44:37.786763
+00000156-7849,00000156,The Kindle Paperwhite is exactly what I was looking for. It's responsive and meets all my expectations for a E-reader.,Kindle Paperwhite,E-reader,2024-06-18 20:44:37.786787
+00000157-2176,00000157,I love my new Instant Pot Duo. It’s incredibly compact and has all the features I wanted in a Cookware.,Instant Pot Duo,Cookware,2022-10-25 20:44:37.786812
+00000158-5148,00000158,"I was hesitant at first, but the Sony WH-1000XM4 has proven to be powerful. It’s perfect for daily routine.",Sony WH-1000XM4,Headphones,2022-02-24 20:44:37.786839
+00000159-4553,00000159,Absolutely thrilled with the Dell XPS 13! It’s versatile and has made such a difference in my cleaning.,Dell XPS 13,Laptop,2022-09-05 20:44:37.786878
+00000160-5032,00000160,"I've had the Nike Air Max for a month, and it’s quite powerful. Perfect for anyone who needs a good Footwear.",Nike Air Max,Footwear,2022-10-28 20:44:37.786911
+00000161-2719,00000161,"The Dell XPS 13 could be better, but it’s generally powerful and gets the job done.",Dell XPS 13,Laptop,2023-01-01 20:44:37.786945
+00000162-2155,00000162,"I recently bought the Sony WH-1000XM4, and it’s been a efficient experience so far. I highly recommend it for anyone needing a reliable Headphones.",Sony WH-1000XM4,Headphones,2023-07-29 20:44:37.786972
+00000163-9614,00000163,The Kindle Paperwhite is exactly what I was looking for. It's responsive and meets all my expectations for a E-reader.,Kindle Paperwhite,E-reader,2022-05-20 20:44:37.786996
+00000164-1047,00000164,"I recently bought the Dyson V11 Vacuum, and it’s been a user-friendly experience so far. I highly recommend it for anyone needing a reliable Vacuum Cleaner.",Dyson V11 Vacuum,Vacuum Cleaner,2023-04-19 20:44:37.787021
+00000165-4461,00000165,Absolutely thrilled with the Fitbit Charge 5! It’s intuitive and has made such a difference in my workout.,Fitbit Charge 5,Fitness Tracker,2022-11-17 20:44:37.787045
+00000166-6026,00000166,The Amazon Echo Dot has exceeded my expectations. It's very efficient and makes my daily tasks much easier.,Amazon Echo Dot,Smart Speaker,2023-03-12 20:44:37.787069
+00000167-8674,00000167,"I've had the Nike Air Max for a month, and it’s quite responsive. Perfect for anyone who needs a good Footwear.",Nike Air Max,Footwear,2022-07-07 20:44:37.787093
+00000168-3479,00000168,I love my new Dyson V11 Vacuum. It’s incredibly durable and has all the features I wanted in a Vacuum Cleaner.,Dyson V11 Vacuum,Vacuum Cleaner,2024-09-22 20:44:37.787118
+00000169-8953,00000169,The Amazon Echo Dot has exceeded my expectations. It's very compact and makes my daily tasks much easier.,Amazon Echo Dot,Smart Speaker,2023-08-31 20:44:37.787156
+00000170-5802,00000170,"I've had the Sony WH-1000XM4 for a month, and it’s quite versatile. Perfect for anyone who needs a good Headphones.",Sony WH-1000XM4,Headphones,2023-05-22 20:44:37.787189
+00000171-8047,00000171,"I recently bought the Apple iPhone 13, and it’s been a responsive experience so far. I highly recommend it for anyone needing a reliable Smartphone.",Apple iPhone 13,Smartphone,2022-03-12 20:44:37.787230
+00000172-1044,00000172,"I've had the Dyson V11 Vacuum for a month, and it’s quite sturdy. Perfect for anyone who needs a good Vacuum Cleaner.",Dyson V11 Vacuum,Vacuum Cleaner,2024-09-28 20:44:37.787255
+00000173-5057,00000173,"The Nike Air Max could be better, but it’s generally lightweight and gets the job done.",Nike Air Max,Footwear,2022-12-24 20:44:37.787279
+00000174-4069,00000174,Absolutely thrilled with the Kindle Paperwhite! It’s user-friendly and has made such a difference in my home use.,Kindle Paperwhite,E-reader,2023-10-29 20:44:37.787306
+00000175-7124,00000175,"I was hesitant at first, but the Instant Pot Duo has proven to be user-friendly. It’s perfect for daily routine.",Instant Pot Duo,Cookware,2024-03-12 20:44:37.787332
+00000176-1922,00000176,I love my new Kindle Paperwhite. It’s incredibly lightweight and has all the features I wanted in a E-reader.,Kindle Paperwhite,E-reader,2022-09-29 20:44:37.787356
+00000177-1323,00000177,"I was hesitant at first, but the Sony WH-1000XM4 has proven to be user-friendly. It’s perfect for reading sessions.",Sony WH-1000XM4,Headphones,2022-12-15 20:44:37.787380
+00000178-7452,00000178,The Samsung Galaxy S21 is exactly what I was looking for. It's lightweight and meets all my expectations for a Smartphone.,Samsung Galaxy S21,Smartphone,2022-02-25 20:44:37.787404
+00000179-6735,00000179,"The Dell XPS 13 could be better, but it’s generally compact and gets the job done.",Dell XPS 13,Laptop,2023-02-13 20:44:37.787427
+00000180-2434,00000180,"I recently bought the Nike Air Max, and it’s been a responsive experience so far. I highly recommend it for anyone needing a reliable Footwear.",Nike Air Max,Footwear,2022-05-09 20:44:37.787451
+00000181-7821,00000181,The Samsung Galaxy S21 has exceeded my expectations. It's very responsive and makes my daily tasks much easier.,Samsung Galaxy S21,Smartphone,2024-04-07 20:44:37.787474
+00000182-2558,00000182,"The Dyson V11 Vacuum could be better, but it’s generally sturdy and gets the job done.",Dyson V11 Vacuum,Vacuum Cleaner,2024-02-07 20:44:37.787498
+00000183-9173,00000183,I love my new Amazon Echo Dot. It’s incredibly user-friendly and has all the features I wanted in a Smart Speaker.,Amazon Echo Dot,Smart Speaker,2024-10-23 20:44:37.787522
+00000184-9273,00000184,"I recently bought the Dyson V11 Vacuum, and it’s been a powerful experience so far. I highly recommend it for anyone needing a reliable Vacuum Cleaner.",Dyson V11 Vacuum,Vacuum Cleaner,2024-09-26 20:44:37.787549
+00000185-1578,00000185,The Amazon Echo Dot has exceeded my expectations. It's very user-friendly and makes my daily tasks much easier.,Amazon Echo Dot,Smart Speaker,2023-02-09 20:44:37.787572
+00000186-3857,00000186,"The Amazon Echo Dot could be better, but it’s generally powerful and gets the job done.",Amazon Echo Dot,Smart Speaker,2022-08-15 20:44:37.787596
+00000187-7683,00000187,Absolutely thrilled with the Dyson V11 Vacuum! It’s powerful and has made such a difference in my home use.,Dyson V11 Vacuum,Vacuum Cleaner,2022-12-31 20:44:37.787619
+00000188-2387,00000188,I love my new Apple iPhone 13. It’s incredibly compact and has all the features I wanted in a Smartphone.,Apple iPhone 13,Smartphone,2023-05-31 20:44:37.787643
+00000189-1375,00000189,The Dyson V11 Vacuum is exactly what I was looking for. It's durable and meets all my expectations for a Vacuum Cleaner.,Dyson V11 Vacuum,Vacuum Cleaner,2023-12-09 20:44:37.787666
+00000190-4042,00000190,"I recently bought the Nike Air Max, and it’s been a intuitive experience so far. I highly recommend it for anyone needing a reliable Footwear.",Nike Air Max,Footwear,2022-03-08 20:44:37.787690
+00000191-6802,00000191,The Fitbit Charge 5 has exceeded my expectations. It's very user-friendly and makes my daily tasks much easier.,Fitbit Charge 5,Fitness Tracker,2024-05-09 20:44:37.787714
+00000192-3842,00000192,"I was hesitant at first, but the Kindle Paperwhite has proven to be compact. It’s perfect for workout.",Kindle Paperwhite,E-reader,2024-08-02 20:44:37.787738
+00000193-7859,00000193,I love my new Samsung Galaxy S21. It’s incredibly responsive and has all the features I wanted in a Smartphone.,Samsung Galaxy S21,Smartphone,2024-10-19 20:44:37.787761
+00000194-4977,00000194,"The Dyson V11 Vacuum could be better, but it’s generally compact and gets the job done.",Dyson V11 Vacuum,Vacuum Cleaner,2023-08-24 20:44:37.787784
+00000195-6690,00000195,"Not quite what I hoped, but the Nike Air Max is fairly responsive and works well as a Footwear.",Nike Air Max,Footwear,2024-09-19 20:44:37.787807
+00000196-7605,00000196,The Kindle Paperwhite has exceeded my expectations. It's very efficient and makes my daily tasks much easier.,Kindle Paperwhite,E-reader,2023-05-14 20:44:37.787830
+00000197-2223,00000197,"I was hesitant at first, but the Fitbit Charge 5 has proven to be user-friendly. It’s perfect for workout.",Fitbit Charge 5,Fitness Tracker,2022-11-02 20:44:37.787853
+00000198-7847,00000198,The Instant Pot Duo is exactly what I was looking for. It's efficient and meets all my expectations for a Cookware.,Instant Pot Duo,Cookware,2023-10-09 20:44:37.787877
+00000199-5722,00000199,Absolutely thrilled with the Sony WH-1000XM4! It’s lightweight and has made such a difference in my commutes.,Sony WH-1000XM4,Headphones,2023-11-13 20:44:37.787901
+00000200-1594,00000200,"I was hesitant at first, but the Apple iPhone 13 has proven to be user-friendly. It’s perfect for daily routine.",Apple iPhone 13,Smartphone,2022-03-08 20:44:37.787924

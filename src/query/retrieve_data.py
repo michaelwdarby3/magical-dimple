@@ -16,20 +16,37 @@ ID_MAP_PATH = 'src/vectorization/id_map.json'
 index = None
 id_map = None
 
-def fetch_documents():
+
+
+def fetch_documents(product_name=None, product_type=None):
     """
-    Fetches text documents and their IDs from the database.
+    Fetches text documents from the database, optionally filtering by product_name or product_type.
+
+    Parameters:
+    - product_name (str, optional): The specific product name to filter by.
+    - product_type (str, optional): The specific product type to filter by.
 
     Returns:
-    - list of tuple: A list of tuples (review_id, review_text).
+    - list of tuple: A list of tuples containing (review_id, review_text).
     """
-    connection = get_db_connection()
-    query = "SELECT review_id, review_text FROM reviews;"
+    connection = get_db_connection()  # Establish database connection
+    query = "SELECT review_id, review_text FROM reviews WHERE 1=1"
+    params = []
+
+    if product_name:
+        query += " AND product_name = %s"
+        params.append(product_name)
+    if product_type:
+        query += " AND product_type = %s"
+        params.append(product_type)
+
     with connection.cursor() as cursor:
-        cursor.execute(query)
+        cursor.execute(query, params)
         results = cursor.fetchall()
     connection.close()
+
     return results
+
 
 def generate_and_store_embeddings(documents, index_path=INDEX_PATH, id_map_path=ID_MAP_PATH):
     """
@@ -103,18 +120,51 @@ def find_similar_embeddings(query_embedding, k=5):
 
     return matched_ids
 
-def fetch_records(matched_ids):
-    """Fetch records from the database based on matched review IDs with additional user information."""
+def fetch_records(matched_ids, product_name=None, product_type=None):
+    """
+    Fetch records from the database based on matched IDs, optionally filtering by product_name and/or product_type.
+
+    Parameters:
+    - matched_ids (list of str): List of review IDs to retrieve.
+    - product_name (str, optional): The specific product name to filter by.
+    - product_type (str, optional): The specific product type to filter by.
+
+    Returns:
+    - list of dict: A list of records with fields user_id, country, review_text, product_name, product_type.
+    """
     connection = get_db_connection()
-    with connection.cursor(cursor_factory=psycopg2.extras.DictCursor) as cursor:
-        cursor.execute("""
-            SELECT reviews.review_id, reviews.review_text, users.user_id, users.country 
-            FROM reviews
-            JOIN users ON reviews.user_id = users.user_id
-            WHERE reviews.review_id = ANY(%s::uuid[])
-        """, (matched_ids,))
+    base_query = "SELECT * FROM reviews WHERE review_id = ANY(%s)"
+    params = [matched_ids]
+
+    # Adjust query based on optional product_name and product_type filters
+    if product_name and product_type:
+        base_query += " AND product_name = %s AND product_type = %s"
+        params.extend([product_name, product_type])
+    elif product_name:
+        base_query += " AND product_name = %s"
+        params.append(product_name)
+    elif product_type:
+        base_query += " AND product_type = %s"
+        params.append(product_type)
+
+    with connection.cursor() as cursor:
+        cursor.execute(base_query, params)
         results = cursor.fetchall()
+
+    # Map results to a list of dictionaries for easier use
+    records = [
+        {
+            "user_id": row[1],  # Assuming user_id is in the 2nd column
+            "country": row[2],  # Adjust indices as per actual table structure
+            "review_text": row[3],
+            "product_name": row[4],
+            "product_type": row[5],
+        }
+        for row in results
+    ]
     connection.close()
-    return results
+
+    return records
+
 
 

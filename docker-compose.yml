@@ -4,15 +4,14 @@ services:
   app:
     build:
       context: .
-    #deploy:
-    #  replicas: 3
-    #  resources:
-    #    limits:
-    #      cpus: "0.5"
-    #      memory: "512M"
-    #  restart_policy:
-    #    condition: on-failure
-    restart: on-failure
+    deploy:
+      replicas: 3
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "512M"
+      restart_policy:
+        condition: on-failure
     env_file:
       - .env
     depends_on:
@@ -25,16 +24,17 @@ services:
       - DB_PASSWORD=default123
     expose:
       - "8000"
-    ports:
-      - "8000:8000"
+    #ports:
+    #  - "8000:8000"
     volumes:
       - ./data:/app/data
-    #healthcheck:
-    #  test: [ "CMD", "curl", "-f", "http://localhost:8000/health" ]
-    #  interval: 10s
-    #  timeout: 10s
-    #  retries: 5
-    #  start_period: 30s
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -f http://localhost:8000/health || exit 1" ]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
 
   db:
     image: postgres:13
@@ -53,7 +53,7 @@ services:
       - ./data/users.csv:/docker-entrypoint-initdb.d/users.csv  # Mount users data
       - ./data/reviews.csv:/docker-entrypoint-initdb.d/reviews.csv  # Mount reviews data
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready -U data_scientist" ]
+      test: [ "CMD-SHELL", "pg_isready -U data_scientist -d review_database" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -76,16 +76,15 @@ services:
     ports:
       - "3000:3000"
 
-  #nginx:
-  #  image: nginx:latest
-  #  container_name: nginx_load_balancer
-  #  ports:
-  #    - "8000:80"                # Expose NGINX on the host machine at port 8000
-  #  depends_on:
-  #    app:
-  #      condition: service_healthy
-  #  volumes:
-  #    - ./nginx.conf:/etc/nginx/nginx.conf:ro  # Mount the custom NGINX config
+  nginx:
+    image: nginx:latest
+    container_name: nginx_load_balancer
+    restart: always  # Ensure NGINX will keep retrying if it fails
+    ports:
+      - "8000:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+
 
   dashboard:
     build:
