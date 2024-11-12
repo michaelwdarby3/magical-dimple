@@ -1,0 +1,32 @@
+# fastapi_rules.yml
+
+groups:
+  - name: fastapi_alerts
+    rules:
+      - alert: HighRequestRate
+        expr: rate(http_requests_total[5m]) > 100
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High request rate detected on FastAPI"
+          description: "The request rate is above 100 requests per second."
+
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status!~"2.."}[5m]) > 10
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High error rate on FastAPI"
+          description: "More than 10 requests per second are returning non-2xx status codes."
+
+      - alert: SlowResponseTime
+        expr: histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le)) > 0.5
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High 95th percentile response time detected"
+          description: "The 95th percentile of response time is above 0.5 seconds."
+

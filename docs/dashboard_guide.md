@@ -1,44 +1,79 @@
 
 # Dashboard Guide
 
-This document provides an overview of the Streamlit dashboard, including instructions for accessing and using its features.
+This guide provides an overview of the **Streamlit** dashboard, along with instructions on using **Prometheus** and **Grafana** for system monitoring.
 
-## Overview
+## 1. Streamlit Dashboard
 
-The Streamlit dashboard allows users to interact with the Retriever-Augmented Generation (RAG) system, query responses, and view feedback summaries.
+The Streamlit dashboard enables users to interact with the Retriever-Augmented Generation (RAG) system, perform searches, and view feedback.
 
-## Accessing the Dashboard
+### Accessing the Dashboard
 
 To access the dashboard, navigate to:
 ```plaintext
 http://localhost:8501
 ```
-Ensure the `app` and `dashboard` services are running in Docker if using a Dockerized setup.
+Ensure that the `app` and `dashboard` services are running.
 
-## Dashboard Features
+### Using the Dashboard
 
-### Query RAG Response
+1. **Enter Query**:
+   - Enter a text query in the sidebar to search for relevant reviews or records.
+   - Optionally, specify filters like `Product Name` or `Product Type` to narrow the results.
 
-1. **Input Query**: Enter a query in the text input field to retrieve a response.
-2. **Top-K Results**: Use the slider to adjust the number of results (Top-K) that the retriever model should fetch.
-3. **Submit**: Click the "Submit Query" button to get the RAG-generated response.
+2. **Set Filters**:
+   - **Product Name** and **Product Type** fields allow specific filtering based on the product.
 
-The response will be displayed below, providing contextual answers based on the data.
+3. **View Results**:
+   - Results will appear, displaying matched records with details like user review, product name, and country.
+   - Rate the response with a rating slider if feedback functionality is enabled.
 
-### Feedback Summary
+## 2. Prometheus
 
-The feedback section displays a summary of feedback on generated responses.
+Prometheus collects and monitors metrics from the RAG system.
 
-- **Ratings Table**: Shows the average rating for each query and the count of responses rated.
-- **View Feedback**: Provides insights into which queries have the best or worst ratings.
+### Accessing Prometheus
 
-## Screenshots
+Navigate to:
+```plaintext
+http://localhost:9090
+```
+Prometheus provides a powerful query interface for monitoring data.
 
-![Dashboard Overview](path/to/dashboard-overview.png)
+### Key Metrics
 
-## Troubleshooting
+- `http_requests_total`: Tracks the number of HTTP requests.
+- `rag_records_processed_total`: Counts the records processed in the RAG pipeline.
+- `response_times`: Measures response times across endpoints.
 
-- **No Response for Query**: Ensure the RAG pipeline is configured correctly and data is loaded.
-- **Dashboard Not Loading**: Verify that the `dashboard` service is running and accessible on port 8501.
+### Usage Tips
 
-Refer to the API documentation (`api_reference.md`) for more details on endpoints used in the dashboard.
+Use Prometheus's query interface to explore and visualize metrics over time. For advanced analysis, integrate Grafana to create custom visualizations.
+
+## 3. Grafana
+
+Grafana visualizes Prometheus metrics, allowing you to monitor system health.
+
+### Accessing Grafana
+
+Navigate to:
+```plaintext
+http://localhost:3000
+```
+Login with default credentials:
+- **Username**: `admin`
+- **Password**: `default123`
+
+### Viewing Dashboards
+
+Grafana has pre-configured dashboards for this project.
+
+- **RAG Pipeline Dashboard**: View metrics like processing rate, request times, and system health.
+- **Database and API Performance**: Monitor the database and API requests to identify potential bottlenecks.
+
+### Configuring Alerts
+
+You can set up alerts in Grafana for key metrics, such as response times or request rates, to proactively manage system performance.
+
+For more details, refer to **monitoring_setup.md**.
+

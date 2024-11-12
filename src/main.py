@@ -10,8 +10,8 @@ from prometheus_client import Counter, Histogram
 app = FastAPI()
 
 # Initialize Prometheus metrics
-REQUEST_COUNTER = Counter("http_requests_total", "Total number of HTTP requests", ["method", "endpoint"])
-REQUEST_LATENCY = Histogram("http_request_duration_seconds", "Latency of HTTP requests", ["method", "endpoint"])
+REQUEST_COUNTER = Counter("http_request_count_total", "Total number of HTTP requests", ["method", "endpoint"])
+REQUEST_LATENCY = Histogram("http_request_duration_in_seconds", "Latency of HTTP requests", ["method", "endpoint"])
 
 # Include routers for different endpoints
 app.include_router(query_router, prefix="/query", tags=["Query Service"])
@@ -19,7 +19,7 @@ app.include_router(query_router, prefix="/query", tags=["Query Service"])
 Instrumentator().instrument(app).expose(app, endpoint="/metrics")
 
 
-@app.middleware("http")
+#@app.middleware("http")
 async def add_metrics_middleware(request: Request, call_next):
     """Middleware to track the request count and request latency."""
     method = request.method
@@ -28,6 +28,7 @@ async def add_metrics_middleware(request: Request, call_next):
 
     with REQUEST_LATENCY.labels(method=method, endpoint=endpoint).time():
         response = await call_next(request)
+    #response = await call_next(request)
     return response
 
 

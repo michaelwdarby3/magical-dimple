@@ -14,8 +14,8 @@ redis_client = redis.Redis(host='localhost', port=6379, db=0)
 query_router = APIRouter()
 
 # Prometheus metrics for RAG endpoint
-RAG_REQUESTS = Counter("rag_requests_total", "Total RAG requests", ["status"])
-RAG_REQUEST_LATENCY = Histogram("rag_request_duration_seconds", "Latency of RAG requests")
+#RAG_REQUESTS = Counter("rag_requests_total", "Total RAG requests", ["status"])
+#RAG_REQUEST_LATENCY = Histogram("rag_request_duration_seconds", "Latency of RAG requests")
 
 # Set up logger for this service
 logger = setup_logger("query_service")
@@ -48,20 +48,20 @@ async def rag_query(request: QueryRequest):
     """
     Endpoint to perform Retriever-Augmented Generation based on the input text.
     """
-    with RAG_REQUEST_LATENCY.time():  # Measure request latency
-        try:
-            result = generate_rag_response(
-                query=request.query,
-                top_k=request.top_k,
-                product_name=request.product_name,
-                product_type=request.product_type,
-                max_length=request.max_length,
-                min_length=request.min_length
-            )
-            RAG_REQUESTS.labels(status="success").inc()
-            return {"response": result['response'], "records": result['records']}
+    #with RAG_REQUEST_LATENCY.time():  # Measure request latency
+    try:
+        result = generate_rag_response(
+            query=request.query,
+            top_k=request.top_k,
+            product_name=request.product_name,
+            product_type=request.product_type,
+            max_length=request.max_length,
+            min_length=request.min_length
+        )
+        #RAG_REQUESTS.labels(status="success").inc()
+        return {"response": result['response'], "records": result['records']}
 
-        except Exception as e:
-            RAG_REQUESTS.labels(status="error").inc()
-            logger.error(f"RAG query failed: {str(e)}")
-            raise HTTPException(status_code=500, detail=str(e))
+    except Exception as e:
+        #RAG_REQUESTS.labels(status="error").inc()
+        logger.error(f"RAG query failed: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))

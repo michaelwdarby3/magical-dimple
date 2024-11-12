@@ -15,120 +15,90 @@ http://localhost:8000
 ### 1. `/query/rag`
 
 - **Method**: POST
-- **Description**: Retrieves a response based on the Retriever-Augmented Generation pipeline.
-- **Request Body**:
+- **Description**: Retrieves a response from the Retriever-Augmented Generation pipeline based on a query.
 
-    ```json
+#### Request Body
+
+The request accepts the following JSON fields:
+
+```json
+{
+  "query": "Text of the user query",
+  "top_k": 5,
+  "product_name": "Example Product",
+  "product_type": "Product Type",
+  "max_length": 100,
+  "min_length": 5
+}
+```
+
+- **query** (string): Main text query for the RAG system.
+- **top_k** (integer, optional): Number of similar records to retrieve. Default is 5.
+- **product_name** (string, optional): Product name filter.
+- **product_type** (string, optional): Product type filter.
+- **max_length** (integer, optional): Maximum length of generated response.
+- **min_length** (integer, optional): Minimum length of generated response.
+
+#### Example Request
+
+```bash
+curl -X POST "http://localhost:8000/query/rag" -H "Content-Type: application/json" -d '{
+    "query": "Customer service feedback",
+    "top_k": 3,
+    "product_name": "Vacuum Cleaner",
+    "product_type": "Appliance",
+    "max_length": 80,
+    "min_length": 10
+}'
+```
+
+#### Example Response
+
+```json
+{
+  "response": "The customer feedback for Vacuum Cleaner is overwhelmingly positive...",
+  "records": [
     {
-      "query": "What is the quality of service?",
-      "top_k": 5
-    }
-    ```
-
-- **Response**:
-
-    ```json
+      "user_id": "12345",
+      "country": "USA",
+      "review_text": "Very satisfied with the performance of the vacuum.",
+      "product_name": "Vacuum Cleaner",
+      "product_type": "Appliance"
+    },
     {
-      "response": "The service quality is excellent, highly recommended."
+      "user_id": "67890",
+      "country": "Canada",
+      "review_text": "Effective suction and easy to use.",
+      "product_name": "Vacuum Cleaner",
+      "product_type": "Appliance"
     }
-    ```
+  ]
+}
+```
 
-- **Use Case**: Use this endpoint to generate responses grounded in context data.
-
----
-
-### 2. `/data/users`
+### 2. `/health`
 
 - **Method**: GET
-- **Description**: Retrieves user information.
+- **Description**: Health check endpoint to verify if the service is running.
 - **Response**:
 
-    ```json
-    [
-      {
-        "user_id": "123e4567-e89b-12d3-a456-426614174000",
-        "name": "Alice",
-        "age": 30,
-        "country": "USA"
-      }
-    ]
-    ```
+```json
+{
+  "status": "ok"
+}
+```
 
-- **Use Case**: Fetches a list of users in the system.
-
----
-
-### 3. `/data/reviews`
+### 3. `/metrics`
 
 - **Method**: GET
-- **Description**: Retrieves review data.
-- **Response**:
+- **Description**: Exposes Prometheus-compatible metrics for system monitoring.
 
-    ```json
-    [
-      {
-        "review_id": "789e4567-e89b-12d3-a456-426614174111",
-        "user_id": "123e4567-e89b-12d3-a456-426614174000",
-        "review_text": "Excellent product quality.",
-        "created_at": "2024-01-01T12:00:00"
-      }
-    ]
-    ```
+Access this endpoint via **[Prometheus at http://localhost:9090](http://localhost:9090)** for monitoring.
 
-- **Use Case**: Retrieves reviews submitted by users.
+## Notes
 
----
+- All endpoints are accessible at their default URLs as specified.
+- The RAG response endpoint provides flexibility in retrieving records by allowing filters such as `product_name` and `product_type`, which can be adjusted based on query requirements.
 
-### 4. `/feedback`
+For further details on service usage, refer to the **dashboard_guide.md** in the documentation.
 
-- **Method**: POST
-- **Description**: Submit feedback for a generated response.
-- **Request Body**:
-
-    ```json
-    {
-      "query": "What is the quality of service?",
-      "response": "Excellent",
-      "rating": 5
-    }
-    ```
-
-- **Response**:
-
-    ```json
-    {
-      "status": "Feedback submitted successfully."
-    }
-    ```
-
-- **Use Case**: Allows users to submit feedback on generated responses.
-
----
-
-### 5. `/feedback/summary`
-
-- **Method**: GET
-- **Description**: Retrieves a summary of feedback ratings.
-- **Response**:
-
-    ```json
-    [
-      {
-        "query": "What is the quality of service?",
-        "average_rating": 4.7,
-        "response_count": 15
-      }
-    ]
-    ```
-
-- **Use Case**: Provides insights into feedback on generated responses.
-
----
-
-## Error Codes
-
-- **400**: Bad Request – Invalid or missing parameters in the request body.
-- **404**: Not Found – The requested resource does not exist.
-- **500**: Internal Server Error – An error occurred on the server.
-
-Refer to this document when working with API endpoints to understand expected inputs and outputs.

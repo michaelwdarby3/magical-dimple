@@ -16,8 +16,8 @@ tokenizer = T5Tokenizer.from_pretrained(model_name)
 qa_pipeline = pipeline("summarization", model=model, tokenizer=tokenizer)
 
 # Prometheus metrics for RAG response generation
-RAG_RECORDS_PROCESSED = Counter("rag_records_processed_total", "Total records processed in RAG pipeline")
-RAG_PIPELINE_ERRORS = Counter("rag_pipeline_errors_total", "Total errors in RAG pipeline")
+#RAG_RECORDS_PROCESSED = Counter("rag_records_processed_total", "Total records processed in RAG pipeline")
+#RAG_PIPELINE_ERRORS = Counter("rag_pipeline_errors_total", "Total errors in RAG pipeline")
 
 def generate_rag_response(query, top_k=5, product_name=None, product_type=None, max_length=100, min_length=5):
     """
@@ -49,7 +49,7 @@ def generate_rag_response(query, top_k=5, product_name=None, product_type=None, 
             return {"response": "No relevant information found.", "records": []}
 
         # Count the records processed for metrics
-        RAG_RECORDS_PROCESSED.inc(len(records))
+        #RAG_RECORDS_PROCESSED.inc(len(records))
 
         context = f"Query: {query}\n\nRelated information:\n"
         for record in records:
@@ -64,7 +64,7 @@ def generate_rag_response(query, top_k=5, product_name=None, product_type=None, 
         return {"response": response, "records": records}
 
     except Exception as e:
-        RAG_PIPELINE_ERRORS.inc()  # Count pipeline errors
+        #RAG_PIPELINE_ERRORS.inc()  # Count pipeline errors
         error_message = f"Error generating RAG response: {e}"
         logger.error(error_message)
         logger.error(traceback.format_exc())

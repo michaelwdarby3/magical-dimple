@@ -1,203 +1,101 @@
+
 # Project Title: Retriever-Augmented Generation System for Reviews and Recommendations
 
 ![Project Banner](assets/banner.png)
 
 ## Overview
 
-This project is a full-stack **Retriever-Augmented Generation (RAG) system** that ingests data, stores it in a PostgreSQL database, and provides users with contextual information and recommendations through a FastAPI-powered API. The project includes a **Streamlit dashboard** for visualizing data, **monitoring tools** with Prometheus and Grafana, and **containerized services** for streamlined deployment with Docker.
+This project implements a **Retriever-Augmented Generation (RAG) system** to handle reviews and recommendations. It ingests data into a PostgreSQL database, uses FAISS for embedding retrieval, and exposes an API through FastAPI for querying. Users can access insights via a **Streamlit dashboard**, monitor performance with **Prometheus**, and view visualizations in **Grafana**.
 
-## Features
+## Key Components
 
-- **Data Ingestion and Storage**: Load large datasets into PostgreSQL with automatic indexing for efficient querying.
-- **Retriever-Augmented Generation (RAG)**: Use pre-trained models to generate contextually aware responses based on data.
-- **Real-Time Monitoring**: Integrated monitoring with Prometheus and Grafana for tracking performance metrics.
-- **Interactive Dashboard**: Visualize and interact with data using a Streamlit-based dashboard.
-- **Dockerized Setup**: Multi-container setup with Docker Compose, including application, PostgreSQL, and monitoring services.
+- **FastAPI**: Provides API endpoints for retrieving review records and generating responses based on queries.
+- **PostgreSQL**: Stores structured review data in an optimized schema.
+- **FAISS**: Manages vectorized embeddings for efficient similarity search.
+- **Streamlit**: Frontend dashboard for querying and interacting with data.
+- **Prometheus**: Collects and monitors metrics, with custom configuration for the RAG pipeline.
+- **Grafana**: Visualizes metrics data with pre-configured dashboards.
 
----
+## Getting Started
 
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Dashboard](#dashboard)
-- [Monitoring and Logging](#monitoring-and-logging)
-- [Project Details](#project-details)
-- [Contributing](#contributing)
-
----
-
-## Project Structure
-
-The project is organized for modularity and ease of navigation:
-
-``` plaintext
-project-root/
-├── Dockerfile                   # Dockerfile for building the app container
-├── docker-compose.yml           # Docker Compose file for managing services
-├── requirements.txt             # Python dependencies
-├── .env                         # Environment variables for secure credentials
-├── README.md                    # Project overview and instructions
-│
-├── src/                         # Main application source code
-│   ├── main.py                  # Entry point for FastAPI app
-│   ├── model/                   # Model loading, fine-tuning, and storage
-│   ├── preprocessing/           # Data preprocessing scripts
-│   ├── query/                   # Query and RAG pipeline handling
-│   ├── utils/                   # General utility functions
-│   ├── vectorization/           # Vectorization and embedding handling
-│   └── queries/                 # SQL files for database queries
-│
-├── dashboard/                   # Streamlit dashboard files
-│
-├── tests/                       # Tests for application modules
-│
-├── docs/                        # Additional documentation
-└── monitoring/                  # Monitoring setup files 
-```
-
----
-
-## Installation
 ### Prerequisites
-Ensure that you have the following installed on your system:
 
-- Docker and Docker Compose
-- Python 3.9+
+- **Docker** and **Docker Compose** installed on your machine.
 
-### Setup
-1. Clone the Repository:
+### Setup and Run
 
-```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname 
-```
+1. **Clone the repository**: Download or clone this project repository.
+2. **Build and start services**:
 
-2. Environment Variables: Configure your environment variables in a .env file. Here’s an example:
+   ```bash
+   docker-compose up -d --build
+   ```
 
-```plaintext
-DB_NAME=review_database
-DB_USER=data_scientist
-DB_PASSWORD=default123
-DB_HOST=db
-DB_PORT=5432
-```
+3. **Access Services**:
 
-3. Install Python Dependencies (if running locally without Docker):
+   - **API (FastAPI)**: [http://localhost:8000](http://localhost:8000)
+   - **Streamlit Dashboard**: [http://localhost:8501](http://localhost:8501)
+   - **Prometheus**: [http://localhost:9090](http://localhost:9090)
+   - **Grafana**: [http://localhost:3000](http://localhost:3000)
 
-```bash
-pip install -r requirements.txt
-```
+4. **Grafana Access**: Login with the default Grafana credentials:
+   - Username: `admin`
+   - Password: `default123`
 
-4. Run Services with Docker Compose:
+## Using the Dashboards
 
-```bash
-docker-compose up --build
-```
+### Streamlit Dashboard
 
-5. Database Initialization:
-- After starting the services, initialize the database by running the data ingestion script:
+The Streamlit dashboard provides a user-friendly interface to query the review data based on keywords or specific product information.
 
-```bash
-docker exec -it app_container python src/preprocessing/data_ingestion.py
-```
+1. **Enter Query**: In the left sidebar, input a search query to retrieve similar records.
+2. **Select Filters**:
+   - `Product Name` and `Product Type`: Optional fields to refine search.
+3. **View Results**: Results are displayed with user and review information, and you can rate the retrieved response.
 
----
+### Prometheus Metrics
 
-## Usage
-### API
-The FastAPI server exposes various endpoints for querying and retrieving data. To explore all available endpoints, you can access the interactive documentation:
+Prometheus collects real-time metrics and provides a foundation for monitoring and alerting.
 
-```plaintext
-http://localhost:8000/docs
-```
+- Access the Prometheus dashboard and search for metrics like `http_requests_total`, `rag_records_processed_total`, etc.
+- Metrics are organized to track RAG operations, API performance, and system health.
 
-### Dashboard
-The Streamlit dashboard provides an interactive interface for data visualization and analysis. Access it by navigating to:
+### Grafana Dashboards
 
-```plaintext
-http://localhost:8501
-```
+Grafana offers visualized metrics from Prometheus data.
 
-### Monitoring
-Prometheus and Grafana are configured for monitoring and can be accessed at:
-- Prometheus: http://localhost:9090
-- Grafana: http://localhost:3000
+1. **Access the pre-configured dashboard** in Grafana for RAG pipeline metrics.
+2. **View Metrics**:
+   - Track the rate of requests, response times, and processed records.
+   - Identify potential bottlenecks in the vectorization and retrieval processes.
 
----
+## System Design Overview
 
-## API Documentation
-Here’s a quick overview of key endpoints:
-
-
-| Endpoint                    | Method | Description                                      |
-|-----------------------------|--------|--------------------------------------------------|
-| `/query/rag`                | POST   | Retrieve RAG-based response                      |
-| `/data/users`               | GET    | Retrieve user information                        |
-| `/data/reviews`             | GET    | Retrieve review information                      |
-| `/feedback`                 | POST   | Submit feedback on RAG responses                 |
-
-
-### Example Query
-To retrieve a RAG response, you can send a POST request to /query/rag with JSON body:
-
-```json
-{
-  "query": "What is the quality of service?",
-  "top_k": 5
-}
-```
-
----
-
-### Dashboard
-The dashboard provides visualizations for data exploration and feedback tracking.
-
-## Example Screenshots
-
----
-
-## Monitoring and Logging
-Prometheus and Grafana are configured for real-time monitoring, allowing you to track:
-
-- API response times
-- Query success/failure rates
-- System resource usage
-You can explore default metrics at http://localhost:9090 (Prometheus) and view visualizations on Grafana at http://localhost:3000.
-
----
-
-## Project Details
 ### Data Ingestion
-Data ingestion scripts load user and review data into PostgreSQL. Located in `src/preprocessing/data_ingestion.py`, this script reads CSV files and populates the database, ensuring a structured dataset for querying.
 
-### Retriever-Augmented Generation (RAG)
-The RAG pipeline integrates with a fine-tuned language model to generate responses based on user queries. The RAG logic is encapsulated in `src/query/rag_pipeline.py`.
+The system loads structured review data into PostgreSQL. Data ingestion is automated, ensuring a consistent data schema for querying.
 
-### Model Management
-Models are stored in the `src/models/` directory, with options for on-the-fly loading or fine-tuning.
+### Preprocessing and Vectorization
 
-### SQL Queries
-Modular SQL queries are organized in src/queries/, allowing for easy management and reusability across the application.
+- **Preprocessing**: Ensures text data is clean and optimized for vectorization.
+- **Vectorization**: Converts review text into embeddings, stored in FAISS for efficient retrieval.
 
----
+### Query and Retrieve
 
-## Contributing
-We welcome contributions to improve this project! To contribute:
+FastAPI endpoints allow querying of review records based on keyword or product-specific searches, integrating Retriever-Augmented Generation to enhance responses.
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Make your changes and test thoroughly.
-4. Submit a pull request.
+### Monitoring and Metrics Collection
 
----
+Prometheus is set up to track key metrics for API performance and query operations. Grafana dashboards provide visual insights to assess system health.
 
-### License
-This project is licensed under the MIT License. See LICENSE for details.
+## Customization and Optional Batch Vectorization
 
----
+The `vectorize_data.py` script can be run as a standalone batch vectorization process or configured as an optional step in the Docker setup for high-efficiency scenarios.
 
-### Contact
-For questions or support, please reach out to michaelwdarby3.
+## Documentation
+
+- **docs/**: Additional documentation files for each component and usage guidelines.
+
+## License
+
+This project is licensed under the MIT License.

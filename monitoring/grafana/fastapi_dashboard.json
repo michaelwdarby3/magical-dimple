@@ -1,0 +1,93 @@
+{
+  "id": null,
+  "uid": "fastapi-dashboard",
+  "title": "FastAPI Service Dashboard",
+  "tags": ["fastapi", "service"],
+  "timezone": "browser",
+  "schemaVersion": 16,
+  "version": 1,
+  "refresh": "5s",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Total HTTP Requests",
+      "targets": [
+        {
+          "expr": "sum(rate(http_requests_total[5m]))",
+          "legendFormat": "{{status}}",
+          "intervalFactor": 2
+        }
+      ],
+      "xaxis": {
+        "mode": "time",
+        "show": true
+      },
+      "yaxes": [
+        {
+          "format": "short",
+          "label": "Requests per Second",
+          "show": true
+        },
+        {
+          "show": false
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Request Duration (95th Percentile)",
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le))",
+          "legendFormat": "95th Percentile",
+          "intervalFactor": 2
+        }
+      ],
+      "xaxis": {
+        "mode": "time",
+        "show": true
+      },
+      "yaxes": [
+        {
+          "format": "s",
+          "label": "Duration (seconds)",
+          "show": true
+        },
+        {
+          "show": false
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "HTTP Error Rate",
+      "targets": [
+        {
+          "expr": "sum(rate(http_requests_total{status!~\"2..\"}[5m]))",
+          "legendFormat": "Error Rate",
+          "intervalFactor": 2
+        }
+      ],
+      "xaxis": {
+        "mode": "time",
+        "show": true
+      },
+      "yaxes": [
+        {
+          "format": "short",
+          "label": "Errors per Second",
+          "show": true
+        },
+        {
+          "show": false
+        }
+      ]
+    }
+  ],
+  "templating": {
+    "list": []
+  },
+  "annotations": {
+    "list": []
+  }
+}

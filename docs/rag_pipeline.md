@@ -1,50 +1,79 @@
-
 # Retriever-Augmented Generation (RAG) Pipeline
+This document provides a detailed guide on the RAG pipeline, including its configuration, components, usage, and setup instructions.
 
-This document provides an overview of the RAG pipeline, detailing its components, configuration, and usage.
+--- 
 
 ## Overview
+The Retriever-Augmented Generation (RAG) pipeline enhances response quality by combining retrieval and generation. This hybrid approach grounds the generated response in actual data, which enhances accuracy and relevance.
 
-The Retriever-Augmented Generation (RAG) pipeline combines a retrieval system with a language model to generate responses based on relevant context. This setup improves response accuracy by grounding generation in actual data.
+--- 
 
 ## Workflow
+- Retrieve: Given a query, the pipeline searches a vector store for the most relevant document embeddings.
+- Generate: Retrieved documents serve as context for the language model, which generates a response based on this information.
 
-1. **Retrieve**: Given a query, the pipeline searches a vector store for relevant document embeddings.
-2. **Generate**: The retrieved documents are fed into a language model, which generates a response based on the context.
+--- 
 
 ## Configuration
+### Models in Use
+- Retriever Model: A pre-trained model (e.g., all-MiniLM-L6-v2 from sentence-transformers) creates embeddings for stored documents and queries.
+- Generator Model: The T5 model (t5-small), used to generate responses based on retrieved context, is both efficient and well-suited for summarization.
+Vector Storage
 
-### Model Configuration
+The pipeline uses FAISS for vector storage, which stores and retrieves embeddings efficiently. Ensure that faiss is installed and properly configured. Additionally, stored embeddings are managed through an ID map file, facilitating the alignment of stored vectors with their respective documents.
 
-- **Retriever Model**: This model generates embeddings for documents and queries. It typically uses a pre-trained transformer model like `distilbert` or `roberta`.
-- **Generator Model**: A pre-trained language model, such as `GPT-2` or `BART`, is used for generating responses.
-
-### Embedding Vector Storage
-
-The RAG pipeline relies on vector storage (like `faiss`) to store and retrieve embeddings. Ensure `faiss` is installed and configured.
+--- 
 
 ## Setting Up the RAG Pipeline
+The RAG pipeline configuration is primarily managed in rag_pipeline.py, with supporting files as follows:
 
-The RAG pipeline is configured and run via `rag_pipeline.py`. Ensure the following steps:
+- Vectorization: Use vectorize_data.py in the vectorization/ directory to batch-generate and store embeddings from document data, ensuring that vector data is up-to-date.
+- Model Loading: Use model_utils.py to handle retriever and generator model loading and configuration.
+Key Components and Parameters
+- Retrieval Parameters: top_k specifies the number of similar documents to retrieve, directly influencing response diversity.
+- Filtering Options: Filtering by product_name and product_type is supported, enabling more targeted retrieval based on these document attributes.
+- Response Control: Adjust parameters such as max_length and min_length to control the length and format of generated responses.
 
-1. **Load Models**: Use `model_utils.py` to load both retriever and generator models.
-2. **Vectorize Data**: Use `vectorize_data.py` in `vectorization/` to generate and store embeddings for document data.
+--- 
 
-### Example
-
-To query the RAG pipeline, use the `/query/rag` endpoint in the API:
+## Usage Instructions
+To query the RAG pipeline, use the /query/rag API endpoint. Below is an example of a query request:
 
 ```json
 POST /query/rag
 {
-  "query": "What is the quality of service?",
-  "top_k": 5
+  "query": "How is the battery life of this product?",
+  "top_k": 5,
+  "product_name": "Wireless Earbuds",
+  "product_type": "Electronics"
 }
 ```
 
-## Troubleshooting
+## Response Format
+The RAG endpoint responds with a generated summary and the records used to construct it, providing both contextual and generated insights. Example response:
 
-- **Empty Response**: Ensure embeddings are loaded and retriever is correctly configured.
-- **Slow Response Time**: Use batch processing in `faiss` and optimize vector storage.
+```json
+Copy code
+{
+  "response": "The battery life of the Wireless Earbuds is excellent, with users reporting long usage times between charges.",
+  "records": [
+    {
+      "user_id": "abc123",
+      "country": "USA",
+      "review_text": "Great battery life on these earbuds...",
+      "product_name": "Wireless Earbuds",
+      "product_type": "Electronics"
+    },
+    ...
+  ]
+}
+```
+--- 
 
-Refer to `api_reference.md` for detailed endpoint documentation.
+
+## Troubleshooting and Optimization Tips
+- Empty or Unexpected Responses: Ensure that document embeddings are accurately generated and that filters such as product_name and product_type match your data.
+- Slow Retrieval Times: Consider batch-processing embeddings, and optimize FAISS configurations for faster indexing.
+Additional References
+- Endpoints: Refer to api_reference.md for additional details on the RAG pipeline endpoints and parameters.
+- Batch Vectorization: If using batch-processing, see vectorization.md for more on efficient embedding storage.

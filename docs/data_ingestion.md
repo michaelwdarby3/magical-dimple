@@ -1,29 +1,59 @@
 
-# Data Ingestion Pipeline
+# Data Ingestion
 
-This document describes the data ingestion pipeline, which is responsible for loading datasets into the PostgreSQL database.
+This module handles the initial data ingestion for the LLM Data Engineering Project, supporting the loading of raw structured and unstructured data into the PostgreSQL database. The `data_ingestion.py` script is optional and can be used as a standalone utility to populate the database before other processes (such as vectorization) begin.
 
 ## Overview
 
-The data ingestion pipeline is designed to read data from CSV files, preprocess it, and load it into the database. This pipeline supports efficient data querying and retrieval.
+Data ingestion is designed to take data from provided CSV files or JSON files and load them into the `users` and `reviews` tables. This process supports the following steps:
+1. **Data Loading**: Reading data from files specified in the `/data` directory.
+2. **Database Population**: Loading the structured data directly into PostgreSQL using the schema defined in `init.sql`.
+3. **Preprocessing**: Ensuring that data loaded into the database is cleaned, well-structured, and ready for querying.
 
-## Running the Data Ingestion Script
+## Prerequisites
 
-To load data into the database, run the `data_ingestion.py` script. This script reads from CSV files and inserts data into the specified tables.
+- **Database Setup**: Ensure that the PostgreSQL container is running and accessible. Use the `docker-compose.yml` setup provided to initiate the database service.
+- **CSV Data**: Place the necessary CSV files (such as `users.csv` and `reviews.csv`) into the `/data` directory.
+- **Environment Variables**: Database connection details must be set in the `.env` file, which `data_ingestion.py` will use for connectivity.
 
-### Command
+## Running Data Ingestion
 
-To run the ingestion script (from within the Docker container or environment):
+To run the data ingestion process, you can execute the following command from the project root:
+
 ```bash
-python src/preprocessing/data_ingestion.py
+python src/data_ingestion.py
 ```
 
-## Expected CSV File Format
+## Script Walkthrough
 
-- **users.csv**: Should contain columns `user_id`, `name`, `age`, `country`.
-- **reviews.csv**: Should contain columns `review_id`, `user_id`, `review_text`, `created_at`.
-- **feedback.csv** (optional): Should contain `query`, `response`, `rating`, `created_at`.
+### 1. Loading Data from Files
 
-## Error Handling and Troubleshooting
+The script begins by loading data from the `/data` directory, specifically reading `users.csv` and `reviews.csv` as sources.
 
-If there is an error during data ingestion, the script will display an error message. Ensure that the database is running and accessible, and verify the format of the CSV files.
+### 2. Connecting to PostgreSQL
+
+Using environment variables (`DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`), the script establishes a connection to the PostgreSQL instance.
+
+### 3. Data Population
+
+Data is inserted into the following tables:
+
+- **`users`**: Contains user information, such as `user_id`, `name`, `age`, and `country`.
+- **`reviews`**: Contains reviews linked to users, with fields for `review_id`, `user_id`, `review_text`, `product_name`, and `product_type`.
+
+The script uses SQL `COPY` commands for efficient batch inserts.
+
+## Notes on Usage
+
+- **Optional Step**: Running `data_ingestion.py` is an optional part of the pipeline, intended for initial data loading or testing.
+- **Updating Data**: If new data is added or schema changes are made, this script should be rerun to refresh the database contents.
+
+## Troubleshooting
+
+- **Connection Issues**: Ensure that the PostgreSQL service is running and accessible, with the correct credentials in `.env`.
+- **Data Formatting Errors**: Validate the CSV files to ensure all fields conform to the required structure and contain no unexpected null values.
+
+## Related Documentation
+
+- **[Database Setup](database_setup.md)**: Details on database schema and setup.
+- **[Vectorization](vectorization.md)**: Information on the vectorization process, which uses the ingested data.
