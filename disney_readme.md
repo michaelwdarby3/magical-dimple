@@ -120,6 +120,7 @@ Prerequisite: To test this app, you should have Docker and docker-compose instal
 8. Navigate to http://localhost:3000/ to check out grafana. Login with the provided credentials "admin" and "default123".
 9. Click into "Dashboards", then "FastAPI Service Dashboard", to view some of the metrics used from Prometheus.
 10. For further API description, view http://localhost:8000/docs.
+11. When you're done, use `docker-compose down` to spin down the containers.
 
 ## Conclusion
 This project meets all specified requirements, including ingestion, preprocessing, vectorization, querying, and Retriever-Augmented Generation, with comprehensive monitoring and scalability features. Each component is well-documented, and the pipeline can handle high-demand data retrieval and response generation efficiently.
